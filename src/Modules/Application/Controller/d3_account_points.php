@@ -1,56 +1,108 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.0.0 PHP56 (19.04.2018) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2018, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-i5Cug3bwXkr8ZbiCW4prgsfCP60=
+<?php
+/**
+ * This Software is the property of D³ Data Development
+ * and is protected by copyright law - it is NOT Freeware.
+ * Any unauthorized use of this software without a valid license
+ * key is a violation of the license agreement and will be
+ * prosecuted by civil and criminal law.
+ * D3 Data Development
+ * Inhaber: Thomas Dartsch
+ * Alle Rechte vorbehalten
+ *
+ * @package       "Bonuspunkte"
+ * @version       3.0.1_PE4
+ * @author        Thomas Dartsch <thomas.dartsch@shopmodule.com> / Markus Gärtner <markus.gaertner@shopmodule.com>
+ * @copyright (C) 2012, D3 Data Development
+ * @see           http://www.shopmodule.com
+ *                $Rev::                                               $:
+ *                $Author::                                            $:
+ *                $Date::                                              $:
+ */
+
+namespace D3\Points\Modules\Application\Controller;
+
+use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
+use D3\ModCfg\Application\Model\Log\d3log;
+use OxidEsales\Eshop\Core\Theme;
+use OxidEsales\Eshop\Application\Controller\AccountController;
+use D3\Points\Application\Model\d3points;
+
+/**
+ * Class d3_account_points
+ *
+ * @package D3\Points\Modules\Application\Controller
+ */
+class d3_account_points extends d3_account_points_parent
+{
+    private $_sModId = 'd3points';
+
+    /**
+     * @return string
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     */
+    public function render()
+    {
+        $ret = parent::render();
+
+        //$this->_aViewData['blIsD3PointsActive'] = $this->d3IsD3PointsActive();
+        $this->addTplParam('blIsD3PointsActive', $this->d3IsD3PointsActive());
+        $this->_aViewData['d3PointsSum']        = $this->getPointsTotalSum();
+        $this->addTplParam('d3PointsSum', $this->getPointsTotalSum());
+
+        return $ret;
+    }
+
+    /**
+     * Ob Modul aktiv ist
+     *
+     * @return bool
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     */
+    public function d3IsD3PointsActive()
+    {
+        return d3_cfg_mod::get($this->_sModId)->isActive();
+    }
+
+    /**
+     * Gibt die Summe der aktuellen Bonuspunkte zurück
+     *
+     * @return integer
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function getPointsTotalSum()
+    {
+        $oUser = $this->getUser();
+        if (!$oUser) {
+            return 0;
+        }
+
+        /* @var $oD3UserPoints d3points */
+        $oD3UserPoints = oxNew(d3points::class);
+
+        return $oD3UserPoints->d3GetTotalSumPoints($oUser->getId());
+    }
+
+    /**
+     * @return mixed
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function d3GetParentThemeId()
+    {
+        /** @var d3_oxtheme_modcfg $oTheme */
+        $oTheme = oxNew(Theme::class);
+        return $oTheme->d3GetParentThemeId();
+    }
+
+}

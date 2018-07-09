@@ -22,7 +22,7 @@ namespace  D3\Points\Modules\Application\Controller
 
 
 
-namespace D3\Points\Modules\Application\Core
+namespace D3\Points\Modules\Core
 {
 
     use OxidEsales\Eshop\Core\Email;
