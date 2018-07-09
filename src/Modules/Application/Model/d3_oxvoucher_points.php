@@ -1,49 +1,90 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.0.0 PHP71 (19.04.2018) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2018, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-tzOYP7u0ng7ySYDC
+<?php
+/**
+ * This Software is the property of D� Data Development
+ * and is protected by copyright law - it is NOT Freeware.
+ * Any unauthorized use of this software without a valid license
+ * key is a violation of the license agreement and will be
+ * prosecuted by civil and criminal law.
+ * D3 Data Development
+ * Inhaber: Thomas Dartsch
+ * Alle Rechte vorbehalten
+ *
+ * @package       "Bonuspunkte"
+ * @author        Thomas Dartsch <thomas.dartsch@shopmodule.com> / Markus G�rtner <markus.gaertner@shopmodule.com>
+ * @copyright (C) 2011, D3 Data Development
+ * @see           http://www.shopmodule.com
+ */
+
+namespace D3\Points\Modules\Application\Model;
+
+use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
+use D3\ModCfg\Application\Model\Log\d3log;
+use OxidEsales\Eshop\Application\Model\Voucher;
+use OxidEsales\Eshop\Application\Model\VoucherSerie;
+use OxidEsales\Eshop\Core\Exception\VoucherException;
+use OxidEsales\Eshop\Core\Exception\oxObjectException;
+use OxidEsales\Eshop\Core\Exception\oxVoucherException;
+use D3\Points\Application\Model\d3points;
+
+/**
+ * Class d3_oxvoucher_points
+ */
+class d3_oxvoucher_points extends d3_oxvoucher_points_parent
+{
+
+    /**
+     * @var string Name of current class
+     */
+    protected $_sClassName = 'oxvoucher';
+
+    /**
+     * Returns the discount value used.
+     *
+     * @param double $dPrice price to calculate discount on it
+     *
+     * @return double
+     * @throws VoucherException
+     * @throws \oxObjectException
+     * @throws \oxVoucherException
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function getDiscountValue($dPrice)
+    {
+        /** @var Voucher $oSeries */
+        $oSeries = $this->getSerie();
+
+        if ($oSeries->getId() != $this->d3GetVoucherSeriesId()) {
+            return parent::getDiscountValue($dPrice);
+        }
+
+        if ($oSeries->getFieldData('oxdiscounttype') == 'absolute') {
+            $oCur      = $this->getConfig()->getActShopCurrencyObject();
+            $dDiscount = $this->getFieldData('oxdiscount') * $oCur->rate;
+        } else {
+            $dDiscount = $this->getFieldData('oxdiscount') / 100 * $dPrice;
+        }
+
+        if ($dDiscount > $dPrice) {
+            /* @var $oEx VoucherException */
+            $oEx = oxNew(VoucherException::class, 'ERROR_MESSAGE_VOUCHER_INCORRECTPRICE');
+            $oEx->setVoucherNr($this->getFieldData('oxvoucherNr'));
+            throw $oEx;
+        }
+
+        return $dDiscount;
+    }
+
+    /**
+     * Gibt die oxid der Gutscheinserien zurueck
+     *
+     * @return string
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function d3GetVoucherSeriesId()
+    {
+        /* @var $od3_d3points_d3points d3points */
+        $od3_d3points_d3points = oxnew(d3points::class);
+        return $od3_d3points_d3points->d3GetVoucherSeriesId();
+    }
+
+}

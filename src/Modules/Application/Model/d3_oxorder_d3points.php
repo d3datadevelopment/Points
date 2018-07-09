@@ -1,80 +1,139 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.0.0 PHP71 (19.04.2018) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2018, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-HR+cPyPQU7Zk3K5mzv7jMt5/Q+3l2Q5TSYI//VrFyH2VFrFhHoRueuYFG+6k1IIuC6JR7A5eylsZ
-USyx3cCwe4JAuumdlm2+0IH+8wQEz9uYZLt7FNorYU1LAEjDBygQxRgR9IVFLn8GvSekHw1eLyBs
-PmpUCBBvFt3mYr4sczeSaRvMFIBZCoYjj23SUqoJXEcLjkuBtLmsTtvddH7DU83vOkGvsBdXyZ1S
-T4e5TYvZ2Lp6HuLv6AWdxXnAoZx6FMXjw/uUD33GOaE85DckMxAoE39QHXNpP+1QqhdXy209s/XU
-hby4U4nU2s1URiYeG9qxEaoRJqCCouOn/aWPfJaMQWV1L5wozQAAGanIE6NBWFWc1jHci+bVP7NZ
-lVl6zAvHuDkzoZCaahx/HBw9z0wRmXWrc2Xy1v0G2ol5+EsSBNgg6J03O3PV8g01DHwXIaK6UtdH
-E3enwiN5BMiYMeW4egg70NoZ6md9nkB4OrLKHI7UeD/H065Dpw2Lo/recr2VyJOaBgyv4DSAcmJk
-ahvJO2WblcNL13xpYjtei7tIZz/jd+DLWTfbn9zbC0lc2yMQbYMJ34RWzyPHGuHemspsol66TgQ+
-lkXFNW3sVsCIbYnCernDfm7no5HjitLRwfpewoUkdNbnGIrWoRz+ptgsprNRqMYxhSsfc8gblg7z
-EcQBBIc10kuv5TMbEP+ZfGvnH2DF2XTm2lfSnrgJfwwXBlsvjioYILZwQVaJdzPojE+MWkbWxymS
-OIXT5wvxI9tEYa+2JYfBIpQs34zxun+TRJrA18QLMRyDkiIUbyNrOFH0gyuwILTTWaIfU0nje7S3
-JOZDPjHn6Auo0rDwl+PoDzTtd8sri4yJB5iPe/NoQSfTymPdHP/4nDsKmcE/he9Jr95/OsDy9NII
-Q3trUXP5HlCQt4q8HeeoEyX3dvwcVWUeJj3NyfXodhnz9qVeymT4GCt63BfcFqpMgWLnM3cT8V/5
-XgQuu3MMIq/iABy4bPas8LzpyZLQ2G/9szgRBcqkW+D/3tyhQShLI01LshJDrP7eNBgCJW1z+xaP
-9g70JYXp+SNCP77LWDdh4DRb7/lvX3j+7EKYT0+UxGIR7ZONdLzw/AcFmdDU52fMZ15zJRuPqtmA
-B0bjzlHgpeUL6SnusMC238ciy9y79XwcjBDMALcjb1inzqkIACDAA8emi3dEZpCIK0/mq9c6W1qp
-0hert6dMpWFRWrGGOEMxW1wwOxmrXWE4/icxILHO0/7rIiI/dspgWcFyzdnpEWbTUTWYdHztEFqU
-P7aw/8ET/1fjE85oAY67fVn1ech7eO/jkkZFaqEM0/351fTcjNK5W/UHE9zEx9PExD7qhyfSDkD4
-Icf6kocVK2MuhH2br3sATmry04HkRz4nkL1+dL5lQXx+r1ai1hel2r2CpS78NZP4nyLhQ2egVd4g
-WsIM3yaCrIiMNK3Du5Eav5HfRN/fSZxv1s6xO8ivGwILyZHkNXMLEoBRqD4hZQcn24cCeJ9v+eQf
-4h/9Wnt3nkiG8LqEgQ1oZbkdPJYOBwBE/SJ242/X6qC6VWpOCsV5u/63W0hBDZ6g/OsAldPZBGG8
-Ki3Sq4ILwLgNOUET7UCFaunM/mVbnoY3mawP2/GtkQyCQBr5hULk8KpnnoNeexHECPoUCmfMevRa
-LniibkfQEVSFpUeglZdKqvKXHz3NavsuUQ+O7mL59hOcmesr1aau7d/vpNHtK8qUUk1YZ4NzoJrg
-3gZUq7kcK0YdTty8XMHQOmMyDbq6IgBHdAcN/NmGeGV4/AgvBxfV4TkrZuQ1keewgh6fT0dGr5nL
-L/qirGInqwo9qxKuTzubxnEYHcKFbP8Xiy/LFiQvfPeuMILOlFff/8zsKtQ9sa7YfWgOGMtMp6JT
-Z9f6VtHG2GTf204a0mRgsgEuoZB9QIhjwRqoHoTjckh05DtEmEZfO4WnkkZolza1ofsIvFKBcwLX
-zxDu2x7cINtUc0nmZN8M7RoYHX+9owa4bsSWyl0EhQQ9gFCmXKeS6CCVE/L62Qr9HKsG60T8jc9Y
-JmeIrhOGyZF/rlmX2tX6sEN/bZTivl83AdwNe6roB6b1sTNNaLaGFm57xRf8rqj+t2BoL9tESs8Y
-P+ikJUJt/7MpXDnUu1N2ZtSqf0gYAYA8dKUq67c1cRUHRBb1lrpZh6ppESXVtLr9QfNKGeno4bGz
-s0Ti4DItxl0dXnNIvK/sFdJiluHqyiBn9gh+aGwKZ7eotgeO+ABH/FQuq1R93Fv/R+zTHw47yAxD
-nMnyQukxwEY8FGKK3oahNPOissr7DhYA5CaGEn8QfmmvADdIPjsONwuvQxp7L/6HTYpaJJ7+v7PC
-IckDXudqL/FwMgpqSpurzq+2B1MoZa0H9WSCP1k9RRoXkhf56IwOrY9c5tNds585FbctUM5K9iNm
-oidme8JkGjHHH4dvIUCCkovuih/M1k4iluWRcIbhp81QucaB9DEmNvGsMUNptVYj1yYPnErWFtRU
-8H7+W3C7bqEpnJik7fyn4h8rylW10YaoJdCnh1D0wELA/No0K8ZpL9TxUz5+U/YS9ONU/nETlu3H
-+z2XXZJD7GkisuaNpFGZkVrDHE/VYG1NuPdr2/xuGuV1AIgw6CCjdi5UISZ1FV6JYv5OCXniAkIP
-x33Oc8YgzliRkUHegZQlCCwwlKmiapNK1HWbT+XpPk2N8ygo8P3M45lVidor2ke+zfDDHZwBSZsR
-Ag9TqvPLYuiPVWD0R6C9/rOqrrJ54FSoQpiXCrEbkL0GKJK7sFsyBsUqPI86uhBgPOOXz4EMaIHM
-U6zE4VoekOazRMFgBCylmWabGTOgO3xczXUbkyCvKYvm7L7izrWombMoBhRNmHS/+oOzi+5heVvW
-OizuQEs7YkxeXe9Uz+OozDCcDZ35j9PCCBTMU6gOI1OsrpkiSyZ24R3lAqJ2AGt6ikyxQfb6RijZ
-qAmQc6k5+E2/BzLvYIzQscwsJPUIm1n/Y0D3H0OzlrDU+1VcFVGnPPq7qf+ptIDiZSCuM5S9WL+g
-5zhouGZf8RtAUrXmvu4lBW4vB9cx0VZNO/PnuFtnSxUGz1K3v9lGzBnxjc3/aT0/0B1TAk5noGYU
-6dxdJlOiTRxodjNoCTfxhoFudlIEW1ls1vrcPdoDrOV2RiiJu2lDYQ1A9BuqFJ55H4wOcczgA6QN
-1Fj3IYd3RBZRrIz3dGs8fLZB9GgID/acqh9bc/IEyTZ5sWwhBbNMDpgOxHP4DRoFHSX+Gg2x4bbe
-LDST4o5h+41SNOubJu0wsfKDKqYiErgkBDlZjOef/ONTdLIdrXNsM8wyyQCngcxwXjV6iqrbbvPL
-23zFpxBYJQ3lQHOhJQ1+KRb20NyzSyKzD7oTVklayo7i9572I/QHX5Q7g7OBC4VYZaSQZnIq3ryq
-/ESXl380Yz7pVKp1oMez5LE9VfBQLW3fPd856MzdLw8Ek8QMqqfVSeHSEKBPGye+xolKPbVRewOu
-6c48c8J75CEfn31O+9qjg1xO8RKEUzEl1ib5AOEiH+tr+GO+4/78ge6uzvLfBWgmFKVSN/qSM2mK
-ZfnYeAtC/18U+VJCqAESkroXeBnKz8AGZ4nPmJcbJj4ouJNU03fBr08fmSLUvL6KunEZSiNgOsij
-npf3N8FQy6UU4nNFRyOw8DT3eGPiy1VgifzAararpZtIygBq0XEb01mFmQsGZwfP32onW8put2wK
-rh8pIr0OyW2wP1T08mpGso5PotTWTr97WibXU12MIZgsW4AZaKpEa0LZH/CFMsgrW0u5/qp5hvJf
-I/j1/8KrveQ8Lh7mX6Yi2h7qJe81W+tfz9+dISWR1qtzMyeDrpL3uk+Z2YROXGFEagQgbYKa7AEl
-PGVvQbJCHZ8YM6R9BUoZFWBB2lPmQayBi5dwB0S68Q1tgZRk20XPj4v3qywkUWbhCWukPksxjBlj
-7+LVB75fS2vdJl1xtdYU//hoP+3k2lGD1qbPskZAGFqHB17spUc3UFCVrSywRF6QnXGmI7sybrbo
-7ClPdmQDpW2YBo/r3sfXuM/nS3x0ZfM+wlQgm1+u9JYwkfhUJ94VOAR3qPGID5ajmk+QhdE9RpcF
-J9UEr1JQf7eTWYViTkdAPqWAaOCMetV/roVndbaQYZUJYmD3Y+AzBVIXNUoAO4v+RDMw4EGLE70b
-3IMp+FtOemNWOvox0N6IsJ51hW3kunBzFmms9W9LaitISciLNeyZ6WYId9Jbui8viEfgUnTM7Ik4
-/YNoRKDwfg7YtGB5YM+fnHWIaRU2EVsiTVPdMIwHCi1fL8crpVFP0XRd5Qa0SsPVzMzPNwC7xIvs
-jMLh4GdsSSomkXolzAene7F2hJX6VDfs5HnaFIumTUuAoQ+z0IEKejpP6sqsgtbpEl+nb+OvlFiL
-YDBTGhUQYQq0Nxsr6yP+uzedv0aWYdjgSMruQ6uVy+Bsfr4KhjRJRa9ssAMTK8DBx7qOFl/AwOOc
-ackvfJHp8OJpHPHtO2niXtDk246rPjpWOU67zKPR7S5qoqJqJqE7jS7tdBFWVotXLEzlPD3y+Px1
-gqNpIApf72ater4oj3yGlb7gckIb9X7be7SFVotyLcLRC04efnofWlvMqvTlOgBDH8HXO6IWqfhJ
-5EgcOI4tJUsSg9M3Z4bpjHYQyCcpBu5og2e9fh6siDUt95TbFi+orGUsVuUup1GFnbLu+psOKS+z
-YQTZ+AMsZT5l6L6vWulydI0h2Y1uqPuZNcGHhn79iv7FOVmdiRoOORf4RL7StafPDZ6XFHZlLOOk
-ObQcFsLH/pY1DBcSD9xbPZkSWI4U8a5Wi8ZN6iVF3g3wU+cF4EYfmCBA8H1ARuDcfVX+g4nrvbRy
-7zN2widpWFEGlOd/Et5Wrcq7khiNwaX7IYE6wR5BJZ/yEKPi/BW4X0FF2zyK4AUuscIyfgmJR2E3
-EosgjjoSzHorZZxPJsx8T7OjpNeYsIGG8hTIJyylYpPtINcZFNFTbxTZ4zMqf+AGZQiEwhLQ2yij
-QTIQJ9QlAygPzBUWjrbJktqbHcF+vyb7m+dg/Q/KW8GxJky2YFt+VoB1FVw4YfOc6AcvZ741+hxR
-qNp+UOjgnuyA4c/fs4Ytn0cRBADyTJCS3blIBghQTRn0sTMyEoc83qv4KVBheiaC6xYNgq6314z4
-MM2tYjefM5Saiym6yk9qArhzBSb3Gvnos+hbM98efYEEYCGsfIQpIejX2reIbI6ufQDtCNt6QTya
-ahNFN/Cb6VDW9voFpMiDf8o7n0/Hc6H5shHc18jy8gmO8a1WqYw7qEir0QTNlRTdqXATak7tZ4I2
-oFI1BpYvo1/h/OuDwPk4W9WvPobMhr7JlzguYdSPCoo/sqmrIYTEOKnnSG8/RBZaz8/dlFRhZnjQ
-3aOvycXofNFAWZx9w6oBCKUWLPRE4qr907MI2sAoww4JoDuqUbgUB3uexDZXCqWVkrQRZYlfwx2M
-wTEEmULIYGC3VztXEfqJcvcP6HAdJDeiMTQmSc7wi+blHAupUJ6K7UrOgZcLMCw7fDyjQwESpoFN
-6UtC4PNA7jlBNtFOXPgfmm0EB2UzEAnGZNY3XgRZhAVTdnEGkcJuP5j4rUMQPF2e8lgjbO9kUo6T
-nECipryIC8Sps4V+TgBTrVFKpVZWi7hMHiHwb9/2/dp50rESsVfD2gSDH956QCseWWKxbCD4pN5R
-SMQc/weq6vM4V3FYMJ7ksqLAplv0Qn7WcvVDw5rsLaeSSxsP9PIoZFeOjG==
+<?PHP
+/**
+ * This Software is the property of D³ Data Development
+ * and is protected by copyright law - it is NOT Freeware.
+ *
+ * Any unauthorized use of this software without a valid license
+ * key is a violation of the license agreement and will be
+ * prosecuted by civil and criminal law.
+ *
+ * D3 Data Development
+ * Inhaber: Thomas Dartsch
+ * Alle Rechte vorbehalten
+ *
+ * @package "Bonuspunkte"
+ * @author Thomas Dartsch <thomas.dartsch@shopmodule.com> / Markus Gärtner <markus.gaertner@shopmodule.com>
+ * @copyright (C) 2011, D3 Data Development
+ * @see http://www.shopmodule.com
+ *
+ */
+
+namespace D3\Points\Modules\Application\Model;
+
+use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
+use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use D3\ModCfg\Application\Model\Log\d3log;
+use \OxidEsales\Eshop\Core\DatabaseProvider;
+use OxidEsales\Eshop\Application\Model\User;
+use D3\Points\Application\Model\d3points;
+use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
+use OxidEsales\Eshop\Core\Exception\DatabaseErrorException;
+
+/**
+ * Class d3_oxorder_d3points
+ *
+ * @package D3\Points\Modules\Application\Model
+ */
+class d3_oxorder_d3points extends d3_oxorder_d3points_parent
+{
+    private $_sModId = 'd3points';
+    public  $iD3UpdatedOrders = 0;
+
+    /**
+     * Save Status d3issetpoints to oxorder
+     * 0 = order is not processed by cronjob
+     * 1 = order is processed by cronjob
+     *
+     * @param string  $sOrderId
+     * @param integer $iSetPoints
+     *
+     * @return bool
+     */
+    public function d3UpdateOrderFieldD3isSetPoints($sOrderId, $iSetPoints)
+    {
+        if ($this->load($sOrderId))
+        {
+            $this->assign(
+                array('d3issetpoints'   => $iSetPoints)
+            );
+            return $this->save();
+        }
+        return false;
+    }
+
+    /**
+     * Reset field d3issetpoints for alle orders
+     * limit by Date
+     *
+     * @param integer $iStatus  0 / 1
+     * @param bool    $blStatus extrac checkbox in templates
+     *
+     * @return bool
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3_cfg_mod_exception
+     */
+    public function d3ResetOrders($iStatus, $blStatus)
+    {
+        if ($blStatus == true) {
+            if (!$iStatus) {
+                $iStatus = 0;
+            }
+
+            $oDb = DatabaseProvider::getDb(DatabaseProvider::FETCH_MODE_ASSOC);
+
+            /* @var $od3points d3points */
+            $od3points          = oxnew(d3points::class);
+            $sD3PointsDateLimit = $od3points->d3GetDateLimitForOrders();
+            $sDate              = date("Y-m-d", strtotime('-' . $sD3PointsDateLimit . ' month'));
+
+            $sSelect =<<<MYSQL
+SELECT count(oxid)
+FROM {$this->_sCoreTable}
+WHERE oxorderdate >= {$oDb->quote($sDate)}
+AND OXSHOPID = {$oDb->quote($this->getConfig()->getShopId())}
+MYSQL;
+
+            $this->iD3UpdatedOrders = $oDb->getone($sSelect);
+
+            $sUpdate = <<<MYSQL
+UPDATE {$this->_sCoreTable}
+SET d3issetpoints= {$oDb->quote($iStatus)}
+WHERE  oxorderdate >= {$oDb->quote($sDate)}
+AND OXSHOPID ={$oDb->quote($this->getConfig()->getShopId())}
+MYSQL;
+
+
+            d3_cfg_mod::get($this->_sModId)->d3getLog()->Log(
+            d3log::INFO,
+            __CLASS__,
+            __FUNCTION__,
+            __LINE__,
+            "Reset Orders ",
+            "Query: " . PHP_EOL . $sUpdate
+            );
+
+            #echo $sUpdate;
+            $rs = $oDb->Execute($sUpdate);
+
+            return $rs;
+        } else {
+            return false;
+        }
+    }
+
+    /**
+     * @return User
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function d3getOrderUser()
+    {
+        /** @var User $oUser */
+        $oUser = oxNew(User::class);
+        $oUser->load($this->getFieldData('oxuserid'));
+        return $oUser;
+    }
+}

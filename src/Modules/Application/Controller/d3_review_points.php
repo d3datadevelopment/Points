@@ -1,77 +1,146 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.0.0 PHP71 (19.04.2018) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2018, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * This Software is the property of D³ Data Development
+ * and is protected by copyright law - it is NOT Freeware.
+ * Any unauthorized use of this software without a valid license
+ * key is a violation of the license agreement and will be
+ * prosecuted by civil and criminal law.
+ * D3 Data Development
+ * Inhaber: Thomas Dartsch
+ * Alle Rechte vorbehalten
+ *
+ * @package       "Bonuspunkte"
+ * @version       3.0.1_XE4
+ * @author        Thomas Dartsch <thomas.dartsch@shopmodule.com> / Markus Gärtner <markus.gaertner@shopmodule.com>
+ * @copyright (C) 2011, D3 Data Development
+ * @see           http://www.shopmodule.com
+ *                $Rev::                                               $:
+ *                $Author::                                            $:
+ *                $Date::                                              $:
+ */
+#ini_set('display_errors', 1);
+#ini_set('error_reporting', 1);
+
+namespace D3\Points\Modules\Application\Controller;
+
+use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
+use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use D3\ModCfg\Application\Model\Log\d3log;
+use OxidEsales\Eshop\Application\Controller\ReviewController;
+use D3\Points\Application\Model\d3points;
+use D3\Points\Application\Model\d3rating;
+use OxidEsales\Eshop\Core\Registry;
+use OxidEsales\Eshop\Core\Request;
+
+/**
+ * Class d3_review_points
+ *
+ * @package D3\Points\Modules\Application\Controller
+ */
+class d3_review_points extends d3_review_points_parent
+{
+    private $_sModId = 'd3points';
+
+    /**
+     * Extends save-methode
+     * Bewertung einzeln für Rating und Text
+     * Option if user can get points for more reviews for on article
+     *
+     * @return void
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     * @throws d3_cfg_mod_exception
+     */
+    public function saveReview()
+    {
+        //Modul ist aktiv
+        if ($this->getModCfg()->isActive()) {
+
+            $this->getD3Log()->Log(
+            d3log::DEBUG,
+            __CLASS__,
+            __FUNCTION__,
+            __LINE__,
+            "start check review points",
+            "cl=review"
+            );
+
+            /* @var $oD3Rating d3rating */
+            $oD3Rating = oxnew(d3rating::class);
+
+            $this->getD3Log()->Log(
+            d3log::INFO,
+            __CLASS__,
+            __FUNCTION__,
+            __LINE__,
+            "start check review points",
+            "cl=review"
+            );
+
+            if (($oRevUser = $this->getReviewUser()) && $this->canAcceptFormData()) {
+                if (($oActObject = $this->_getActiveObject()) && ($sType = $this->_getActiveType())) {
+                    if (($dRating = Registry::get(Request::class)->getRequestEscapedParameter('rating')) === null) {
+                        $dRating = Registry::get(Request::class)->getRequestEscapedParameter('artrating');
+                    }
+
+                    if ($dRating !== null) {
+                        $dRating = (int)$dRating;
+                    }
+
+                    $oD3Rating->d3SetUser($oRevUser->getId());
+                    $oD3Rating->d3SetArticleId($oActObject->getId());
+
+                    // Pruefung auf Sternebewertung
+                    if ($dRating !== null && $dRating >= 0 && $dRating <= 5) {
+
+                        $oD3Rating->d3SetPointsForRating();
+                    }
+                    // Pruefung auf Textbewertung
+
+                    if ($sReviewText = trim((string)Registry::get(Request::class)->getRequestEscapedParameter('rvw_txt', true))) {
+
+                        $oD3Rating->d3SetPointsForReview();
+                    }
+                }
+            }
+            $oD3Rating->d3SendReviewMail();
+            $this->getD3Log()->Log(
+            d3log::INFO,
+            __CLASS__,
+            __FUNCTION__,
+            __LINE__,
+            "end check review points",
+            "cl=review"
+            );
+        }
+
+        parent::saveReview();
+    }
+
+    /**
+     * @return object
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function getModCfg()
+    {
+        return d3_cfg_mod::get($this->_sModId);
+    }
+
+    /**
+     * @return d3log
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function getD3Log()
+    {
+        return $this->getModCfg()->d3getLog();
+    }
+
+}

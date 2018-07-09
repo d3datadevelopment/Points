@@ -10,17 +10,17 @@
  */
 
 /**
- * Alle Anforderungen sind über $this->_aCheck konfigurierbar. Manche Anforderungen haben dazu noch weitergehende
+ * Alle Anforderungen sind ï¿½ber $this->_aCheck konfigurierbar. Manche Anforderungen haben dazu noch weitergehende
  * Informationen. Die Struktur dieser Requirementbeschreibungen:
  *
  * array(
- *      'blExec'    => 1,           // obligatorisch: 0 = keine Prüfung, 1 = Püfung wird ausgeführt
- *      'aParams'   => array(...),  // optional, Inhalt ist von jeweiliger Prüfung abhängig
+ *      'blExec'    => 1,           // obligatorisch: 0 = keine Prï¿½fung, 1 = Pï¿½fung wird ausgefï¿½hrt
+ *      'aParams'   => array(...),  // optional, Inhalt ist von jeweiliger Prï¿½fung abhï¿½ngig
  * )
  *
  * "Desc1": Diese Struktur kann allein eine Bedingung beschreiben. Wenn mehrere dieser Bedingungen
- * nötig sind (z.B. bei unterschiedlichen Bibliotheksanforderungen), kann diese Struktur als
- * Arrayelemente auch mehrfach genannt werden (kaskadierbar). Grundsätzlich sind alle Requirements
+ * nï¿½tig sind (z.B. bei unterschiedlichen Bibliotheksanforderungen), kann diese Struktur als
+ * Arrayelemente auch mehrfach genannt werden (kaskadierbar). Grundsï¿½tzlich sind alle Requirements
  * kaskadierbar, jedoch ergibt dies nicht bei allen Sinn. :) Eine Kaskadierung sieht so aus:
  *
  * array(
@@ -34,7 +34,7 @@
  *      )
  * )
  *
- * Unbedingt zu vermeiden sind Änderungen in der Scriptlogik, da diese bei Updates nur schwer zu übernehmen sind.
+ * Unbedingt zu vermeiden sind ï¿½nderungen in der Scriptlogik, da diese bei Updates nur schwer zu ï¿½bernehmen sind.
  */
 
 class requConfig
@@ -43,7 +43,7 @@ class requConfig
 
     public $sModId   = 'd3points';
 
-    public $sModVersion = '5.0.0.0';
+    public $sModVersion = '5.0.0.1';
 
     /********************** check configuration section ************************/
 
@@ -56,7 +56,7 @@ class requConfig
             )
         ),
 
-        // größte erlaubte PHP-Version
+        // grï¿½ï¿½te erlaubte PHP-Version
         'hasMaxPhpVersion'       => array(
             'blExec'  => 0,
             'aParams' => array(
@@ -73,17 +73,17 @@ class requConfig
             )
         ),
 
-        // benötigt Zend Optimizer (PHP 5.2) bzw. Zend Guard Loader (> PHP 5.2)
+        // benï¿½tigt Zend Optimizer (PHP 5.2) bzw. Zend Guard Loader (> PHP 5.2)
         'hasZendLoaderOptimizer' => array(
-        'blExec' => 1,
-        ),
-
-        // benötigt IonCubeLoader
-        'hasIonCubeLoader'       => array(
         'blExec' => 0,
         ),
 
-        // benötigt PHP-Extension (kaskadierbar (siehe "Desc1"))
+        // benï¿½tigt IonCubeLoader
+        'hasIonCubeLoader'       => array(
+            'blExec' => 1,
+        ),
+
+        // benï¿½tigt PHP-Extension (kaskadierbar (siehe "Desc1"))
         'hasExtension'           => array(
         array(
         'blExec'  => 1,
@@ -99,7 +99,7 @@ class requConfig
         ),
         ),
 
-        // minimal benötigte Shopversion (editionsgetrennt), wird (sofern möglich) Remote aktualisiert
+        // minimal benï¿½tigte Shopversion (editionsgetrennt), wird (sofern mï¿½glich) Remote aktualisiert
         'hasMinShopVersion'      => array(
             'blExec'  => 1,
             'aParams' => array(
@@ -109,7 +109,7 @@ class requConfig
             ),
         ),
 
-        // maximal verwendbare Shopversion (editionsgetrennt), wird (sofern möglich) Remote aktualisiert
+        // maximal verwendbare Shopversion (editionsgetrennt), wird (sofern mï¿½glich) Remote aktualisiert
         'hasMaxShopVersion'      => array(
             'blExec'  => 1,
             'aParams' => array(
@@ -119,7 +119,7 @@ class requConfig
             ),
         ),
 
-        // verfügbar für diese Shopeditionen, wird (sofern möglich) Remote aktualisiert
+        // verfï¿½gbar fï¿½r diese Shopeditionen, wird (sofern mï¿½glich) Remote aktualisiert
         'isShopEdition'          => array(
             'blExec'  => 1,
             'aParams' => array(
@@ -131,12 +131,12 @@ class requConfig
             ),
         ),
 
-        // benötigt Modul-Connector
+        // benï¿½tigt Modul-Connector
         'hasModCfg'              => array(
             'blExec' => 1
         ),
 
-        // benötigt mindestens diese Erweiterungen / Version lt. d3_cfg_mod (kaskadierbar (siehe "Desc1"))
+        // benï¿½tigt mindestens diese Erweiterungen / Version lt. d3_cfg_mod (kaskadierbar (siehe "Desc1"))
         'hasMinModCfgVersion'    => array(
             array(
                 'blExec'  => 1,
@@ -160,13 +160,13 @@ class requConfig
             ),
         ),
 
-        // benötigt neuen Lizenzschlüssel
+        // benï¿½tigt neuen Lizenzschlï¿½ssel
         'requireNewLicence'    => array(
             array(
                 'blExec'  => 1,
                 'aParams' => array(
-                    'checkVersion' => true, // soll Versionsnummer des installierten Moduls gegengeprüft werden?
-                    'remainingDigits' => 2, // zu prüfende Stellen für neue Lizenz
+                    'checkVersion' => true, // soll Versionsnummer des installierten Moduls gegengeprï¿½ft werden?
+                    'remainingDigits' => 2, // zu prï¿½fende Stellen fï¿½r neue Lizenz
                 ),
             ),
         ),

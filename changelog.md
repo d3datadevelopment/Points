@@ -1,3 +1,7 @@
+Version 5.0.0.1
+- Dateien verschoben
+- neue Dokumentation
+
 Version 5.0.0.0
 - Angepasst für Shopversion 6.x, Installation via Composer 
 

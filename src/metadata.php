@@ -24,7 +24,7 @@ $aModule = array(
     ),
     'lang'        => 'de',
     'thumbnail'   => 'picture.png',
-    'version'     => '5.0.0.0',
+    'version'     => '5.0.0.1',
     'author'      => 'D&sup3; Data Development',
     'url'         => 'http://www.shopmodule.com',
     'email'       => 'support@shopmodule.com',
@@ -36,10 +36,9 @@ $aModule = array(
         OxidModel\Order::class                         => \D3\Points\Modules\Application\Model\d3_oxorder_d3points::class,
         OxidModel\User::class                          => \D3\Points\Modules\Application\Model\d3_oxuser_points::class,
         OxidModel\Voucher::class                       => \D3\Points\Modules\Application\Model\d3_oxvoucher_points::class,
-        OxidCore\ViewConfig::class                     => \D3\Points\Modules\Application\Core\d3_oxviewconfig_points::class,
-        OxidCore\Email::class                          => \D3\Points\Modules\Application\Core\d3_oxemail_points::class,
+        OxidCore\ViewConfig::class                     => \D3\Points\Modules\Core\d3_oxviewconfig_points::class,
+        OxidCore\Email::class                          => \D3\Points\Modules\Core\d3_oxemail_points::class,
     ),
-
 
     'controllers'       => array(
         'd3_d3points_demo'          => \D3\Points\Application\Controller\Admin\demo::class,
@@ -52,14 +51,6 @@ $aModule = array(
         'd3_d3points_log'           => \D3\Points\Application\Controller\Admin\pointslog::class,
         'd3_d3points_loglist'       => \D3\Points\Application\Controller\Admin\pointsloglist::class,
         'd3_d3points_accountpoints' => \D3\Points\Application\Controller\accountpoints::class,
-
-
-/*
-        'd3/points/models/d3points.php'                             => \D3\Points\Application\Model\d3points::class,
-        'd3/points/models/rating.php'                               => \D3\Points\Application\Model\d3_d3points_rating::class,
-        'd3/points/models/utils.php'                                => \D3\Points\Application\Model\d3_d3points_utils::class,
-        'd3/points/models/setupWizard.php'                          => \D3\Points\Setup\setupWizard::class,
-*/
     ),
 
     'templates'   => array(
@@ -192,9 +183,8 @@ $aModule = array(
         //'d3/points/Application/Model/conditions.php',
         'd3/points/Application/Model/d3points.php',
         'd3/points/Application/Model/rating.php',
-        'd3/points/Application/Model/utils.php',
+        'd3/points/Application/Model/utils_points.php',
 
-        'd3/points/Application/translations/de/d3_points_lang.php',
         'd3/points/Application/translations/de/d3_points_lang.php',
 
         'd3/points/Application/public/d3_cron_points.php',
