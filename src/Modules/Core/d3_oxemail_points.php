@@ -1,400 +1,896 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.0.0 PHP56 (19.04.2018) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2018, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-chnoHFkJ
+<?php
+
+/**
+ * This Software is the property of D³ Data Development
+ * and is protected by copyright law - it is NOT Freeware.
+ * Any unauthorized use of this software without a valid license
+ * key is a violation of the license agreement and will be
+ * prosecuted by civil and criminal law.
+ * D3 Data Development
+ * Inhaber: Thomas Dartsch
+ * Alle Rechte vorbehalten
+ *
+ * @package       "Bonuspunkte"
+ * @author        Thomas Dartsch <thomas.dartsch@shopmodule.com> / Markus Gärtner <markus.gaertner@shopmodule.com>
+ * @copyright (C) 2013, D3 Data Development
+ * @see           http://www.shopmodule.com
+ */
+
+namespace D3\Points\Modules\Core;
+
+use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
+use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use D3\ModCfg\Application\Model\Log\d3log;
+use OxidEsales\Eshop\Application\Model\Order;
+use OxidEsales\Eshop\Application\Model\Shop;
+use OxidEsales\Eshop\Application\Model\Remark;
+use OxidEsales\Eshop\Application\Model\Basket;
+use OxidEsales\Eshop\Application\Model\Payment;
+use OxidEsales\Eshop\Application\Model\Content;
+use OxidEsales\Eshop\Core\Config;
+use OxidEsales\Eshop\Core\Module\Module;
+use OxidEsales\Eshop\Core\Request;
+use OxidEsales\Eshop\Core\UtilsView;
+use OxidEsales\Eshop\Core\Registry;
+use OxidEsales\Eshop\Application\Model\VoucherSerie;
+use OxidEsales\Eshop\Application\Model\Voucher;
+use OxidEsales\Eshop\Application\Model\User;
+use OxidEsales\Eshop\Application\Model\Article;
+use D3\Points\Application\Model\d3points;
+
+/**
+ * Class d3_oxemail_points
+ *
+ * @package D3\Points\Modules\Application\Core
+ */
+class d3_oxemail_points extends d3_oxemail_points_parent
+{
+    /**
+     * Email-Templats for automatic Payout
+     *
+     * @var string
+     */
+    protected $_sd3_email_pointsautovoucher_html_tpl = 'd3_email_pointsautovoucher_html.tpl';
+
+    protected $_sd3_email_pointsautovoucher_plain_tpl = 'd3_email_pointsautovoucher_plain.tpl';
+
+    protected $_sd3_email_pointsautovoucher_subj_tpl = 'd3_email_pointsautovoucher_subj.tpl';
+
+    /**
+     * Email-Templates for mail with points from Order
+     *
+     * @var string
+     */
+    protected $_sd3_email_d3_email_orderpoints_html_tpl = 'd3_email_orderpoints_html.tpl';
+
+    protected $_sd3_email_d3_email_orderpoints_plain_tpl = 'd3_email_orderpoints_plain.tpl';
+
+    protected $_sd3_email_d3_email_orderpoints_subj_tpl = 'd3_email_orderpoints_subj.tpl';
+
+    /**
+     * Email-Templates for Reminder
+     *
+     * @var String
+     */
+    protected $_sd3_email_remindpoints_html_tpl = 'd3_email_remindpoints_html.tpl';
+
+    protected $_sd3_email_remindpoints_plain_tpl = 'd3_email_remindpoints_plain.tpl';
+
+    protected $_sd3_email_remindpoints_subj_tpl = 'd3_email_remindpoints_subj.tpl';
+
+    /**
+     * Email-Template for new Voucher, if is created
+     *
+     * @var String
+     */
+    protected $_sd3_email_pointsvoucher_html_tpl = 'd3_email_pointsvoucher_html.tpl';
+
+    protected $_sd3_email_pointsvoucher_plain_tpl = 'd3_email_pointsvoucher_plain.tpl';
+
+    protected $_sd3_email_pointsvoucher_subj_tpl = 'd3_email_pointsvoucher_subj.tpl';
+
+    /**
+     * Email Templates for new Points at Review or Rating
+     *
+     * @var String
+     */
+    protected $_sd3_email_reviewpoints_html_tpl = 'd3_email_reviewpoints_html.tpl';
+
+    protected $_sd3_email_reviewpoints_plain_tpl = 'd3_email_reviewpoints_plain.tpl';
+
+    protected $_sd3_email_reviewpoints_subj_tpl = 'd3_email_reviewpoints_subj.tpl';
+
+    /**
+     * Email Templates for storno points
+     *
+     * @var String
+     */
+    protected $_sd3_email_stornopoints_html_tpl = 'd3_email_stornopoints_html.tpl';
+
+    protected $_sd3_email_stornopoints_plain_tpl = 'd3_email_stornopoints_plain.tpl';
+
+    protected $_sd3_email_stornopoints_subj_tpl = 'd3_email_stornopoints_subj.tpl';
+
+    /**
+     * Email Templates for manuel points from admin
+     *
+     * @var string
+     */
+    protected $_sd3_email_manuelpoints_html_tpl = 'd3_email_manuelpoints_html.tpl';
+
+    protected $_sd3_email_manuelpoints_plain_tpl = 'd3_email_manuelpoints_plain.tpl';
+
+    protected $_sd3_email_manuelpoints_subj_tpl = 'd3_email_manuelpoints_subj.tpl';
+
+    private $_sModId = 'd3points';
+
+    /**
+     * Mail with VoucherCode
+     * after voucher is created by user
+     * write Remark
+     *
+     * @param User      $oUser
+     * @param Voucher   $oVoucher
+     * @param           $iLang      integer
+     *
+     * @return bool
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \Exception
+     * @throws \OxidEsales\EshopCommunity\Application\Model\oxObjectException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws \d3\points\Application\Model\Exception
+     * @throws d3_cfg_mod_exception
+     */
+    public function d3SendPointsVoucherMail(User $oUser, Voucher $oVoucher, $iLang = 0)
+    {
+        //sets language of shop
+        $iCurrLang = $iLang;
+
+        // shop info
+        $oShop = $this->_getShop($iCurrLang);
+
+        $this->_setMailParams($oShop);
+
+        $this->setUser($oUser);
+        // create messages
+        /** @var \smarty $oSmarty */
+        $oSmarty = $this->_getSmarty();
+        $this->setViewData("user", $oUser);
+        $this->setViewData("voucher", $oVoucher);
+        $this->setViewData("voucherserie", $oVoucher->getSerie());
+
+        // Process view data array through oxoutput processor
+        $this->_processViewArray();
+
+        $sTemplate = $this->_sd3_email_pointsvoucher_html_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_pointsvoucher_plain_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setAltBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_pointsvoucher_subj_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setSubject($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        //TestModus
+        if ($this->getModCfg()->hasTestMode()) {
+            $sEMailAddress = $this->d3GetEMAILSTEST();
+        } else {
+            $sEMailAddress = $oUser->getFieldData('oxusername');
+        }
+
+        $sFullName = $oUser->getFieldData('oxfname') . " " . $oUser->getFieldData('oxlname');
+
+        $this->setRecipient($sEMailAddress, $sFullName);
+        $this->setFrom($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+        $this->setReplyTo($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+
+        if ($this->d3GetEMAILSBCC()) {
+            $this->AddBCC($this->d3GetEMAILSBCC());
+        }
+
+        $blSend = $this->send();
+        // add user history
+        $this->d3WriteRemark($this->getAltBody(), $oUser->getId(), "r");
+
+        return $blSend;
+    }
+
+    /**
+     * Send ReminderMails
+     * automatic by cronjob, write Remark
+     *
+     * @param User   $oUser
+     * @param        $iLang  integer
+     *
+     * @return bool
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \Exception
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws \d3\points\Application\Model\Exception
+     * @throws d3_cfg_mod_exception
+     */
+    public function d3SendRemindPointsMail(User $oUser, $iLang = 0)
+    {
+        $blSend = false;
+
+        //sets language of shop
+        $iCurrLang = $iLang;
+
+        // shop info
+        $oShop = $this->_getShop($iCurrLang);
+
+        $this->_setMailParams($oShop);
+
+        $this->setUser($oUser);
+        // create messages
+        /** @var \smarty $oSmarty */
+        $oSmarty = $this->_getSmarty();
+        $this->setViewData("user", $oUser);
+        $this->setViewData("points", $oUser->iUserPointSum);
+
+        // Process view data array through oxoutput processor
+        $this->_processViewArray();
+
+        $sTemplate = $this->_sd3_email_remindpoints_html_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_remindpoints_plain_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setAltBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_remindpoints_subj_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setSubject($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        //TestModus
+        if ($this->getModCfg()->hasTestMode()) {
+            $sEMailAddress = $this->d3GetEMAILSTEST();
+        } else {
+            $sEMailAddress = $oUser->getFieldData('oxusername');
+        }
+
+        $sFullName = $oUser->getFieldData('oxfname') . " " . $oUser->getFieldData('oxlname');
+
+        $this->setRecipient($sEMailAddress, $sFullName);
+        $this->setFrom($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+        $this->setReplyTo($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+
+        if ($this->d3GetEMAILSBCC()) {
+            $this->AddBCC($this->d3GetEMAILSBCC());
+        }
+
+        $blSend = $this->send();
+
+        // add user history
+        $this->d3WriteRemark($this->getAltBody(), $oUser->getId(), "r");
+
+        return $blSend;
+    }
+
+    /**
+     * Mail with points, first mail
+     * write Remark
+     *
+     * @param $oOrder
+     * @param                     $iLang integer
+     *
+     * @return bool
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \Exception
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws \d3\points\Application\Model\Exception
+     * @throws d3_cfg_mod_exception
+     */
+    function d3SendPointsCreatedMail($oOrder, $iLang = 0)
+    {
+        //sets language of shop
+        $iCurrLang = $iLang;
+
+        // shop info
+        $oShop = $this->_getShop($iCurrLang);
+
+        $this->_setMailParams($oShop);
+
+        #$oUser = $oOrder->getOrderUser();
+        $oUser = $oOrder->d3getOrderUser();
+        $this->setUser($oUser);
+        // create messages
+        /** @var \smarty $oSmarty */
+        $oSmarty = $this->_getSmarty();
+        $this->setViewData("order", $oOrder);
+        #$this->setViewData( "point", $oPoint);
+        // Process view data array through oxoutput processor
+        $this->_processViewArray();
+
+        $sTemplate = $this->_sd3_email_d3_email_orderpoints_html_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_d3_email_orderpoints_plain_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setAltBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_d3_email_orderpoints_subj_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setSubject($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        //TestModus
+        if ($this->getModCfg()->hasTestMode()) {
+            $sEMailAddress = $this->d3GetEMAILSTEST();
+        } else {
+            $sEMailAddress = $oOrder->getFieldData('oxbillemail');
+        }
+
+        $sFullName = $oOrder->getFieldData('oxbillfname') . " " . $oOrder->getFieldData('oxbilllname');
+
+        $this->setRecipient($sEMailAddress, $sFullName);
+        $this->setFrom($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+        $this->setReplyTo($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+
+        if ($this->d3GetEMAILSBCC()) {
+            $this->AddBCC($this->d3GetEMAILSBCC());
+        }
+
+        $blSend = $this->send();
+        // add user history
+        $this->d3WriteRemark($this->getAltBody(), $oOrder->getOrderUser()->getId(), "r");
+
+        return $blSend;
+    }
+
+    /**
+     * Send Mail with Points for Rating or Review
+     * write Remark
+     *
+     * @param Article $oProduct
+     * @param User    $oUser user object
+     *
+     * @return bool
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \Exception
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws \d3\points\Application\Model\Exception
+     * @throws d3_cfg_mod_exception
+     */
+    function d3SendPointsForReviewMail(Article $oProduct, User $oUser)
+    {
+        $blSend = false;
+
+        //sets language of shop
+        $iLang     = Registry::get(Config::class)->getActiveShop()->getLanguage();
+        $iCurrLang = $iLang;
+
+        // shop info
+        $oShop = $this->_getShop($iCurrLang);
+
+        $this->_setMailParams($oShop);
+
+        $this->setUser($oUser);
+        // create messages
+        /** @var \smarty $oSmarty */
+        $oSmarty = $this->_getSmarty();
+        $this->setViewData("user", $oUser);
+        $this->setViewData("product", $oProduct);
+
+        // Process view data array through oxoutput processor
+        $this->_processViewArray();
+
+        $sTemplate = $this->_sd3_email_reviewpoints_html_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_reviewpoints_plain_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setAltBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_reviewpoints_subj_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setSubject($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        //TestModus
+        if ($this->getModCfg()->hasTestMode()) {
+            $sEMailAddress = $this->d3GetEMAILSTEST();
+        } else {
+            $sEMailAddress = $oUser->getFieldData('oxusername');
+        }
+
+        $sFullName = $oUser->getFieldData('oxfname') . " " . $oUser->getFieldData('oxlname');
+
+        $this->setRecipient($sEMailAddress, $sFullName);
+        $this->setFrom($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+        $this->setReplyTo($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+
+        if ($this->d3GetEMAILSBCC()) {
+            $this->AddBCC($this->d3GetEMAILSBCC());
+        }
+
+        $blSend = $this->send();
+
+        // add to user history
+        $this->d3WriteRemark($this->getAltBody(), $oUser->getId(), "r");
+
+        return $blSend;
+    }
+
+    /**
+     * Mail for automatic created Voucher
+     * write Remark
+     *
+     * @param User    $oUser
+     * @param Voucher $oVoucher
+     * @param           integer
+     *
+     * @return bool
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \Exception
+     * @throws \OxidEsales\EshopCommunity\Application\Model\oxObjectException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws \d3\points\Application\Model\Exception
+     * @throws d3_cfg_mod_exception
+     */
+    public function d3SendPointsAutoVoucherMail(User $oUser, Voucher $oVoucher, $iLang = 0)
+    {
+        //sets language of shop
+        $iCurrLang = $iLang;
+        //TODO Sprache testen
+        // shop info
+        $oShop = $this->_getShop($iCurrLang);
+
+        $this->_setMailParams($oShop);
+
+        $this->setUser($oUser);
+        // create messages
+        /** @var \smarty $oSmarty */
+        $oSmarty = $this->_getSmarty();
+        $this->setViewData("user", $oUser);
+        $this->setViewData("voucher", $oVoucher);
+        $this->setViewData("voucherserie", $oVoucher->getSerie());
+
+        // Process view data array through oxoutput processor
+        $this->_processViewArray();
+
+        $sTemplate = $this->_sd3_email_pointsautovoucher_html_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_pointsautovoucher_plain_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setAltBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_pointsautovoucher_subj_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setSubject($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        //TestModus
+        if ($this->getModCfg()->hasTestMode()) {
+            $sEMailAddress = $this->d3GetEMAILSTEST();
+        } else {
+            $sEMailAddress = $oUser->getFieldData('oxusername');
+        }
+
+        $sFullName = $oUser->getFieldData('oxfname') . " " . $oUser->getFieldData('oxlname');
+
+        $this->setRecipient($sEMailAddress, $sFullName);
+        $this->setFrom($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+        $this->setReplyTo($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+
+        if ($this->d3GetEMAILSBCC()) {
+            $this->AddBCC($this->d3GetEMAILSBCC());
+        }
+
+        $blSend = $this->send();
+
+        // add to user history
+        $this->d3WriteRemark($this->getAltBody(), $oUser->getId(), "r");
+
+        return $blSend;
+    }
+
+    /**
+     * Send Mail to user after Points are canceled
+     * write mail into history
+     * $oPoint->sOrderComment
+     * $oPoint->iOrderPoints
+     * $oPoint->iUserPointSum
+     *
+     * @param d3_oxorder_d3points $oOrder
+     * @param d3points            $oPoint
+     * @param integer             $iLang
+     *
+     * @return bool
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \Exception
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws \d3\points\Application\Model\Exception
+     * @throws d3_cfg_mod_exception
+     */
+    public function d3SendStornoMail(d3_oxorder_d3points $oOrder, d3points $oPoint, $iLang = 0)
+    {
+        //sets language of shop
+        $iCurrLang = $iLang;
+
+        // shop info
+        $oShop = $this->_getShop($iCurrLang);
+        //TODO Sprache testen
+
+        #$oUser = $oOrder->getOrderUser();
+        $oUser = $oOrder->d3getOrderUser();
+
+        $oShop = $this->_getShop($iCurrLang);
+
+        $this->_setMailParams($oShop);
+        // create messages
+        /** @var \smarty $oSmarty */
+        $oSmarty = $this->_getSmarty();
+
+        $this->setUser($oUser);
+        $this->setViewData("order", $oOrder);
+        $this->setViewData("points", $oPoint);
+
+        // Process view data array through oxoutput processor
+        $this->_processViewArray();
+
+        //create messages
+        $oLang = Registry::getLang();
+
+        // dodger #1469 - we need to patch security here as we do not use standard template dir, so smarty stops working
+        $aStore['INCLUDE_ANY'] = $oSmarty->security_settings['INCLUDE_ANY'];
+        //V send email in order language
+        $iOldTplLang  = $oLang->getTplLanguage();
+        $iOldBaseLang = $oLang->getTplLanguage();
+        $oLang->setTplLanguage($iCurrLang);
+        $oLang->setBaseLanguage($iCurrLang);
+
+        $oSmarty->security_settings['INCLUDE_ANY'] = true;
+        Registry::get(Config::class)->setAdminMode(false);
+
+        $sTemplate = $this->_sd3_email_stornopoints_html_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_stornopoints_plain_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setAltBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $sTemplate = $this->_sd3_email_stornopoints_subj_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setSubject($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        Registry::get(Config::class)->setAdminMode(true);
+        $oLang->setTplLanguage($iOldTplLang);
+        $oLang->setBaseLanguage($iOldBaseLang);
+        // set it back
+        $oSmarty->security_settings['INCLUDE_ANY'] = $aStore['INCLUDE_ANY'];
+
+        //TestModus
+        if ($this->getModCfg()->hasTestMode()) {
+            $sEMailAddress = $this->d3GetEMAILSTEST();
+        } else {
+            $sEMailAddress = $oUser->getFieldData('oxusername');
+        }
+
+        $sFullName = $oUser->getFieldData('oxfname') . " " . $oUser->getFieldData('oxlname');
+
+        $this->setRecipient($sEMailAddress, $sFullName);
+        $this->setFrom($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+        $this->setReplyTo($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+
+        if ($this->d3GetEMAILSBCC()) {
+            $this->AddBCC($this->d3GetEMAILSBCC());
+        }
+
+        $blSend = $this->send();
+
+        // add to user history
+        $this->d3WriteRemark($this->getAltBody(), $oUser->getId(), "r");
+
+        return $blSend;
+    }
+
+    /**
+     * @param User     $oUser
+     * @param d3points $oPoint
+     * @param int      $iLang
+     *
+     * @return bool
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \Exception
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws \d3\points\Application\Model\Exception
+     * @throws d3_cfg_mod_exception
+     */
+    public function d3SendMailForManuelPoints(User $oUser, d3points $oPoint, $iLang = 0)
+    {
+        $myConfig = Registry::get(Config::class);
+        //sets language of shop
+        $iCurrLang = $iLang;
+
+        $oShop = $this->_getShop();
+
+        $this->_setMailParams($oShop);
+        // create messages
+        /** @var \smarty $oSmarty */
+        $oSmarty = $this->_getSmarty();
+
+        $this->setUser($oUser);
+        $this->setViewData("points", $oPoint);
+
+        // Process view data array through oxoutput processor
+        $this->_processViewArray();
+
+        //create messages
+        $oLang = Registry::getLang();
+
+        // dodger #1469 - we need to patch security here as we do not use standard template dir, so smarty stops working
+        $aStore['INCLUDE_ANY'] = $oSmarty->security_settings['INCLUDE_ANY'];
+        //V send email in order language
+        $iOldTplLang  = $oLang->getTplLanguage();
+        $iOldBaseLang = $oLang->getTplLanguage();
+
+        $oLang->setTplLanguage($iCurrLang);
+        $oLang->setBaseLanguage($iCurrLang);
+
+        $oSmarty->security_settings['INCLUDE_ANY'] = true;
+        $myConfig->setAdminMode(false);
+
+        // template paths are registered in metadata
+        $sTemplate = $this->_sd3_email_manuelpoints_html_tpl;
+
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        // template paths are registered in metadata
+        $sTemplate = $this->_sd3_email_manuelpoints_plain_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setAltBody($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        // template paths are registered in metadata
+        $sTemplate = $this->_sd3_email_manuelpoints_subj_tpl;
+        if ($oSmarty->template_exists($sTemplate)) {
+            $this->setSubject($oSmarty->fetch($sTemplate));
+        } else {
+            $this->d3WriteMessageIfTemplateNotExist($sTemplate, __CLASS__, __FUNCTION__, __LINE__);
+        }
+
+        $myConfig->setAdminMode(true);
+        $oLang->setTplLanguage($iOldTplLang);
+        $oLang->setBaseLanguage($iOldBaseLang);
+        // set it back
+        $oSmarty->security_settings['INCLUDE_ANY'] = $aStore['INCLUDE_ANY'];
+
+        if ($this->getModCfg()->hasTestMode()) {
+            $sEMailAdress = $this->d3GetEMAILSTEST();
+        } else {
+            $sEMailAdress = $oUser->getFieldData('oxusername');
+        }
+
+        $sFullName = $oUser->getFieldData('oxfname') . " " . $oUser->getFieldData('oxlname');
+
+        $this->setRecipient($sEMailAdress, $sFullName);
+        $this->setFrom($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+        $this->setReplyTo($oShop->oxshops__oxinfoemail->value, $oShop->oxshops__oxname->getRawValue());
+
+        if ($this->d3GetEMAILSBCC()) {
+            $this->AddBCC($this->d3GetEMAILSBCC());
+        }
+
+        $blSend = $this->send();
+
+        // add to user history
+        $this->d3WriteRemark($this->getAltBody(), $oUser->getId(), "r");
+        return $blSend;
+    }
+
+    /**
+     * Write to d3log, display message if debug is set
+     *
+     * @param string $sTemplate
+     * @param string $sClass
+     * @param string $sFunction
+     * @param string $sLine
+     *
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3_cfg_mod_exception
+     */
+    public function d3WriteMessageIfTemplateNotExist($sTemplate, $sClass, $sFunction, $sLine)
+    {
+        $this->getModCfg()->d3getLog()->Log(
+        d3log::EMERGENCY,
+        $sClass,
+        $sFunction,
+        $sLine,
+        "Template: " . $sTemplate . " not found"
+        );
+        if ($this->getModCfg()->hasDebugMode()) {
+            echo "Template: " . $sTemplate . " not found";
+        }
+    }
+
+    /**
+     * @deprecated since v4.1.1.1, remove in oxid v6
+     *
+     * @param $sTemplate
+     * @param $sClass
+     * @param $sFunction
+     * @param $sLine
+     *
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3_cfg_mod_exception
+     */
+    public function d3WriteMesssageIfTemplateNotExist($sTemplate, $sClass, $sFunction, $sLine)
+    {
+        $this->d3WriteMessageIfTemplateNotExist($sTemplate, $sClass, $sFunction, $sLine);
+    }
+
+    /**
+     * Create Remarkt
+     *
+     * @param String $sMessage
+     * @param String $sUserId
+     * @param String $sType
+     *
+     * @return bool
+     * @throws \d3\points\Application\Model\Exception
+     * @throws \Exception
+     */
+    public function d3WriteRemark($sMessage, $sUserId, $sType = 'r')
+    {
+        /* @var $od3points d3points */
+        $od3points = oxnew(d3points::class);
+
+        return $od3points->d3WriteRemark($sMessage, $sUserId, $sType);
+    }
+
+    /**
+     * Get Mail for Test-Modus
+     *
+     * @return string
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3_cfg_mod_exception
+     */
+    public function d3GetEMAILSTEST()
+    {
+        if ($this->getModCfg()->getValue('d3points_EMAILS_TEST') != '') {
+            return $this->getModCfg()->getValue('d3points_EMAILS_TEST');
+        }
+
+        $sMessage = 'Testmodus is active, but no mailaddress ist set. Us instead Infomailaddress.';
+        $this->getModCfg()->d3getLog()->Log(
+        d3log::WARNING,
+        __CLASS__,
+        __FUNCTION__,
+        __LINE__,
+        'Testmodus, but not Mailaddress',
+        $sMessage
+        );
+
+        if ($this->getModCfg()->hasDebugMode()) {
+            echo $sMessage - PHP_EOL;
+        }
+
+        $oShop = $this->_getShop();
+
+        return $oShop->oxshops__oxinfoemail->value;
+    }
+
+    /**
+     * Return BCC-Mail
+     *
+     * @return string
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function d3GetEMAILSBCC()
+    {
+        return $this->getModCfg()->getValue('d3points_EMAILS_BCC');
+    }
+
+    /**
+     * @return d3_cfg_mod
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function getModCfg()
+    {
+        return d3_cfg_mod::get($this->_sModId);
+    }
+}
