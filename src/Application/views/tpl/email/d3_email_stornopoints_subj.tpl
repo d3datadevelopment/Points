@@ -1,1 +1,0 @@
-[{oxcontent ident="d3stornopointssubjectmail"}]
