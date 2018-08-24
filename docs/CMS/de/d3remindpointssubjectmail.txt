@@ -1,0 +1,10 @@
+Ident:
+d3remindpointssubjectmail
+
+
+Titel:
+Bonuspunkte-Erinnerungs-E-Mail Betreff-Text
+
+
+Conten:
+Ihre Bonuspunkte!

@@ -1,0 +1,23 @@
+Ident:
+d3newpointsmail
+
+
+Titel:
+Bonuspunkte-EMail Text
+
+
+Content:
+Guten Tag [{ $user->oxuser__oxsal->value|oxmultilangsal  }] [{ $user->oxuser__oxfname->value }] [{ $user->oxuser__oxlname->value }],<br>
+<br>
+Für Ihre Bestellung Nr. [{$order->oxorder__oxordernr->value}] erhalten Sie als Dankeschön <br>
+<p><b>[{$order->iNewPoints}] Punkt[{if $order->iNewPoints > 1 }]e[{/if}]</b></p>
+auf Ihr Bonuspunkte-Konto gutgeschrieben!<br><br>
+
+Sie haben damit aktuell einen <b>Punktestand von [{$order->iUserPointSum}] Punkten</b>.<br><br>
+
+Alle Details zu unserem Bonuspunkteprogramm finden Sie im Shop unter [{$shop->oxshops__oxurl->value}].<br>
+Ihren Punktestand können Sie jederzeit unter "Mein Konto" im Shop einsehen. Dort ist auch die Auszahlung Ihrer Bonuspunkte als Bestellgutschein möglich!<br><br>
+
+Noch einmal vielen Dank für Ihren Einkauf.<br>
+
+Ihr  [{ $shop->oxshops__oxname->value }] Team

@@ -1,0 +1,10 @@
+Ident:
+d3pointsvouchersubjectmail
+
+
+Titel:
+Bonuspunkte-Gutschein-EMail Betreff-Text
+
+
+Content:
+Ihr Bonuspunkte-Gutschein!
