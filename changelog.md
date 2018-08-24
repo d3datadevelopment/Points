@@ -1,3 +1,6 @@
+Version 5.0.0.2
+- Test auf OXID 6.0.3 / 6.1.0
+
 Version 5.0.0.1
 - Dateien verschoben
 - neue Dokumentation
