@@ -1,9 +1,9 @@
-# D³ Bonuspunkte für OXID eShop
+# Dï¿½ Bonuspunkte fï¿½r OXID eShop
 Bieten Sie Ihren Kunden ein umfassendes Bonussystem an.
 
 ## Systemanforderungen:
 - installierter OXID eShop
-- PHP-Version, für die Installationspakete verfügbar sind
+- PHP-Version, fÃ¼r die Installationspakete verfÃ¼gbar sind
 - Installation via Composer
 - ionCubeLoader
 - D3 Modul Connector
@@ -11,7 +11,8 @@ Bieten Sie Ihren Kunden ein umfassendes Bonussystem an.
 Die jeweils geforderten Versionen und sonstige Anforderungen entnehmen
 Sie bitte der Dokumentation im docs-Verzeichnis dieses Paketes.
 
-## Installation:
+## Installation
 
-Verwenden Sie zur Installation bitte immer unser Quellenverzeichnis unter https://satis.oxidmodule.com.
+    composer require d3/points
+    
 Eine detaillierte Installationsanleitung finden Sie im docs-Verzeichnis dieses Pakets.
