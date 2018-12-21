@@ -1,4 +1,4 @@
-# D� Bonuspunkte f�r OXID eShop
+# D³ Bonuspunkte für OXID eShop
 Bieten Sie Ihren Kunden ein umfassendes Bonussystem an.
 
 ## Systemanforderungen:
