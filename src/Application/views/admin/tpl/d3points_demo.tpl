@@ -19,9 +19,6 @@
         padding-left: 10px;
     }
 
-    .groupExp.highlighted {
-        background-color: #CD0210;
-    }
     .groupExp.highlighted a.rc b {
         color: white;
     }
@@ -142,8 +139,10 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td>
-                        <span class="d3modcfg_btn">
-                            <input type="submit" class="edittext ext_edittext" name="save" value="[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT"}]">
+                        <span class="d3modcfg_btn icon d3color-green">
+                            <button type="submit" name="save">
+                                <i class="fa fa-check-circle fa-inverse"></i>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT"}]
+                            </button>
                         </span>
                     </td>
                 </tr>
@@ -190,8 +189,10 @@
                 <tr>
                     <td>&nbsp;</td>
                     <td>
-                        <span class="d3modcfg_btn">
-                            <input type="submit" class="edittext ext_edittext" name="save" value="[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT"}]">
+                        <span class="d3modcfg_btn icon d3color-green">
+                            <button type="submit" name="save">
+                                <i class="fa fa-check-circle fa-inverse"></i>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT"}]
+                            </button>
                         </span>
                     </td>
                 </tr>

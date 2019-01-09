@@ -50,27 +50,18 @@
 
 <style type="text/css">
     <!--
-    .helptextbox{
-        background-color: white;
-        color: black;
-        border: 1px solid black;
-        position: absolute;
-        overflow: hidden;
-        padding: 5px;
-        margin-top: 15px;
-        width: 300px;
-        z-index: 99;
-    }
     fieldset{
-        border: 1px inset black;
+        border:           1px inset black;
+        background-color: #F0F0F0;
     }
     legend{
         font-weight: bold;
     }
     .groupExp dl dt{
         font-weight: normal;
-        width: 35%;
+        width: 55%;
         padding-left: 10px;
+        padding-top:  10px;
     }
     div.highlight.left {
         float:left;
@@ -88,13 +79,6 @@
     .groupExp.highlighted .exp {
         background-color: #F0F0F0;
     }
-    .groupExp .exp dl.highlighted {
-        background-color:#CD0210;
-
-    }
-    .groupExp {
-        border: 1px solid lightgray;
-    }
     .ext_edittext {
         padding: 2px;
     }
@@ -107,24 +91,7 @@
     }
     .confinput {
         width: 300px;
-        height: 60px;
-    }
-    span.field {
-        border: 1px inset black;
-        padding: 1px 6px;
-        width:138px;
-        display: block;
-    }
-    [{*
-    a.d3cronjoblink {
-        background: url("[{$oViewConf->getModuleUrl('d3modcfg_lib', 'out/admin/src/bg/d3modcfg_icons.png')}]") no-repeat scroll 0 -150px transparent;
-        display: inline-block;
-        height: 20px;
-        width: 20px;
-    }
-    *}]
-    a.d3cronjoblink:hover {
-        text-decoration:none;
+        height: 70px;
     }
     -->
 </style>
@@ -148,6 +115,8 @@
     <input type="hidden" name="cl" value="[{$oViewConf->getActiveClassName()}]">
     <input type="hidden" name="fnc" value="save">
     <input type="hidden" name="oxid" value="[{$oxid}]">
+    <input type="hidden" name="cronid" value="">
+    <input type="hidden" name="crontype" value="">
     <input type="hidden" name="editval[d3_cfg_mod__oxid]" value="[{$oxid}]">
 
     [{include file="d3_cfg_mod_active.tpl"}]
@@ -191,14 +160,14 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="edittext">[{oxmultilang ident="D3_CFG_MOD_d3points_CRONJOB_NEWPOINTS"}]</td>
-                    <td class="edittext">
+                    <td class="edittext listitem">[{oxmultilang ident="D3_CFG_MOD_d3points_CRONJOB_NEWPOINTS"}]</td>
+                    <td class="edittext listitem">
                         <input type="hidden" name="value[d3_cfg_mod__bld3points_FNC_NEWPOINTS_ACTIVE]" value="0">
                         <input class="edittext ext_edittext" type="checkbox" name="value[d3_cfg_mod__bld3points_FNC_NEWPOINTS_ACTIVE]" value='1' [{if $edit->getValue('bld3points_FNC_NEWPOINTS_ACTIVE') == 1}]checked[{/if}]>
                         [{oxinputhelp ident="D3_CFG_MOD_d3points_CRONJOB_NEWPOINTS_HELP"}]
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="listitem">&nbsp;</td>
+                    <td class="listitem">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="edittext listitem">[{oxmultilang ident="D3_CFG_MOD_d3points_VOUCHER_4_MAX_POINTS"}]</td>
@@ -211,14 +180,14 @@
                     <td class="listitem">&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="edittext ext_edittext">[{oxmultilang ident="D3_CFG_MOD_d3points_SEND_FIRST_MAIL"}]</td>
-                    <td class="edittext ext_edittext">
+                    <td class="edittext  listitem">[{oxmultilang ident="D3_CFG_MOD_d3points_SEND_FIRST_MAIL"}]</td>
+                    <td class="edittext  listitem">
                         <input type="hidden" name="value[d3_cfg_mod__bld3points_FNC_SEND_FIRST_MAIL]" value="0">
                         <input class="edittext ext_edittext" type="checkbox" name="value[d3_cfg_mod__bld3points_FNC_SEND_FIRST_MAIL]" value='1' [{if $edit->getValue('bld3points_FNC_SEND_FIRST_MAIL') == 1}]checked[{/if}]>
                         [{oxinputhelp ident="D3_CFG_MOD_d3points_SEND_FIRST_MAIL_HELP"}]
                     </td>
-                    <td>&nbsp;</td>
-                    <td>&nbsp;</td>
+                    <td class="listitem">&nbsp;</td>
+                    <td class="listitem">&nbsp;</td>
                 </tr>
                 <tr>
                     <td class="edittext listitem">[{oxmultilang ident="D3_CFG_MOD_d3points_SEND_REMINDER_MAIL"}]</td>
@@ -232,22 +201,43 @@
                 </tr>
 
                 <tr>
-                    <td class="edittext ">[{oxmultilang ident="D3_CFG_MOD_d3points_ACCESSKEY"}]</td>
-                    <td class="edittext " colspan="2">
+                    <td class="edittext listitem">[{oxmultilang ident="D3_CFG_MOD_d3points_ACCESSKEY"}]</td>
+                    <td class="edittext listitem" colspan="2">
                         <input type="text" class="editinput" size="10" maxlength="100" name="value[d3_cfg_mod__d3points_ACCESSKEY]" value="[{$edit->getValue('d3points_ACCESSKEY')|default:$oView->d3GetRandomCode()}]">[{oxinputhelp ident="D3_CFG_MOD_d3points_ACCESSKEY_HELP"}]
                     </td>
-                    <td class="">&nbsp;</td>
+                    <td class="listitem">&nbsp;</td>
+                </tr>
+
+                <tr>
+                    <td class="edittext listitem">
+                        [{oxmultilang ident="D3_SHGENERATOR_CRON_SHGENERATOR"}]
+                    </td>
+                    <td class="edittext listitem" colspan="2">
+                        <select style="float: left; margin-right: 10px;" id="shcrontype_[{$aCronJobIds.id}]">
+                            [{foreach from=$oView->getCronProviderList() item="sProviderName" key="sProviderId"}]
+                                <option value="[{$sProviderId}]">
+                                    [{$sProviderName}]
+                                </option>
+                            [{/foreach}]
+                        </select>
+                        <span class="d3modcfg_btn icon action_download">
+                            <input type="button" name="save" value="[{oxmultilang ident="D3_SHGENERATOR_CRON_SHGENERATOR_GENERATE"}]" onclick="oForm = document.getElementById('myedit'); oForm.crontype.value = document.getElementById('shcrontype_[{$aCronJobIds.id}]').value; oForm.cronid.value='[{$aCronJobIds.id}]'; oForm.fnc.value='generateCronShFile'; oForm.submit();">
+                            <div></div>
+                        </span>
+                        [{oxinputhelp ident="D3_SHGENERATOR_CRON_SHGENERATOR_DESC"}]
+                    </td>
+                    <td class="listitem">&nbsp;</td>
                 </tr>
 
                 [{block name="d3points_settings_cronjob_actions_table_last_row"}]
                 <tr>
-                    <td class="edittext ">[{oxmultilang ident="D3_CFG_MOD_d3points_FNC_CRONJOB_PRINT_STATUS"}]</td>
-                    <td class="edittext " colspan="2">
+                    <td class="edittext listitem">[{oxmultilang ident="D3_CFG_MOD_d3points_FNC_CRONJOB_PRINT_STATUS"}]</td>
+                    <td class="edittext listitem" colspan="2">
                         <input type="hidden" name="value[d3_cfg_mod__bld3points_FNC_CRONJOB_PRINT_STATUS]" value="0">
                         <input class="edittext ext_edittext" type="checkbox" name="value[d3_cfg_mod__bld3points_FNC_CRONJOB_PRINT_STATUS]" value='1' [{if $edit->getValue('bld3points_FNC_CRONJOB_PRINT_STATUS') == 1}]checked[{/if}]>
                         [{oxinputhelp ident="D3_CFG_MOD_d3points_FNC_CRONJOB_PRINT_STATUS_HELP"}]
                     </td>
-                    <td class="">&nbsp;</td>
+                    <td class="listitem">&nbsp;</td>
                 </tr>
                 [{/block}]
             </table>
@@ -771,7 +761,7 @@
 
     [{block name="d3points_settings_settings_emails"}]
     [{* Emailversandt *}]
-    <div class="groupExp [{*if $edit->getValue('meinPaket_HOST == ''}]highlighted[{/if*}]">
+    <div class="groupExp">
         <div class="">
             <a class="rc" onclick="_groupExp(this); return false;" href="#">
                 <b>
@@ -942,8 +932,10 @@
                 <tr>
                     <td class="edittext ext_edittext" align="left">
                         <br>
-                        <div class="d3modcfg_btn">
-                            <input type="submit" class="edittext ext_edittext" name="save" value="[{oxmultilang ident="D3_CFG_MOD_d3points_MAIN_SAVE"}]">
+                        <div class="d3modcfg_btn icon d3color-green">
+                            <button type="submit" name="save">
+                                <i class="fa fa-check-circle fa-inverse"></i>[{oxmultilang ident="D3_CFG_MOD_d3points_MAIN_SAVE"}]
+                            </button>
                         </div>
                         <br><br>
                     </td>

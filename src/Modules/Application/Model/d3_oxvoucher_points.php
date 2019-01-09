@@ -44,9 +44,6 @@ class d3_oxvoucher_points extends d3_oxvoucher_points_parent
      *
      * @return double
      * @throws VoucherException
-     * @throws \oxObjectException
-     * @throws \oxVoucherException
-     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
      */
     public function getDiscountValue($dPrice)
     {
@@ -78,7 +75,6 @@ class d3_oxvoucher_points extends d3_oxvoucher_points_parent
      * Gibt die oxid der Gutscheinserien zurueck
      *
      * @return string
-     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
      */
     public function d3GetVoucherSeriesId()
     {

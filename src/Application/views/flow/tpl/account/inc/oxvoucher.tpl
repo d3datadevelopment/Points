@@ -25,22 +25,33 @@
         [{*if $oPoint->d3points__oxtext->value
         || ($oVoucher->oxvouchers__oxdateused->rawValue =='0000-00-00' &&  $oVoucher->oxvouchers__oxreserved->rawValue > 0)
         || $oVoucher->oxvouchers__oxdateused->rawValue !='0000-00-00'*}]
-            <div class="panel-body">
-                <strong>[{oxmultilang ident="D3_ACCOUNT_POINTS_COMMENT" suffix="COLON"}]</strong>
-                <span>[{$oPoint->d3points__oxtext->value}] [{* $oVoucher->oxvouchers__oxvouchernr->value *}]</span>
-
+        <div class="panel-body">
+            <div class="row">
                 [{if $oVoucher->discount}]
-                    <strong>[{oxmultilang ident="D3_ACCOUNT_POINTS_VOUCHER_VALUE" suffix="COLON"}]</strong>
-                    <span>[{$oVoucher->discount}] [{$currency->sign}]</span>
+                    <div class="col-xs-12 col-sm-4">
+                        <strong>[{oxmultilang ident="D3_ACCOUNT_POINTS_VOUCHER_VALUE" suffix="COLON"}]</strong>
+                        <span>[{$oVoucher->discount}] [{$currency->sign}]</span>
+                    </div>
                 [{/if}]
 
                 [{if $oVoucher->oxvouchers__oxdateused->rawValue =='0000-00-00' &&  $oVoucher->oxvouchers__oxreserved->rawValue > 0}]
-                    <span>[{oxmultilang ident="D3_ACCOUNT_POINTS_VOUCHER_RESERVED"}]</span>
-                    [{$oVoucher->oxvouchers__oxreserved->rawValue|date_format:"%d.%m.%Y"}][{/if}]
+                    <div class="col-xs-12 col-sm-4">
+                        <strong>[{oxmultilang ident="D3_ACCOUNT_POINTS_VOUCHER_RESERVED"}]</strong>
+                        [{$oVoucher->oxvouchers__oxreserved->rawValue|date_format:"%d.%m.%Y"}]
+                    </div>
+                [{/if}]
                 [{if $oVoucher->oxvouchers__oxdateused->rawValue !='0000-00-00'}]
-                    <span>[{oxmultilang ident="D3_ACCOUNT_POINTS_VOUCHER_USED" }]</span>
-                    [{$oVoucher->oxvouchers__oxdateused->rawValue|date_format:"%d.%m.%Y"}][{/if}]
+                    <div class="col-xs-12 col-sm-4">
+                        <strong>[{oxmultilang ident="D3_ACCOUNT_POINTS_COMMENT" suffix="COLON"}]</strong>
+                        <span>[{$oPoint->d3points__oxtext->value}]</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-4">
+                        <strong>[{oxmultilang ident="D3_ACCOUNT_POINTS_VOUCHER_USED" }]</strong>
+                        <span>[{$oVoucher->oxvouchers__oxdateused->rawValue|date_format:"%d.%m.%Y"}]</span>
+                    </div>
+                [{/if}]
             </div>
+        </div>
         [{*/if*}]
     </div>
 </li>

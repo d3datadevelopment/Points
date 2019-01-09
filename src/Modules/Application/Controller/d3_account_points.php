@@ -93,16 +93,4 @@ class d3_account_points extends d3_account_points_parent
 
         return $oD3UserPoints->d3GetTotalSumPoints($oUser->getId());
     }
-
-    /**
-     * @return mixed
-     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
-     */
-    public function d3GetParentThemeId()
-    {
-        /** @var d3_oxtheme_modcfg $oTheme */
-        $oTheme = oxNew(Theme::class);
-        return $oTheme->d3GetParentThemeId();
-    }
-
 }
