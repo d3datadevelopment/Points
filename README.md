@@ -15,4 +15,4 @@ Sie bitte der Dokumentation im docs-Verzeichnis dieses Paketes.
 
     composer require d3/points
     
-Eine detaillierte Installationsanleitung finden Sie im docs-Verzeichnis dieses Pakets.
+Eine detaillierte Installationsanleitung finden auf https://docs.oxidmodule.com/ oder im Verzeichnis /docs/html dieses Pakets.
