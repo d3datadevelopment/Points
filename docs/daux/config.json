@@ -1,0 +1,77 @@
+{
+    "title": "<i class='fab fa-d3 d3fa-color-blue'></i> Bonuspunkte",
+    "moduleversion": "5.0.1.0",
+    "titledesc": "für den Oxid eShop",
+    "author": "D³ Data Development",
+    "moduledate": "17.04.2018",
+    "editors": "MG/KH/TD/SK",
+    "tagline": "",
+    "image": "",
+    "ignore": {
+        "files": ["Work_In_Progress.md", "d3.css", "d3processor.php"],
+        "folders": [".idea","daux.io-master","league", "d3"]
+    },
+    "live": {
+        "clean_urls": true
+    },
+    "html": {
+        "theme": "d3",
+        "breadcrumbs": true,
+        "breadcrumb_separator": "Chevrons",
+        "toggle_code": false,
+        "date_modified": true,
+        "date_modified_format": "d.m.Y",
+        "float": false,
+        "inherit_index": true,
+        "auto_landing": true,
+
+        "links": {
+            "Shop": "http://www.oxidmodule.com",
+            "Blog": "http://blog.oxidmodule.com",
+            "Dokumentation D³-Module": "https://docs.oxidmodule.com/",
+            "FAQ": "http://faq.oxidmodule.com",
+            "D³ Support-Center": "https://support.shopmodule.com/",
+            "Kontakt": "https://www.oxidmodule.com/kontakt",
+            "Impressum": "https://www.oxidmodule.com/impressum"
+        },
+
+        "powered_by": ""
+    },
+    "languages": {
+        "installation": "Installation",
+        "changelog": "Changelog",
+        "support": "Support"
+    },
+    "processor": "d3processor",
+    "language": "de",
+    "strings": {
+        "de": {
+            "CodeBlocks_title": "Code-Blöcke",
+            "CodeBlocks_hide": "Aus",
+            "CodeBlocks_below": "Unterhalb",
+            "CodeBlocks_inline": "Linear",
+            "CodeBlocks_show": "Code-Blöcke anzeigen",
+            "Search_placeholder": "Suchen...",
+            "Link_previous": "Zurück",
+            "Link_next": "Weiter",
+            "Edit_on": "Bearbeiten bei :name:",
+            "View_on_github": "Bei GitHub anzeigen",
+            "View_documentation": "Dokumentation anzeigen",
+            "Table_of_contents": "Inhaltsverzeichnis",
+            "author": "Autor",
+            "moduledate": "Stand",
+            "version": "Version",
+            "editors": "Bearbeiter",
+            "selectversion": "Version wechseln"
+        }
+    },
+    "variables": {
+        "modulename"    : "<i class='fab fa-d3 d3fa-color-blue'></i> Bonuspunkte",
+        "menutitle"     : "<i class='fab fa-d3 d3fa-color-blue'></i> Bonuspunkte",
+        "modulefolder"  : "points",
+        "modcfgident"   : "d3points",
+        "composerident" : "d3/points"
+    },
+    "versionselector": true,
+    "versiondirectoryindex": 2
+}

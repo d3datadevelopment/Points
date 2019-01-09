@@ -38,6 +38,9 @@ class d3_oxorder_d3points extends d3_oxorder_d3points_parent
 {
     private $_sModId = 'd3points';
     public  $iD3UpdatedOrders = 0;
+    public  $iPointPayOutAmount = 0;
+    public  $iUserPointSum = 0;
+    public  $iNewPoints = 0;
 
     /**
      * Save Status d3issetpoints to oxorder
