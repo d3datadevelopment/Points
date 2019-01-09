@@ -55,7 +55,7 @@
                         <br />
                                             <a href="http://blog.oxidmodule.com" target="_blank">Blog</a>
                         <br />
-                                            <a href="https://docs.oxidmodule.com/" target="_blank">Dokumentation D³-Module</a>
+                                            <a href="https://docs.oxidmodule.com/" target="_blank">Dokumentationen</a>
                         <br />
                                             <a href="http://faq.oxidmodule.com" target="_blank">FAQ</a>
                         <br />
@@ -89,16 +89,26 @@
 </blockquote>
 <p>Für das Modul <strong><i class='fab fa-d3 d3fa-color-blue'></i> Bonuspunkte</strong> sind dies die folgende Tabellen und Felder:</p>
 <ul>
-<li>die komplette Tabelle <code>tablename</code>
+<li>die komplette Tabelle <code>d3points</code>
 </li>
 </ul>
-<p>und diese Felder in bestehenden Tabellen:</p>
+<p>und diese Felder in bestehenden Tabellen: **)</p>
 <ul>
-<li>in <code>oxorder</code>:  das Feld <code>fieldname1</code>
+<li>in <code>oxorder</code>:  das Feld <code>D3ISSETPOINTS</code>
 </li>
-<li>in <code>oxuser</code>:  die Felder <code>fieldname2</code> und <code>fieldname2</code>
+<li>in <code>oxuser</code>:  die Felder <code>D3POINTSMAILOPTION</code> und <code>D3POINTSSENDREMINDER</code>
 </li>
 </ul>
+<p>sowie diese Einträge bestehenden Tabellen:</p>
+<ul>
+<li>in Tabelle <code>d3_cfg_mod</code>:
+<ul>
+<li>den Eintrag <code>oxmodid = &quot;d3points&quot;</code> ***)</li>
+</ul>
+</li>
+</ul>
+<p>**) Diese Felder sind für alle (Sub)Shops notwendig. Ist die Entfernung in nur einen von mehreren Mandaten gewünscht, so dürfen diese Felder nicht entfernt werden.
+***) Diesen Eintrag gibt es ggf. für jeden Subshop. Entfernen Sie diesen nur für die Mandanten, in denen das Modul <strong>nicht</strong> mehr installiert ist.</p>
     </div>
 
         <nav>
