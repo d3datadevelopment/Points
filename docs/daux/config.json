@@ -3,7 +3,7 @@
     "moduleversion": "5.0.1.0",
     "titledesc": "für den Oxid eShop",
     "author": "D³ Data Development",
-    "moduledate": "17.04.2018",
+    "moduledate": "09.01.2019",
     "editors": "MG/KH/TD/SK",
     "tagline": "",
     "image": "",
@@ -28,7 +28,7 @@
         "links": {
             "Shop": "http://www.oxidmodule.com",
             "Blog": "http://blog.oxidmodule.com",
-            "Dokumentation D³-Module": "https://docs.oxidmodule.com/",
+            "Dokumentationen": "https://docs.oxidmodule.com/",
             "FAQ": "http://faq.oxidmodule.com",
             "D³ Support-Center": "https://support.shopmodule.com/",
             "Kontakt": "https://www.oxidmodule.com/kontakt",
@@ -72,6 +72,6 @@
         "modcfgident"   : "d3points",
         "composerident" : "d3/points"
     },
-    "versionselector": true,
+    "versionselector": false,
     "versiondirectoryindex": 2
 }

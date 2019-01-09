@@ -48,27 +48,8 @@
 
         
         <div class="details">
-            <div>Autor: D³ Data Development</div>            <div>Stand: 17.04.2018</div>            <div>Version: 5.0.1.0</div>
-            <div>Version wechseln: 
-<select onchange="window.location.href=this.options[this.selectedIndex].value" size="1">
-
-<?php
-    $versionpath = implode("/", array_slice(explode("/", $_SERVER['SCRIPT_NAME']), 2));
-    $modulepath = implode("/", array_slice(explode("/", $_SERVER['SCRIPT_NAME']), 0, 2));
-    $path = str_replace($versionpath, "", $_SERVER['SCRIPT_FILENAME']);
-    $paths = explode('/', $versionpath);
-    $currpath = $paths[0];
-    
-    $dirs = array_filter(glob($path . '/*'), 'is_dir');
-    arsort($dirs);
-
-    foreach ($dirs as $dir) {
-        $dir = str_replace($path.'/', '', $dir);
-        $selected = ($dir === $currpath) ? 'selected="selected"' : "";
-        echo '<option value="'. $modulepath .'/'. $dir .'" '. $selected .'>'. $dir .'</option>';
-    }
-?>
-</select></div>
+            <div>Autor: D³ Data Development</div>            <div>Stand: 09.01.2019</div>            <div>Version: 5.0.1.0</div>
+            
             <div>Bearbeiter: MG/KH/TD/SK</div>        </div>
     </div>
 
@@ -93,7 +74,7 @@
     <div class="Container">
         <div class="Container--inner">
                             <ul class="HomepageFooter__links">
-                    <li><a href="http://www.oxidmodule.com" target="_blank">Shop</a></li><li><a href="http://blog.oxidmodule.com" target="_blank">Blog</a></li><li><a href="https://docs.oxidmodule.com/" target="_blank">Dokumentation D³-Module</a></li><li><a href="http://faq.oxidmodule.com" target="_blank">FAQ</a></li><li><a href="https://support.shopmodule.com/" target="_blank">D³ Support-Center</a></li><li><a href="https://www.oxidmodule.com/kontakt" target="_blank">Kontakt</a></li><li><a href="https://www.oxidmodule.com/impressum" target="_blank">Impressum</a></li>                </ul>
+                    <li><a href="http://www.oxidmodule.com" target="_blank">Shop</a></li><li><a href="http://blog.oxidmodule.com" target="_blank">Blog</a></li><li><a href="https://docs.oxidmodule.com/" target="_blank">Dokumentationen</a></li><li><a href="http://faq.oxidmodule.com" target="_blank">FAQ</a></li><li><a href="https://support.shopmodule.com/" target="_blank">D³ Support-Center</a></li><li><a href="https://www.oxidmodule.com/kontakt" target="_blank">Kontakt</a></li><li><a href="https://www.oxidmodule.com/impressum" target="_blank">Impressum</a></li>                </ul>
             
                     </div>
     </div>
