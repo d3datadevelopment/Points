@@ -229,7 +229,6 @@
                     <td class="listitem">&nbsp;</td>
                 </tr>
 
-                [{block name="d3points_settings_cronjob_actions_table_last_row"}]
                 <tr>
                     <td class="edittext listitem">[{oxmultilang ident="D3_CFG_MOD_d3points_FNC_CRONJOB_PRINT_STATUS"}]</td>
                     <td class="edittext listitem" colspan="2">
@@ -239,6 +238,16 @@
                     </td>
                     <td class="listitem">&nbsp;</td>
                 </tr>
+
+                <tr>
+                    <td class="edittext listitem">[{oxmultilang ident="D3_CFG_MOD_d3points_FNC_CRONJOB_SEND_STATUS_TO"}]</td>
+                    <td class="edittext listitem" colspan="2">
+                        <input class="edittext ext_edittext" type="text" name="value[d3_cfg_mod__sd3points_FNC_CRONJOB_SEND_STATUS_TO]" value='[{$edit->getValue('sd3points_FNC_CRONJOB_SEND_STATUS_TO')}]'>
+                        [{oxinputhelp ident="D3_CFG_MOD_d3points_FNC_CRONJOB_SEND_STATUS_TO_HELP"}]
+                    </td>
+                    <td class="listitem">&nbsp;</td>
+                </tr>
+                [{block name="d3points_settings_cronjob_actions_table_last_row"}]
                 [{/block}]
             </table>
             [{/block}]

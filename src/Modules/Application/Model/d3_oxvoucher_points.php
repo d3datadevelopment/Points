@@ -17,10 +17,7 @@
 
 namespace D3\Points\Modules\Application\Model;
 
-use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
-use D3\ModCfg\Application\Model\Log\d3log;
 use OxidEsales\Eshop\Application\Model\Voucher;
-use OxidEsales\Eshop\Application\Model\VoucherSerie;
 use OxidEsales\Eshop\Core\Exception\VoucherException;
 use OxidEsales\Eshop\Core\Exception\oxObjectException;
 use OxidEsales\Eshop\Core\Exception\oxVoucherException;
@@ -54,11 +51,10 @@ class d3_oxvoucher_points extends d3_oxvoucher_points_parent
             return parent::getDiscountValue($dPrice);
         }
 
+        $dDiscount = $this->getFieldData('oxdiscount') / 100 * $dPrice;
         if ($oSeries->getFieldData('oxdiscounttype') == 'absolute') {
             $oCur      = $this->getConfig()->getActShopCurrencyObject();
             $dDiscount = $this->getFieldData('oxdiscount') * $oCur->rate;
-        } else {
-            $dDiscount = $this->getFieldData('oxdiscount') / 100 * $dPrice;
         }
 
         if ($dDiscount > $dPrice) {
@@ -78,9 +74,9 @@ class d3_oxvoucher_points extends d3_oxvoucher_points_parent
      */
     public function d3GetVoucherSeriesId()
     {
-        /* @var $od3_d3points_d3points d3points */
-        $od3_d3points_d3points = oxnew(d3points::class);
-        return $od3_d3points_d3points->d3GetVoucherSeriesId();
+        /* @var $oD3points d3points */
+        $oD3points = oxnew(d3points::class);
+        return $oD3points->d3GetVoucherSeriesId();
     }
 
 }

@@ -24,7 +24,7 @@ $aModule = array(
     ),
     'lang'        => 'de',
     'thumbnail'   => 'picture.png',
-    'version'     => '5.0.1.0',
+    'version'     => '5.0.2.0',
     'author'      => 'D&sup3; Data Development',
     'url'         => 'http://www.shopmodule.com',
     'email'       => 'support@shopmodule.com',
@@ -45,6 +45,7 @@ $aModule = array(
         'd3rating'                  => \D3\Points\Application\Model\d3rating::class,
         'utils_points'              => \D3\Points\Application\Model\utils_points::class,
         'd3prerunchecks'            => \D3\Points\Application\Model\d3prerunchecks::class,
+        'd3conditions'                => \D3\Points\Application\Model\d3conditions::class,
 
         'd3_d3points_demo'          => \D3\Points\Application\Controller\Admin\demo::class,
         'd3_d3points_licence'       => \D3\Points\Application\Controller\Admin\licence::class,

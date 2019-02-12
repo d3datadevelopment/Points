@@ -75,7 +75,7 @@
             <form name="mailOptionsForm" id="mailOptionsForm" action="[{ $oViewConf->getSelfLink() }]" method="post">
                 [{ $oViewConf->getHiddenSid() }]
                 <input type="hidden" name="cl" value="[{$oViewConf->getActiveClassName()}]">
-                <input type="hidden" name="fnc" value="d3MailOptions">
+                <input type="hidden" name="fnc" value="d3SetMailOptions">
                 <input type="hidden" name="oxid" value="[{ $oxid }]">
                 <table>
                     <tr>

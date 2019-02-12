@@ -37,6 +37,7 @@ class d3_ordermain_d3points extends d3_ordermain_d3points_parent
      * Return Points for Order by given Order-Id
      *
      * @return object
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
      * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
      */
     public function d3GetPointsForOrder()

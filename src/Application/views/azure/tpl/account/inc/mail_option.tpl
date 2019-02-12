@@ -6,7 +6,7 @@
             [{$oViewConf->getHiddenSid()}]
             [{$oViewConf->getNavFormParams()}]
             <input type="hidden" name="cl" value="[{$oViewConf->getActiveClassName()}]">
-            <input type="hidden" name="fnc" value="d3MailOptions">
+            <input type="hidden" name="fnc" value="d3SetMailOptions">
 
             <table class="mail_options">
                 <tr>

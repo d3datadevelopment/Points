@@ -22,12 +22,16 @@ namespace D3\Points\Modules\Application\Model;
 
 use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
 use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException;
 use D3\ModCfg\Application\Model\Log\d3log;
+use Doctrine\DBAL\DBALException;
 use \OxidEsales\Eshop\Core\DatabaseProvider;
 use OxidEsales\Eshop\Application\Model\User;
 use D3\Points\Application\Model\d3points;
 use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
 use OxidEsales\Eshop\Core\Exception\DatabaseErrorException;
+use OxidEsales\Eshop\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\Exception\SystemComponentException;
 
 /**
  * Class d3_oxorder_d3points
@@ -74,9 +78,9 @@ class d3_oxorder_d3points extends d3_oxorder_d3points_parent
      * @return bool
      * @throws DatabaseConnectionException
      * @throws DatabaseErrorException
-     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3ShopCompatibilityAdapterException
+     * @throws DBALException
+     * @throws StandardException
      * @throws d3_cfg_mod_exception
      */
     public function d3ResetOrders($iStatus, $blStatus)
@@ -123,14 +127,12 @@ MYSQL;
             $rs = $oDb->Execute($sUpdate);
 
             return $rs;
-        } else {
-            return false;
         }
+        return false;
     }
 
     /**
      * @return User
-     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
      */
     public function d3getOrderUser()
     {
