@@ -23,9 +23,14 @@ namespace D3\Points\Modules\Application\Controller;
 
 use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
 use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException;
 use D3\ModCfg\Application\Model\Log\d3log;
 use OxidEsales\Eshop\Application\Model\Rating;
 use OxidEsales\Eshop\Application\Controller\ArticleDetailsController;
+use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
+use OxidEsales\Eshop\Core\Exception\DatabaseErrorException;
+use OxidEsales\Eshop\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\Exception\SystemComponentException;
 use OxidEsales\Eshop\Core\Registry;
 use OxidEsales\Eshop\Core\Request;
 use D3\Points\Application\Model\d3points;
@@ -38,7 +43,6 @@ use D3\Points\Application\Model\d3rating;
  */
 class d3_details_Points extends d3_details_points_parent
 {
-
     private $_sModId = 'd3points';
 
     /**
@@ -47,12 +51,12 @@ class d3_details_Points extends d3_details_points_parent
      * Option: if user can get points for more reviews for on article
      *
      * @return null|void
-     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws d3ShopCompatibilityAdapterException
      * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
-     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
+     * @throws StandardException
+     * @throws SystemComponentException
      * @throws d3_cfg_mod_exception
      */
     public function saveReview()
@@ -81,7 +85,6 @@ class d3_details_Points extends d3_details_points_parent
 
             if ($this->canAcceptFormData() && ($oUser = $this->getUser()) && ($oProduct = $this->getProduct())
             ) {
-
                 $dRating = Registry::get(Request::class)->getRequestEscapedParameter('artrating');
                 if ($dRating !== null) {
                     $dRating = (int)$dRating;
@@ -99,10 +102,8 @@ class d3_details_Points extends d3_details_points_parent
                 if ($sReviewText = trim((string)Registry::get(Request::class)->getRequestEscapedParameter('rvw_txt', true))) {
                     $oD3Rating->d3SetPointsForReview();
                 }
-
                 $oD3Rating->d3SendReviewMail();
             }
-
             $this->getD3Log()->Log(
             d3log::INFO,
             __CLASS__,
@@ -119,8 +120,8 @@ class d3_details_Points extends d3_details_points_parent
     /**
      * @return object
      * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
      */
     public function getModCfg()
     {
@@ -130,8 +131,8 @@ class d3_details_Points extends d3_details_points_parent
     /**
      * @return d3log
      * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
      */
     public function getD3Log()
     {

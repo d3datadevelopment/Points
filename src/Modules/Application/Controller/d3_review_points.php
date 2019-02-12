@@ -142,5 +142,4 @@ class d3_review_points extends d3_review_points_parent
     {
         return $this->getModCfg()->d3getLog();
     }
-
 }

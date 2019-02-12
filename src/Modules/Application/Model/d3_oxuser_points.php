@@ -21,9 +21,16 @@
 namespace D3\Points\Modules\Application\Model;
 
 use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
+use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException;
 use D3\ModCfg\Application\Model\Log\d3log;
+use Doctrine\DBAL\DBALException;
 use OxidEsales\Eshop\Core\Config;
 use \OxidEsales\Eshop\Core\DatabaseProvider;
+use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
+use OxidEsales\Eshop\Core\Exception\DatabaseErrorException;
+use OxidEsales\Eshop\Core\Exception\StandardException;
+use OxidEsales\Eshop\Core\Exception\SystemComponentException;
 use OxidEsales\Eshop\Core\Registry;
 use OxidEsales\Eshop\Core\Request;
 use D3\Points\Application\Model\d3points;
@@ -44,12 +51,12 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      * @param bool $blIsMallMode
      *
      * @return bool
-     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
-     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3ShopCompatibilityAdapterException
+     * @throws d3_cfg_mod_exception
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
+     * @throws StandardException
      */
     public function d3CheckUserWithAccount($blIsMallMode)
     {
@@ -80,12 +87,12 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      * if "Kunden ohne Kundenkonto erhalten Bonuspunkte" is not set/false --> check for password, it returns fals if not password is set
      *
      * @return bool
-     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
-     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3ShopCompatibilityAdapterException
+     * @throws d3_cfg_mod_exception
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
+     * @throws StandardException
      */
     protected function _d3blUserHasAccount()
     {
@@ -108,12 +115,12 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      * if oxactive == 0/false --> return false
      *
      * @return bool
-     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
-     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3ShopCompatibilityAdapterException
+     * @throws d3_cfg_mod_exception
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
+     * @throws StandardException
      */
     protected function _d3blUserIsActive()
     {
@@ -135,12 +142,12 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      * @param bool $blIsMallMode
      *
      * @return bool
-     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
-     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3ShopCompatibilityAdapterException
+     * @throws d3_cfg_mod_exception
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
+     * @throws StandardException
      */
     protected function _d3blUserHasShopId($blIsMallMode)
     {
@@ -168,8 +175,8 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      * @param string $sUserId
      *
      * @return bool
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
      */
     public function d3UpdateReminderDate($sUserId)
     {
@@ -184,9 +191,9 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      * @param string $sRecEmail
      *
      * @return bool
-     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
+     * @throws d3_cfg_mod_exception
      * @throws \Exception
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws DatabaseConnectionException
      */
     public function setCreditPointsForRegistrant_( $sUserId,$sRecEmail )
     {
@@ -203,9 +210,9 @@ class d3_oxuser_points extends d3_oxuser_points_parent
 
     /**
      * @return bool
-     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
+     * @throws d3_cfg_mod_exception
      * @throws \Exception
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws DatabaseConnectionException
      */
     public function setCreditPointsForInvite_()
     {
@@ -223,10 +230,10 @@ class d3_oxuser_points extends d3_oxuser_points_parent
 
     /**
      * @return null|object
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
+     * @throws SystemComponentException
      */
     public function d3GetAllPoints()
     {
@@ -241,9 +248,9 @@ class d3_oxuser_points extends d3_oxuser_points_parent
 
     /**
      * @return d3_cfg_mod
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
      */
     public function getModCfg()
     {
@@ -252,9 +259,9 @@ class d3_oxuser_points extends d3_oxuser_points_parent
 
     /**
      * @return d3log
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
      */
     public function getD3Log()
     {

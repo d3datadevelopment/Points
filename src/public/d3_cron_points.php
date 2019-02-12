@@ -25,7 +25,6 @@
 
 namespace D3\Points\publica;
 
-use Composer\Config;
 use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
 use D3\ModCfg\Application\Model\Log\d3log;
 use \Exception;
@@ -35,6 +34,8 @@ use OxidEsales\Eshop\Core\Session;
 use D3\Points\Application\Model\utils_points;
 use D3\Points\Application\Model\d3points;
 use OxidEsales\Eshop\Core\Controller\BaseController;
+use OxidEsales\Eshop\Core\Config;
+use OxidEsales\EshopCommunity\Core\Email;
 
 require_once dirname(__FILE__) . "/../../../../bootstrap.php";
 
@@ -67,7 +68,7 @@ class d3_Cron_Points extends BaseController
     {
         //Shopid setzten
         $sShopId = utils_points::d3_d3pointsUtils_CheckShopId();
-        Registry::get(\OxidEsales\Eshop\Core\Config::class)->setShopId($sShopId);
+        Registry::get(Config::class)->setShopId($sShopId);
 
         //Modul aktiv
         if (!$this->getModCfg()->isActive())
@@ -87,11 +88,12 @@ class d3_Cron_Points extends BaseController
         $sGetAccessKey = Registry::get(Request::class)->getRequestEscapedParameter('key');
         $sValidAccessKey = $this->getModCfg()->getValue('d3points_ACCESSKEY');
 
-        if (!$sValidAccessKey)
+        if (!$sValidAccessKey) {
             $sValidAccessKey = $this->_sDefaultAccessKey;
+        }
         if (($_SERVER['REMOTE_ADDR'] || $_SERVER['HTTP_USER_AGENT']) && $sValidAccessKey != $sGetAccessKey)
         {
-            $this->getD3Log()->Log(d3log::CRITICAL, __CLASS__, __FUNCTION__, __LINE__, "shutdown", " access with browser!. ");
+            $this->getD3Log()->Log(d3log::CRITICAL, __CLASS__, __FUNCTION__, __LINE__, "shutdown", "access with browser!.");
             die("security shutdown");
         }
 
@@ -106,7 +108,6 @@ class d3_Cron_Points extends BaseController
         }
 
         //Go to d3points an perform some actions
-
         /** @var d3points $od3points */
         $od3points = oxnew(d3points::class);
         $ret = 'Start CronJob';
@@ -114,6 +115,12 @@ class d3_Cron_Points extends BaseController
         if($this->getModCfg()->getValue('bld3points_FNC_CRONJOB_PRINT_STATUS') == true)
         {
             $ret.= $sStatus;
+        }
+
+        if(trim($this->getModCfg()->getValue('sd3points_FNC_CRONJOB_SEND_STATUS_TO')) != '') {
+            $oMail    = oxNew(Email::class);
+            $sTextAdd = 'CronJob Bonuspunkte - ' . date('H:i:s d.m.Y') . PHP_EOL;
+            $oMail->sendEmail($this->getModCfg()->getValue('sd3points_FNC_CRONJOB_SEND_STATUS_TO'), 'CronJob Bonuspunkte', nl2br($sTextAdd . $sStatus));
         }
 
         $this->getD3Log()->Log(d3log::INFO, __CLASS__, __FUNCTION__, __LINE__, "End CronJob-Bonuspunkte Report", $ret);
@@ -145,8 +152,6 @@ class d3_Cron_Points extends BaseController
     {
         return $this->getModCfg()->d3getLog();
     }
-
-
 }
 $oBV = new d3_Cron_Points;
 $oBV->init();

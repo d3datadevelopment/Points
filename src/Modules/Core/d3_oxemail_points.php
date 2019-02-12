@@ -124,6 +124,8 @@ class d3_oxemail_points extends d3_oxemail_points_parent
 
     private $_sModId = 'd3points';
 
+    private $_sReturnMessage = '';
+
     /**
      * Mail with VoucherCode
      * after voucher is created by user
@@ -229,8 +231,6 @@ class d3_oxemail_points extends d3_oxemail_points_parent
      */
     public function d3SendRemindPointsMail(User $oUser, $iLang = 0)
     {
-        $blSend = false;
-
         //sets language of shop
         $iCurrLang = $iLang;
 
@@ -397,8 +397,6 @@ class d3_oxemail_points extends d3_oxemail_points_parent
      */
     function d3SendPointsForReviewMail(Article $oProduct, User $oUser)
     {
-        $blSend = false;
-
         //sets language of shop
         $iLang     = Registry::get(Config::class)->getActiveShop()->getLanguage();
         $iCurrLang = $iLang;
@@ -546,7 +544,6 @@ class d3_oxemail_points extends d3_oxemail_points_parent
 
         // add to user history
         $this->d3WriteRemark($this->getAltBody(), $oUser->getId(), "r");
-
         return $blSend;
     }
 
@@ -680,6 +677,7 @@ class d3_oxemail_points extends d3_oxemail_points_parent
      */
     public function d3SendMailForManuelPoints(User $oUser, d3points $oPoint, $iLang = 0)
     {
+
         $myConfig = Registry::get(Config::class);
         //sets language of shop
         $iCurrLang = $iLang;
@@ -699,7 +697,6 @@ class d3_oxemail_points extends d3_oxemail_points_parent
 
         //create messages
         $oLang = Registry::getLang();
-
         // dodger #1469 - we need to patch security here as we do not use standard template dir, so smarty stops working
         $aStore['INCLUDE_ANY'] = $oSmarty->security_settings['INCLUDE_ANY'];
         //V send email in order language
@@ -746,7 +743,7 @@ class d3_oxemail_points extends d3_oxemail_points_parent
         if ($this->getModCfg()->hasTestMode()) {
             $sEMailAdress = $this->d3GetEMAILSTEST();
         } else {
-            $sEMailAdress = $oUser->getFieldData('oxusername');
+           $sEMailAdress = $oUser->getFieldData('oxusername');
         }
 
         $sFullName = $oUser->getFieldData('oxfname') . " " . $oUser->getFieldData('oxlname');
@@ -790,8 +787,10 @@ class d3_oxemail_points extends d3_oxemail_points_parent
         $sLine,
         "Template: " . $sTemplate . " not found"
         );
+
         if ($this->getModCfg()->hasDebugMode()) {
-            echo "Template: " . $sTemplate . " not found";
+            //todo: output as errosmessage
+            $this->_d3AddReturnMessage("Template: " . $sTemplate . " not found");
         }
     }
 
@@ -830,7 +829,6 @@ class d3_oxemail_points extends d3_oxemail_points_parent
     {
         /* @var $od3points d3points */
         $od3points = oxnew(d3points::class);
-
         return $od3points->d3WriteRemark($sMessage, $sUserId, $sType);
     }
 
@@ -850,7 +848,6 @@ class d3_oxemail_points extends d3_oxemail_points_parent
         if ($this->getModCfg()->getValue('d3points_EMAILS_TEST') != '') {
             return $this->getModCfg()->getValue('d3points_EMAILS_TEST');
         }
-
         $sMessage = 'Testmodus is active, but no mailaddress ist set. Us instead Infomailaddress.';
         $this->getModCfg()->d3getLog()->Log(
         d3log::WARNING,
@@ -862,7 +859,8 @@ class d3_oxemail_points extends d3_oxemail_points_parent
         );
 
         if ($this->getModCfg()->hasDebugMode()) {
-            echo $sMessage - PHP_EOL;
+            //todo: output as errosmessage
+            $this->_d3AddReturnMessage($sMessage);
         }
 
         $oShop = $this->_getShop();
@@ -881,6 +879,48 @@ class d3_oxemail_points extends d3_oxemail_points_parent
     public function d3GetEMAILSBCC()
     {
         return $this->getModCfg()->getValue('d3points_EMAILS_BCC');
+    }
+
+    ###########
+    ##Internal-Message-System
+
+    /**
+     * Return Internal-Message
+     * to collect Error and Success-Messages
+     *
+     * @return String
+     */
+    public function d3GetReturnMessage()
+    {
+        return $this->_sReturnMessage;
+    }
+
+    /**
+     * @param $sMessage
+     */
+    public function d3SetReturnMessage($sMessage)
+    {
+        $this->_sReturnMessage = $sMessage;
+    }
+
+    /**
+     * Add Text to Internal-Message
+     * add \n on the end
+     *
+     * @param string $sMessage
+     */
+    protected function _d3AddReturnMessage($sMessage)
+    {
+        $this->_sReturnMessage .= PHP_EOL . $sMessage;
+    }
+
+    /**
+     * Clear Internal-Message
+     *
+     */
+    protected function _d3ClearReturnMessage()
+    {
+        $this->_sReturnMessage = '';
     }
 
     /**

@@ -2,9 +2,14 @@
 title: Changelog
 ---
 
+Version 5.0.2.0
+- Punkte für Bewertungen konnten nicht vergeben werden
+- kleine Refactoring  Arbeiten
+- Ausgabe des CronJobs kann als Email versendet werden
+
 Version 5.0.1.0
 - Kleine Layoutänderung im Kundenkonto(nur Flow Theme). Die Angaben zu den Gutscheinen werden jetzt übersichtlicher dargestellt
-- Die .sh-Datei für den CronJob kann es im Admin des Moduls erstellt werden.
+- Die .sh-Datei für den CronJob kann nun im Admin des Moduls erstellt werden.
 
 Version 5.0.0.2
 - Kleine Nachbesserung der Dokumentation

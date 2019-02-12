@@ -22,10 +22,13 @@
 namespace D3\Points\Modules\Application\Controller;
 
 use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
-use D3\ModCfg\Application\Model\Log\d3log;
-use OxidEsales\Eshop\Core\Theme;
-use OxidEsales\Eshop\Application\Controller\AccountController;
+use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException;
 use D3\Points\Application\Model\d3points;
+use Doctrine\DBAL\DBALException;
+use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
+use OxidEsales\Eshop\Core\Exception\DatabaseErrorException;
+use OxidEsales\Eshop\Core\Exception\StandardException;
 
 /**
  * Class d3_account_points
@@ -38,12 +41,12 @@ class d3_account_points extends d3_account_points_parent
 
     /**
      * @return string
-     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
-     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3ShopCompatibilityAdapterException
+     * @throws d3_cfg_mod_exception
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
+     * @throws StandardException
      */
     public function render()
     {
@@ -61,12 +64,12 @@ class d3_account_points extends d3_account_points_parent
      * Ob Modul aktiv ist
      *
      * @return bool
-     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
-     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3ShopCompatibilityAdapterException
+     * @throws d3_cfg_mod_exception
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
+     * @throws StandardException
      */
     public function d3IsD3PointsActive()
     {
@@ -77,9 +80,9 @@ class d3_account_points extends d3_account_points_parent
      * Gibt die Summe der aktuellen Bonuspunkte zurück
      *
      * @return integer
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws DBALException
+     * @throws DatabaseConnectionException
+     * @throws DatabaseErrorException
      */
     public function getPointsTotalSum()
     {
@@ -90,7 +93,6 @@ class d3_account_points extends d3_account_points_parent
 
         /* @var $oD3UserPoints d3points */
         $oD3UserPoints = oxNew(d3points::class);
-
         return $oD3UserPoints->d3GetTotalSumPoints($oUser->getId());
     }
 }

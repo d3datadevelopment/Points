@@ -31,14 +31,14 @@ class d3_points_update extends d3install_updatebase
 {
     public $sModKey = 'd3points';
     public $sModName = 'Bonuspunkte';
-    public $sModVersion = '5.0.1.0';
-    public $sModRevision = '870';
-    public $sBaseConf = 'tM7v2==bEllUTI2UDlma2ZDZkxTRXlEQ1Y5R2Z2c3ZjOUdVRXBxYjBYM3JpeEt5ZEFxT254VkQ0Z2NTc
-HJpL3JGZDVQUm9SYXIzWlF0T2Z1eGlBdFNEZXhMSDBFTzc1dGlZcXkyRmkrd0llVFFJZ2orWGtuWU8zW
-HhIRUFOTko3YUdDVE1Fb1AxenNhbFpURk9meE5uM20raDNlUlpMNVdxTCs3Q2wyMS9JWEY4dHdKS1Fwb
-zdndXdwWGlGU3ZTNWVPaGd2WjllYmtVVTZlQTZ5WFZQV05uckxWRHExcmRpOTBNeGdSN01iVzlDeGsxV
-kw1cUZZR3dnNWh4SGJ1MS9MWlBjR091WElyMm42ck12bDNRZklFMm90cmx5dDJjVU8zdW5RQ3d1SXl5S
-2FIdks1NzRHSGNNQVlxVldSY2JUMzdlVnI=';
+    public $sModVersion = '5.0.2.0';
+    public $sModRevision = '5020';
+    public $sBaseConf = 'ikjv2==eHNaaFNQdmovK0s1RHNxRzZENDhQMnlHNG1TR1pSZDJ2dVR2Q043VExXWTVVZVVkbHVMMGY3M
+UJaQjFTVklTRGpWK0Z3K25mamc5bVIyb21nTGJncE5FT0RjdkhPSEpQMm1NYkJoQ0d0dWI2K3czbVNvS
+DlGOVFRS1VGTnRaY05tWm5BWHkxZVB6VmFlRVkrTUNGcEI0TzF4dE8wWUlHSG9TbUc1TFlCR1RMdGRuU
+UVOUjZUMjV6aFZudUFrZEFsQXJhemh0NFZQZkNlNndHY05oTThtNHgybitFS3JtTUIrdFc5ekx0aVAxZ
+jFYL1h6UUZPMTZXcG0wNHhQaGdFb2hrc0RQWjA2UDRaUmhkNFRWY0dFQ21ZV25RLzE5SUFUSGlKZm94N
+3NuVXdoVGNSODgvTGkxMnQzQ25pWFZDZnk=';
 
     public $sRequirements = '';
     public $sBaseValue = '';
