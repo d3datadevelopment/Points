@@ -11,12 +11,22 @@
     [{elseif $oModCfg_d3points->isThemeIdMappedTo('flow')}]
         <div class="panel panel-default">
             <div class="panel-heading">
-                <a id="linkAccountOrder" href="[{oxgetseourl ident=$oViewConf->getSelfLink()|cat:"cl=d3_d3points_accountpoints"}]">[{oxmultilang ident="INC_ACCOUNT_HEADER_D3MYPOINTS"}]</a>
+                <a id="linkAccountPoints" href="[{oxgetseourl ident=$oViewConf->getSelfLink()|cat:"cl=d3_d3points_accountpoints"}]">[{oxmultilang ident="INC_ACCOUNT_HEADER_D3MYPOINTS"}]</a>
                 <a href="[{oxgetseourl ident=$oViewConf->getSslSelfLink()|cat:"cl=d3_d3points_accountpoints"}]" class="btn btn-default btn-xs pull-right">
                     <i class="fa fa-arrow-right"></i>
                 </a>
             </div>
             <div class="panel-body">[{oxmultilang ident="D3_INC_ACCOUNT_HEADER_POINTS"}] [{if $oViewConf->d3getPointsTotalSum() > 0}][{$oViewConf->d3getPointsTotalSum()}][{/if}]</div>
+        </div>
+    [{elseif $oModCfg_d3points->isThemeIdMappedTo('wave')}]
+        <div class="card">
+            <div class="card-header">
+                <a id="linkAccountPoints" href="[{oxgetseourl ident=$oViewConf->getSelfLink()|cat:"cl=d3_d3points_accountpoints"}]">[{oxmultilang ident="INC_ACCOUNT_HEADER_D3MYPOINTS"}]</a>
+                <a href="[{oxgetseourl ident=$oViewConf->getSslSelfLink()|cat:"cl=d3_d3points_accountpoints"}]" class="btn btn-outline-dark btn-sm float-right edit-button">
+                    <i class="fa fa-arrow-right"></i>
+                </a>
+            </div>
+            <div class="card-body">[{oxmultilang ident="D3_INC_ACCOUNT_HEADER_POINTS"}] [{if $oViewConf->d3getPointsTotalSum() > 0}][{$oViewConf->d3getPointsTotalSum()}][{/if}]</div>
         </div>
     [{else}]
     [{/if}]

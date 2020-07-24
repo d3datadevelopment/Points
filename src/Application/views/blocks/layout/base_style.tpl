@@ -7,6 +7,8 @@
             [{oxstyle include=$oViewConf->getModuleUrl('d3points', 'out/src/css/d3bonuspoints_azure.css')}]
         [{elseif $oModCfg_d3points->isThemeIdMappedTo('flow')}]
             [{oxstyle include=$oViewConf->getModuleUrl('d3points', 'out/src/css/d3bonuspoints_flow.css')}]
+        [{elseif $oModCfg_d3points->isThemeIdMappedTo('wave')}]
+            [{oxstyle include=$oViewConf->getModuleUrl('d3points', 'out/src/css/d3bonuspoints_wave.css')}]
         [{else}]
         [{/if}]
     [{/if}]

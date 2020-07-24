@@ -95,12 +95,19 @@ class d3_oxorder_d3points extends d3_oxorder_d3points_parent
             /* @var $od3points d3points */
             $od3points          = oxnew(d3points::class);
             $sD3PointsDateLimit = $od3points->d3GetDateLimitForOrders();
-            $sDate              = date("Y-m-d", strtotime('-' . $sD3PointsDateLimit . ' month'));
+            $sD3PointsTypeLimit = $od3points->d3GetDateLimitTypeForOrders();
+
+            $sDateSqlAdd = '';
+            if ($sD3PointsDateLimit > 0 && $sD3PointsTypeLimit != '--') {
+                //todo: Umstellung auf Mysql Date_ADD
+                $sDateSqlAdd = "WHERE oxorderdate >= {$oDb->quote(date("Y-m-d", strtotime('-' . $sD3PointsDateLimit . $sD3PointsTypeLimit)))}";
+                #$sDateSqlAdd = " AND oxorderdate >=  DATE_ADD(NOW(), Interval - ". $iD3PointsDateLimit ." " .$sD3PointsTypeLimit. ")";
+            }
 
             $sSelect =<<<MYSQL
 SELECT count(oxid)
 FROM {$this->_sCoreTable}
-WHERE oxorderdate >= {$oDb->quote($sDate)}
+{$sDateSqlAdd}
 AND OXSHOPID = {$oDb->quote($this->getConfig()->getShopId())}
 MYSQL;
 
@@ -109,10 +116,9 @@ MYSQL;
             $sUpdate = <<<MYSQL
 UPDATE {$this->_sCoreTable}
 SET d3issetpoints= {$oDb->quote($iStatus)}
-WHERE  oxorderdate >= {$oDb->quote($sDate)}
+{$sDateSqlAdd}
 AND OXSHOPID ={$oDb->quote($this->getConfig()->getShopId())}
 MYSQL;
-
 
             d3_cfg_mod::get($this->_sModId)->d3getLog()->Log(
             d3log::INFO,
