@@ -1,195 +1,444 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.2.1 PHP71 (17.03.2020) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2020, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-FxocIMUSsm==
+<?php
+
+/**
+ * This Software is the property of D³ Data Development
+ * and is protected by copyright law - it is NOT Freeware.
+ *
+ * Any unauthorized use of this software without a valid license
+ * key is a violation of the license agreement and will be
+ * prosecuted by civil and criminal law.
+ *
+ * D3 Data Development
+ * Inhaber: Thomas Dartsch
+ * Alle Rechte vorbehalten
+ *
+ * @package "Bonuspunkte"
+ * @author Thomas Dartsch <thomas.dartsch@shopmodule.com> / Markus Gärtner <markus.gaertner@shopmodule.com>
+ * @copyright (C) 2011, D3 Data Development
+ * @see http://www.shopmodule.com
+ *
+ */
+
+namespace D3\Points\Application\Controller\Admin;
+
+use D3\ModCfg\Application\Controller\Admin\d3_cfg_mod_main;
+use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use OxidEsales\Eshop\Core\Config;
+use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
+use OxidEsales\Eshop\Core\Request;
+use D3\Points\Application\Model\utils_points;
+use OxidEsales\Eshop\Core\Registry;
+
+use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
+use D3\ModCfg\Application\Model\d3str;
+use D3\ModCfg\Application\Model\Filegenerator\d3filegeneratorcronsh;
+use D3\ModCfg\Application\Model\Shopcompatibility\d3ShopCompatibilityAdapterHandler;
+use OxidEsales\Eshop\Application\Model\Shop;
+use OxidEsales\Eshop\Core\Module\Module;
+use OxidEsales\Eshop\Core\ViewConfig;
+use D3\Points\Application\Model\d3points;
+
+
+class settings extends d3_cfg_mod_main
+{
+    protected $_sThisTemplate = 'd3points_settings.tpl';
+    protected $_sModId = 'd3points';
+    protected $_sMenuItemTitle = 'd3mxd3points';
+    protected $_sMenuSubItemTitle = 'd3mxd3points_SETTINGS';
+    protected $_sHelpLinkMLAdd = 'D3POINTS_HELPLINK_CONFIG';
+    protected $_blHasDebugSwitch = TRUE;
+    protected $_blHasTestModeSwitch = TRUE;
+
+    protected $_sDebugHelpTextIdent = 'D3_CFG_d3points_DEBUG_MODUS_HELP';
+    protected $_sTestModeHelpTextIdent = 'D3_CFG_d3points_TEST_MODUS_HELP';
+
+    /**
+     * @return string
+     * @throws DatabaseConnectionException
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3_cfg_mod_exception
+     */
+    public function render()
+    {
+        $ret = parent::render();
+        #echo __LINE__;
+        #dumpvar($this->d3GetSet()->oValue);
+
+        return $ret;
+    }
+
+    /**
+     * Add some arrays to config
+     * transform SELECTIONGROUPS[SELECTION_GROUPS_4_POINTS][] to "d3points_SELECTION_GROUPS_4_POINTS" and save it under "d3_cfg_mod__d3points_SELECTION_GROUPS_4_POINTS"
+     *
+     * @return void
+     * @throws DatabaseConnectionException
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws d3_cfg_mod_exception
+     */
+    public function save()
+    {
+        parent::save();
+        $ad3Points = Registry::get(Request::class)->getRequestEscapedParameter('SELECTIONGROUPS');
+        #dumpvar($ad3Points);
+        if ($ad3Points != 0 && count($ad3Points) > 0)
+        {
+            foreach (Registry::get(Request::class)->getRequestEscapedParameter('SELECTIONGROUPS') AS $key => $aGroup)
+            {
+                #echo $key;
+                #dumpvar($aGroup);
+                $this->d3GetSet()->setValue('d3points_' . $key, array());
+                $this->d3GetSet()->setValue('d3points_' . $key, serialize($aGroup));
+
+                //neu
+                #$this->getSet()->save();
+            }
+        }
+        #parent::save();
+
+        $this->d3GetSet()->prepareSaveData();
+        $this->d3GetSet()->save();
+    }
+
+    /**
+     * Kundengruppen freigeben
+     *
+     * @return array alist
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function d3_PrepareGroups4Points()
+    {
+        $oGroups = array();
+        $aGroups = unserialize($this->d3GetSet()->getValue('d3points_SELECTION_GROUPS_4_POINTS'));
+        foreach ($this->d3_GetGroups() as $oGroup)
+        {
+            if (is_array($aGroups))
+            {
+                if (in_array($oGroup->oxgroups__oxid->getRawValue(), $aGroups))
+                {
+                    $oGroup->select = 1;
+                    #$oGroup->save();
+                }
+            }
+            $oGroups[] = $oGroup;
+        }
+        return $oGroups;
+    }
+
+    /**
+     * Kundengruppen ausschließen
+     *
+     * @return array alist
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function d3_PrepareGroups4NoPoints()
+    {
+        $oGroups = array();
+        $aGroups = unserialize($this->d3GetSet()->getValue('d3points_SELECTION_GROUPS_4_NO_POINTS'));
+        foreach ($this->d3_GetGroups() as $oGroup)
+        {
+            if (is_array($aGroups))
+            {
+                if (in_array($oGroup->oxgroups__oxid->getRawValue(), $aGroups))
+                {
+                    $oGroup->select = 1;
+                    #$oGroup->save();
+                }
+            }
+            $oGroups[] = $oGroup;
+        }
+        return $oGroups;
+    }
+
+    /**
+     * Load Groups
+     *
+     * @return object alist
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    protected function d3_GetGroups()
+    {
+        $oGroups = utils_points::d3_d3pointsUtils_LoadGroups();
+        return $oGroups;
+    }
+
+    /**
+     * Gesetztes "bezahlt am"-Datum
+     *
+     * @return array alist
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function d3_PreparePaymentsPaid4Points()
+    {
+        $oPayments = array();
+        $aPayments = unserialize($this->d3GetSet()->getValue('d3points_SELECTION_PAYMENTS_PAID_4_POINTS'));
+
+        foreach ($this->d3_GetPayments() as $oPayment)
+        {
+            if (is_array($aPayments))
+            {
+                if (in_array($oPayment->oxpayments__oxid->getRawValue(), $aPayments))
+                {
+                    $oPayment->select = 1;
+                    #$oPayment->save();
+                }
+            }
+            $oPayments[] = $oPayment;
+        }
+        return $oPayments;
+    }
+
+    /**
+     * Bezahlarten für "Keine Punkte bei folgenden Zahlarten"
+     *
+     * @return array  $oPayment
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function d3_PreparePayments4NoPoints()
+    {
+        $oPayments = array();
+        $aPayments = unserialize($this->d3GetSet()->getValue('d3points_SELECTION_PAYMENTS_4_NO_POINTS'));
+
+        foreach ($this->d3_GetPayments() as $oPayment)
+        {
+            if (is_array($aPayments))
+            {
+                if (in_array($oPayment->oxpayments__oxid->getRawValue(), $aPayments))
+                {
+                    $oPayment->select = 1;
+                    #$oPayment->save();
+                }
+            }
+            $oPayments[] = $oPayment;
+        }
+    	#dumpvar($oPayments);
+        return $oPayments;
+    }
+
+    /**
+     * Versandtdatum bei folgenden Bezahlarten prüfen
+     *
+     * @return array alist
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function d3_PrepareDeliveryDate4NoPoints()
+    {
+        $oPayments = array();
+        $aPayments = unserialize($this->d3GetSet()->getValue('d3points_SELECTION_DELIVERYDATE_4_NO_POINTS'));
+
+        foreach ($this->d3_GetPayments() as $oPayment)
+        {
+            if (is_array($aPayments))
+            {
+                if (in_array($oPayment->oxpayments__oxid->getRawValue(), $aPayments))
+                {
+                    $oPayment->select = 1;
+                    #$oPayment->save();
+                }
+            }
+            $oPayments[] = $oPayment;
+        }
+        return $oPayments;
+    }
+
+    /**
+     * Load Payment methods
+     *
+     * @return object alist
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    protected function d3_GetPayments()
+    {
+        /* @var $d3Utils utils_points */
+        $d3Utils = oxnew(utils_points::class);
+        return $d3Utils->d3_d3pointsUtils_LoadPayments();
+    }
+
+    /**
+     * Return URL-Paramete with String
+     * only if is in subshop
+     *
+     * @return string
+     */
+    public function d3GetShopId()
+    {
+        $sShopId = Registry::getConfig()->getShopId();
+        if ($sShopId != '1') {
+            return "&shp=" . $sShopId;
+        }
+        return "";
+    }
+
+    /**
+     * @return string
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function d3GetRandomCode()
+    {
+        /* @var $d3Utils utils_points */
+        $d3Utils = oxnew(utils_points::class);
+        return $d3Utils->d3_d3pointsUtils_d3GetRandomVoucher();
+    }
+
+    /**
+     * @return array
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function d3GetOxFolders4Points()
+    {
+        $oFolders = array();
+        $aFolders = unserialize($this->d3GetSet()->getValue('d3points_SELECTION_FOLDERS_4_POINTS'));
+        foreach ($this->getFolderFromOxConfig() as $key => $sColor)
+        {
+            $oFolder = NULL;
+            $oFolder->id = $key;
+            $oFolder->color = $sColor;
+            if (is_array($aFolders))
+            {
+                if (in_array($key, $aFolders))
+                {
+                    $oFolder->select = 1;
+                    #$oPayment->save();
+                }
+            }
+            $oFolders[] = $oFolder;
+        }
+        return $oFolders;
+    }
+
+    /**
+     * @return array
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function d3GetOxFolders4NoPoints()
+    {
+        $oFolders = array();
+        $aFolders = unserialize($this->d3GetSet()->getValue('d3points_SELECTION_FOLDERS_4_NO_POINTS'));
+        #dumpvar($aFolders);
+        foreach ($this->getFolderFromOxConfig() as $key => $sColor)
+        {
+            $oFolder = NULL;
+            $oFolder->id = $key;
+            $oFolder->color = $sColor;
+            if (is_array($aFolders))
+            {
+                if (in_array($key, $aFolders))
+                {
+                    $oFolder->select = 1;
+                    #$oPayment->save();
+                }
+            }
+            $oFolders[] = $oFolder;
+        }
+
+        return $oFolders;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getFolderFromOxConfig()
+    {
+        return Registry::get(Request::class)->getConfigParam('aOrderfolder');
+    }
+
+    /**
+     * @param bool $blUsePw
+     * @param bool|int $iCronJobId
+     *
+     * @return string
+     * @throws DatabaseConnectionException
+     * @throws \Exception
+     */
+    public function getCronLink($blUsePw, $iCronJobId = false)
+    {
+        $sBaseUrl = $this->getViewConfig()->getModuleUrl('d3points').'public/d3_cron_points.php';
+
+        $aParameters = array(
+            'shp' => $this->getViewConfig()->getActiveShopId(),
+        );
+
+        if ($iCronJobId !== false) {
+            $aParameters['cjid'] = $iCronJobId;
+        }
+
+        if ($blUsePw == true) {
+            $aParameters['key'] = $this->d3GetSet()->getValue('d3points_ACCESSKEY') ?
+                $this->d3GetSet()->getValue('d3points_ACCESSKEY') :
+                $this->d3GetRandomCode();
+        }
+
+        //$sURL   = $this->getD3Str()->generateParameterUrl($sBaseUrl, $aParameters);
+
+        $oD3Str = oxNew(d3str::class);
+        $sURL   = $oD3Str->generateParameterUrl($sBaseUrl, $aParameters);
+
+        return $sURL;
+    }
+
+    /**
+     * @return array
+     */
+    public function getCronProviderList()
+    {
+        /** @var d3filegeneratorcronsh $oD3ShGenerator */
+        $oD3ShGenerator = oxNew(d3filegeneratorcronsh::class);
+
+        return $oD3ShGenerator->getContentList();
+    }
+
+    public function generateCronShFile()
+    {
+        $oModule = oxNew(Module::class);
+
+        $oD3CompatibilityAdapterHandler = oxNew(d3ShopCompatibilityAdapterHandler::class);
+        $sModulePath = $oD3CompatibilityAdapterHandler->call(
+            'oxmodule__getModuleFullPath',
+            array($oModule, d3_cfg_mod::get($this->_sModId)->getMetaModuleId())
+        );
+
+        $sScriptPath = $sModulePath . "/public/d3_cron_points.php";
+
+        //$sCronId = Registry::get(Request::class)->getRequestEscapedParameter('cronid');
+
+        $oShop = Registry::getConfig()->getActiveShop();
+        $aParameters = array(
+            //0 => $oShop->getId(),
+            //1 => $sCronId,
+        );
+
+        $oD3ShGenerator = oxNew(d3filegeneratorcronsh::class);
+
+        $oD3ShGenerator->setContentType(Registry::get(Request::class)->getRequestParameter('crontype'));
+        $oD3ShGenerator->setScriptPath($sScriptPath);
+        $oD3ShGenerator->setSortedParameterList($aParameters);
+        $oD3ShGenerator->startDownload('d3_cron_points_'.$oShop->getId().".sh");
+    }
+}

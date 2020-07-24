@@ -1,79 +1,176 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.2.1 PHP71 (17.03.2020) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2020, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+$sLangName = "Deutsch";
+$aLang     = array(
+
+    //Navigation
+    'charset'                                                              => 'UTF-8',
+    'd3points_TRANSL'                                                      => 'Bonuspunkte',
+    'd3points_HELPLINK'                                                    => 'Bonuspunkte/',
+    //ModCfg
+    'd3mxd3points'                                                         => '<i class="fab fa-d3 d3fa-color-blue"></i> Bonuspunkte',
+    'd3cfgd3points'                                                        => 'Konfiguration',
+    'd3tbcld3points_settings_main'                                         => 'Konfiguration',
+    'd3mxd3points_SETTINGS'                                                => 'Konfiguration',
+    'd3mxd3points_SUPPORT'                                                 => 'Support',
+    'D3_CFG_MOD_d3points_MODULEACTIVE'                                     => 'Modul aktiv',
+    'D3_CFG_d3points_GENERAL_DEBUGACTIVE'                                  => 'Debug-Modus',
+    'D3_CFG_d3points_TEST_MODUS'                                           => 'Test-Modus',
+    'D3_CFG_MOD_d3points_ACTIVE'                                           => 'aktiv',
+    'D3_CFG_MOD_d3points_INACTIVE'                                         => 'inaktiv',
+    'D3_CFG_MOD_d3points_CRONJOBS_OWERVIEW'                                => 'CronJob / Funktionen',
+    'D3_CFG_MOD_d3points_CRONJOBS_ACTIVE'                                  => 'Aktiv',
+    'D3_CFG_MOD_d3points_LAST_STARTS_CRONJOBS'                             => 'letzte Ausführung:',
+    'D3_CFG_MOD_d3points_CRONJOBS_LINK'                                    => 'Link',
+    'D3_CFG_MOD_d3points_ACCESSKEY'                                        => 'Zugriffsschutz für den CronJob',
+    'D3_CFG_MOD_d3points_CRONJOB_GENERALL'                                 => 'Cronjob',
+    'D3_CFG_MOD_d3points_CRONJOB_NEWPOINTS'                                => 'Punktevergabe',
+    'D3_CFG_MOD_d3points_VOUCHER_4_MAX_POINTS'                             => 'Automatische Gutscheinvergabe',
+    'D3_CFG_MOD_d3points_SEND_FIRST_MAIL'                                  => 'E-Mail mit Bonuspunkte',
+    'D3_CFG_MOD_d3points_SEND_REMINDER_MAIL'                               => 'Erinnerungs-E-Mails',
+    'D3_CFG_MOD_d3points_CALCULATION'                                      => 'Berechnung der Bonuspunkte',
+    'D3_CFG_MOD_d3points_FNC_CRONJOB_PRINT_STATUS'                         => 'CronJob: Ausgabe der Statusinformationen',
+    'D3_CFG_MOD_d3points_FNC_CRONJOB_SEND_STATUS_TO'                       => 'CronJob: Ausgabe versenden an:',
+
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM'                                    => 'Punktesysteme',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_SCALE'                              => 'Staffelsystem (scalar)',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_LINEAR'                             => 'lineare Punktevergabe (linear)',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_SCALAR_SET'                         => 'Punkteverteilung für das Staffelsystem',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_LINEAR_SET'                         => 'Punkte für die lineare Punktevergabe',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_RATING_SET'                  => 'Punkte für Sternbewertung',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_TEXT_SET'                    => 'Punkte für Textbewertung',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_TEXT_MULTIPLE_REVIEWS'       => 'Mehrfach-Textbewertungen für Artikel',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_EE_MALL_ACCOUNT'                    => 'Shopübergreifendes Punktekonto (nur EE)',
+    'D3_CFG_MOD_d3points_SELECT_ORDERS'                                    => 'Auswahlkriterien für die Punktevergabe an Bestellungen',
+    'D3_CFG_MOD_d3points_SELECTION_DATE_LIMIT'                             => 'Zeitlimit für zurückliegende Bestellungen',
+    'D3_CFG_MOD_d3points_SELECTION_DATE_RANGE'                             => 'Zeitspanne zwischen Bestellzeit und Punktevergabe',
+    'D3_CFG_MOD_d3points_SELECTION_PRICE_LIMIT'                            => 'Minimalwert für den Warenbruttowert',
+    'D3_CFG_MOD_d3points_DO_POINTS_FOR_USER_WITHOUT_ACCOUNT'               => 'Kunden ohne Kundenkonto erhalten Bonuspunkte',
+    'D3_CFG_MOD_d3points_SELECTION_GROUPS_4_POINTS'                        => 'Kundengruppen freigeben',
+    'D3_CFG_MOD_d3points_SELECTION_GROUPS_4_NO_POINTS'                     => 'Kundengruppen ausschlie&szlig;en',
+    'D3_CFG_MOD_d3points_SELECTION_PAYMENT_DATE_PAYED_POINTS'              => 'Bezahldatum bei folgenden Bezahlarten prüfen',
+    'D3_CFG_MOD_d3points_SELECTION_PAYMENT_4_NO_POINTS'                    => 'Keine Punkte bei folgenden Zahlarten',
+    'D3_CFG_MOD_d3points_SELECTION_DELIVERYDATE_4_NO_POINTS'               => 'Versanddatum bei folgenden Bezahlarten prüfen',
+    'D3_CFG_MOD_d3points_SELECTION_OXFOLDER_4_POINTS'                      => 'Bestellordner freigeben',
+    'D3_CFG_MOD_d3points_SELECTION_OXFOLDER_4_NO_POINTS'                   => 'Bestellordner ausschlie&szlig;en',
+    'D3_CFG_MOD_d3points_SELECTION_OXIP_INCL'                              => 'Notwendige Werte im Feld oxip',
+    'D3_CFG_MOD_d3points_SELECTION_OXIP_EXCL'                              => 'Verbotene Werte im Feld oxip',
+    'D3_CFG_MOD_d3points_SELECTION_OXTRANSSTATUS_INCL'                     => 'Notwendige Werte im Feld oxtransstatus',
+    'D3_CFG_MOD_d3points_SELECTION_OXTRANSSTATUS_EXCL'                     => 'Verbotene Werte im Feld oxtransstatus',
+    'D3_CFG_MOD_d3points_SELECTION_OXBILLEMAIL_INCL'                       => 'Erlaubte E-Mailadresse',
+    'D3_CFG_MOD_d3points_SELECTION_OXBILLEMAIL_EXCL'                       => 'Verbotene E-Mailadresse',
+    //Konfiguration ->Generierung Gutscheine
+    'D3_CFG_MOD_d3points_VOUCHER'                                          => 'Generierung Gutscheine',
+    'D3_CFG_MOD_d3points_VOUCHER_RATE_4_VOUCHER'                           => 'Bonuspunkte-Umrechnungskurs',
+    'D3_CFG_MOD_d3points_POINTS_VOUCHER_OUT_PAYMENT'                       => 'Minimallimit für die Punkteumwandlung',
+    'D3_CFG_MOD_d3points_POINTS_VOUCHER_AUTOMATIC_PAYOUT'                  => 'Automatische Gutscheinerstellung',
+    'D3_CFG_MOD_d3points_POINTS_VOUCHER_NUMBER_OF_CHARAKTER'               => 'Anzahl der Stellen des Gutscheincodes',
+    //Konfiguration -->Email
+    'D3_CFG_MOD_d3points_EMAILS'                                           => 'Konfiguration E-Mails',
+    'D3_CFG_MOD_d3points_EMAILS_BCC'                                       => 'Blindkopie-E-Mailadresse angeben',
+    'D3_CFG_MOD_d3points_EMAILS_TEST'                                      => 'Test-E-Mailadresse angeben',
+    'D3_CFG_MOD_d3points_SEND_FIRST_EMAIL'                                 => 'Zeitversatz zwischen Vergabe der Punkte und Benachrichtgung per E-Mail',
+    //'D3_CFG_MOD_d3points_REMINDER'  				=> 'Einstellung Erinnerungsemails',
+    'D3_CFG_MOD_d3points_REMINDER_DAYS_WAIT_4_FIRST_MAIL'                  => 'Zeitpunkt für versand der ersten E-Mail',
+    'D3_CFG_MOD_d3points_REMINDER_DAYS_WAIT_4_NEXT_MAILS'                  => 'Intervall der Erinnerungs-E-Mail',
+    'D3_CFG_MOD_d3points_REMINDER_AMOUNT_POINTS'                           => 'Mindestpunktestand Erinnerungs-E-Mail',
+    'D3_CFG_MOD_d3points_MAIN_SAVE'                                        => 'Speichern',
+    //Bezeichner
+    'D3_CFG_MOD_d3points_LABEL_POINTS'                                     => 'Punkte',
+    'D3_CFG_MOD_d3points_LABEL_DAYS'                                       => 'Tage',
+    'D3_CFG_MOD_d3points_LABEL_MONTHS'                                     => 'Monate',
+    'D3_CFG_MOD_d3points_LABEL_NO'                                         => 'Keine Angabe',
+    'D3_CFG_MOD_d3points_LABEL_LETTER'                                     => 'Zeichen',
+    //Spielwiese
+    'd3tbcld3points_settings_demo'                                         => 'Beispielrechnung',
+    'd3mxd3points_DEMO'                                                    => 'Beispielrechnung',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS'                            => 'Punkteberechnung',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_PRICE_AMOUNT'               => 'Warenwert',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_RATE'                       => 'Umrechnungsfaktor',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SCALAR'                     => 'Staffel',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SCALAR_POINTS'              => 'Punkte',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SCALAR_MIN'                 => 'von',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SCALAR_MAX'                 => 'bis',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_METHODE'                           => 'Rechenweg',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SUM'                        => 'Bonuspunkte',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_VOUCHER'                           => 'Gutscheinberechnung',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_VOUCHER_POINTS_SUM'                => 'Bonuspunkte',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_VOUCHER_AMOUNT'                    => 'Gutscheinwert',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT'                            => 'berechnen',
+    //Wartung
+    'd3tbcld3points_settings_maintenance'                                  => 'Wartung',
+    'd3mxd3points_MAINTENANCE'                                             => 'Wartung',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS'                          => 'Alle Bestellungen zurücksetzen',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TXT'                      => 'Status neu setzten',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_UNSET'            => 'Bestellungen als unbearbeitet markieren',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_SET'              => 'Bestellungen als bearbeitet markieren',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM'                  => 'Vorgang wirklich ausführen?',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_NOT'              => 'Fehlender Haken bei Bestätigung. Es wurde keine Aktion ausgeführt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_SUCCESS'                         => 'Status wurde an %s Bestellungen gespeichert.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_NOT_STATUS'               => 'Kein Status ausgewählt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_DELETE_ORDER'                          => 'Bonuspunkte einer einzelnen Bestellung löschen',
+    'D3_CFG_MOD_d3points_MAINTAINCE_DELETE_ORDER_ORDERNR'                  => 'BestellNr',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP'                      => 'Aktion',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP_ERROR'                => 'Keine Aktion gewählt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP_DELETE'               => 'l&ouml;schen',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP_STORNO'               => 'stornieren',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_COMMET'                   => 'Bemerkung',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_SEND_MAIL'                => 'E-Mail versenden',
+    'D3_CFG_MOD_d3points_MAINTAINCE_STORNO_POINTS_FROM_ORDER'              => 'Punkte von Bestellung %s storniert.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_DELETE_POINTS_FROM_ORDER'              => 'Punkte von Bestellung %s gelöscht.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_ORDER_DOES_NOT_EXIST'                  => 'Bestellung %s existiert nicht.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_STORNO_POINTS_FROM_ORDER_STILL_STONRO' => 'Bestellung %s wurde schon storniert.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_NO_POINTS_GIVEN'                       => 'Für Bestellung %s wurden noch keine Bonuspunkte vergeben.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_NO_OPTIONS_SELECTED'                   => 'Keine Option angegeben.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_NO_CHECKBOX_SET'                       => 'Aktion über die Checkbox nicht bestätigt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_SAVE'                                  => 'speichern',
+    //Bestellungen ->Stamm
+    'ORDER_MAIN_D3POINTS_4_ORDER'                                          => '<b>Bonuspunkte</b> (D3)',
+    'ORDER_MAIN_D3POINTS_4_ORDER_NOT_SET'                                  => 'keine Punkte vergeben',
+    'ORDER_MAIN_D3POINTS_4_ORDER_STORNO'                                   => 'Stornierung',
+    //Tab User
+    'd3tbcluser_points'                                                    => '<img title="D³ Data Development" alt="D³" src="../modules/d3/modcfg/public/d3logo.php"> Bonuspunkte',
+    'GENERAL_ADMIN_POINTS_USER'                                            => '<img title="D³ Data Development" alt="D³" src="../modules/d3/modcfg/public/d3logo.php"> Bonuspunkte',
+    'D3_USER_POINTS_OVERVIEW'                                              => 'Bonuspunkte',
+    'D3_USER_POINTS_HEAD_TYPE'                                             => 'Typ',
+    'D3_USER_POINTS_HEAD_POINTS'                                           => 'Bonuspunkte',
+    'D3_USER_POINTS_HEAD_DATE'                                             => 'Datum',
+    'D3_USER_POINTS_HEAD_COMMENT'                                          => 'Kommentar',
+    'D3_USER_POINTS_ORDERTYPE'                                             => 'Bestellung Nr.',
+    'D3_USER_POINTS_POINTS_STORNO'                                         => '(storniert)',
+    'D3_USER_POINTS_POINTS_STORNO2'                                        => 'storniert',
+    'D3_USER_POINTS_VOUCHERTYPE'                                           => 'Gutschein Nr.',
+    'D3_USER_POINTS_VOUCHER_REBOOK'                                        => 'Rückbuchung Gutschein',
+    'D3_USER_POINTS_OTHERTYPE'                                             => 'manuell',
+    'D3_USER_POINTS_TOTALSUM'                                              => 'Gesamtanzahl',
+    'D3_USER_POINTS_NEWPOINTS'                                             => 'Neue Bonuspunkte manuell vergeben:',
+    'D3_USER_POINTS_SETPOINTS'                                             => 'Punkte',
+    'D3_USER_POINTS_DESCTEXT'                                              => 'Erklärungstext<br><small>Die Vergabe der Punkte kann der Kunde<br> in seinem Kundenkonto einsehen.</small>',
+    'D3_USER_POINTS_REVIEWTYPE'                                            => 'Bewertung',
+    'D3_USER_MSG_CREATED_NEW_POINTS'                                       => 'Punkte wurden gespeichert.',
+    'D3_USER_MSG_POINTS_NOT_A_NUMBER'                                      => 'Kein gültiger Wert!<br>Keine Punkte vergeben.',
+    'D3_USER_POINTS_SETPOINTS_SEND_EMAIL'                                  => 'E-Mail versenden',
+    'D3_ACCOUNT_OPTIONS_MAIL_TXT_ADMIN'                                    => 'Der Kunde erhält folgende E-Mails:',
+    'D3_ACCOUNT_OPTIONS_MAIL_FIRST_MAIL'                                   => 'Für eine Bestellung erhaltene Bonuspunkte',
+    'D3_ACCOUNT_OPTIONS_MAIL_RATING_REVIEW'                                => 'Bonuspunkte für eine Artikelbewertung',
+    'D3_ACCOUNT_OPTIONS_MAIL_REMINDER'                                     => 'Erinnerungs-E-Mail für vorhandene Bonuspunkte',
+    'D3_ACCOUNT_OPTIONS_MAIL_VOUCHER'                                      => 'Erstellung eines Gutscheines',
+    'D3_ACCOUNT_REMINDER_MAIL'                                             => 'Versand Erinnerungs-E-Mail',
+    'D3_ACCOUNT_REMINDER_MAIL_LAST'                                        => 'letzte E-Mail',
+    'D3_ACCOUNT_REMINDER_MAIL_NEXT'                                        => 'nächsten E-Mail (eventuell)',
+    'D3_ACCOUNT_POINTS_VOUCHER_VALUE'                                      => 'Wert',
+    'D3_ACCOUNT_POINTS_VOUCHER_RESERVED'                                   => 'Reserviert:',
+    'D3_ACCOUNT_POINTS_VOUCHER_USED'                                       => 'Eingel&ouml;st am:',
+
+    // Testmodus
+    'D3_CFG_MOD_d3points_TESTMODUS_SETTING'         => 'Testmodus Einstellung',
+    'D3_CFG_MOD_d3points_TESTMODUS_FOR_REVIEWS'     => 'Testmodus für Artikelbewertung',
+    'D3_CFG_MOD_d3points_TESTMODUS_DISPLAY_ACCOUNT' => 'Kundenkonto im Testmodus anzeigen',
+    'D3_CFG_MOD_d3points_TESTMODUS_FOR_GROUPS'      => 'Benutzergruppen für Testmodus',
+    'D3_CFG_MOD_d3points_TESTMODUS_CREATE_VOUCHERS' => 'Erstellung von Gutscheinen im Testmodus',
+
+    'D3_CFG_MOD_d3points_SETTINGS'                                         => 'Einstellungen',
+    'D3_CFG_MOD_d3points_OPT_SETTINGS'                                     => 'Optionale Auswahlkriterien',
+    'D3_CFG_MOD_d3points_LABEL_EUR_POINTS'                                 => '&euro;/Punkte',
+    'D3POINTS_HELPLINK_CONFIG'                                             => 'Fragen-zu-speziellen-Modulen/Bonuspunkte/'
+);

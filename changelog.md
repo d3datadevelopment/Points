@@ -1,3 +1,8 @@
+Version 5.0.2.2
+- BUG: Controller wurden verschlüsselt ausgeliefert
+- Bug: Fehler bei der Ermittlung der Sprache für die Erinnerungs-E-Mails
+
+
 Version 5.0.2.1
 - Templates für das Theme Wave angepasst, Version 1.0.1
 
@@ -20,6 +25,7 @@ Version 5.0.0.2
 Version 5.0.0.1
 - Dateien verschoben
 - neue Dokumentation
+
 
 Version 5.0.0.0
 - Angepasst für Shopversion 6.x, Installation via Composer 
@@ -80,10 +86,11 @@ Version 4.0.1.0
 - auch für Shopversionen ab 4.8 einsetzbar
 - Systemcheck integriert (d3precheck.php)
 
+
 Version 4.0.0.0
- -Anpassung auf Oxid 4.7 / 5.0
- -Integration in die D³-Lizenzverwaltung
- -halbautomatische Installation
+- Anpassung auf Oxid 4.7 / 5.0
+- Integration in die D³-Lizenzverwaltung
+- halbautomatische Installation
 
 
 Version 3.0.0.2
@@ -92,11 +99,11 @@ Version 3.0.0.2
 
 
 Version 3.0.1
- -Problem wenn die Berechnung der Punkte einen Wert unter 1 ergibt
- -Test auf vorhandene Gutscheinnummern
- -Feld OXVOUCHERID aus Install.sql entfernt
- -Bug bei verbotenen Benutzergruppe
- -Bug bei der Vergabe von Bonuspunkten für Bewertungen an Artikeln
+- Problem wenn die Berechnung der Punkte einen Wert unter 1 ergibt
+- Test auf vorhandene Gutscheinnummern
+- Feld OXVOUCHERID aus Install.sql entfernt
+- Bug bei verbotenen Benutzergruppe
+- Bug bei der Vergabe von Bonuspunkten für Bewertungen an Artikeln
 - Änderungen für Shopversion ab 4.6.0 integriert
 
 
@@ -121,8 +128,10 @@ Version 2.1
 - Berechnungsfehler im cronjob bereinigt
 - CMS-Bausteine für Automail (Gutscheine) eingefügt
 
+
 Version 2.0
 - Umstellung des Moduls auf PE4
+
 
 
 Version 1.0

@@ -1,164 +1,384 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.2.1 PHP71 (17.03.2020) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2020, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * HTML Tags for markup (same as in online manual):
+ * <span class="navipath_or_inputname">...</span> for names of input fields, selectlists and Buttons, e.g. <span class="navipath_or_inputname">Active</span>
+ * <span class="userinput_or_code">...</span> for input in input fields (also options in selectlists) and code
+ * <span class="filename_filepath_or_italic">...</span> for filenames, filepaths and other italic stuff
+ * <span class="warning_or_important_hint">...</span> for warning and important things
+ * <ul> and <li> for lists
+ */
+$sLangName = "Deutsch";
+$aLang = array(
+    'charset' => 'UTF-8',
+    'D3_CFG_d3points_DEBUG_MODUS_HELP' => '<b>Debug-Modus:</b><br>Ist diese Checkbox aktiviert, werden weitere zus&auml;tzliche Informationen ausgegeben bzw. in der Log-Tabelle gespeichert.<br>Im Normalbetrieb ist diese Einstellung nicht notwendig.<br>
+                            <br>Dieser Modus dient zur Untersuchung von eventuell auftretenden Fehlern und sollte nur kurzzeitig aktiviert sein.<br>
+                            <br>
+                            <b>Bei aktivierter Option werden sehr viele zus&auml;tzliche Informationen in der Datenbank gespeichert.</b>',
+    'D3_CFG_d3points_LOGGING_HELP' => '<b>Logging:</b><br>Mit dieser Auswahl k&ouml;nnen Sie die Priorit&auml;t des Logging einstellen. Meldungen oder Fehler haben eine vordefinierte Priorit&auml;t. Anhand der Priorit&auml;t wird entschieden, welche Eintr&auml;ge in die Datenbank geschrieben werden.<br>
+                            <ul>
+                                <li><b>kein Protokoll</b>: in der Datenbank wird kein Logeintrag geschrieben. Ist diese Einstellung gesetzt wird das Modul weder eine normale Meldung schreiben noch eine schwere Fehlermeldung.</li>
+                                <li><b>Alles protokollieren</b>: s&auml;mtliche Meldungen egal ob schwerer Fehler oder nur Statusmeldungen werden in der Datenbank abgespeichert. Diese Option sollte zur Fehleranalyse bzw. eine kurze Zeit nach Installation des Moduls aktiviert werden.<br><b>Achtung: es werden sehr viele Daten in der Datenbank gespeichert!</b></li>
+                                <li><b>Fehler mitschreiben</b>: nur Meldungen mit dem Status eines Fehlers werden gespeichert.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_CRONJOB_GENERALL_HELP' => '<b>Modul aktiv:</b><br>De/Aktiviert das Modul Bonuspunkte.<br>Wenn das Modul deaktiviert ist, wird der Cronjob nicht ausgef&uuml;hrt und im Kundenbereich wird die &Uuml;bersicht zu den Bonuspunkten ausgeblendet.',
+    'D3_CFG_d3points_TEST_MODUS_HELP' => 'Ist diese Checkbox aktiviert, werden die E-Mails nicht an Kunden, sondern an eine vorher festgelegte E-Mailadresse (siehe unten "Konfiguration E-Mails") versendet.<br>
+                            <ul>
+                                <li>Diese Option kann verwendet werden um die Einstellung und Funktionsweise des Moduls zu testen.</li>
+                                <li>Der Testmodus beinhaltet alle Aufgaben des Moduls. Ausnahme bildet der Versand der E-Mails.</li>
+                                <li>In den Kundenkonten (Frontend sowie Backend) bleiben die &Uuml;bersichten der Bonuspunkte und deren Optionen sichtbar.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_CRONJOBS_ACTIVE_HELP' => '<b>Cronjob:</b><br>De/Aktiviert den Cronjob.<br>Eine separate &Auml;nderung in den Cronjob-Einstellung bei Ihrem Provider ist nicht n&ouml;tig.<br>Diese Option ist Vorraussetzung f&uuml;r die enthaltenen Funktionen (Punktevergabe, Automatische Gutscheinvergabe, E-Mail mit Bonuspunkte, Erinnerungs-E-Mails).',
+    'D3_CFG_MOD_d3points_ACCESSKEY_HELP' => '<b>Zugriffsschutz f&uuml;r den CronJob:</b><br>Vergeben Sie hier ein mehrstelliges Passwort (ca. 6-8 Zeichen), um unberechtigte Aufrufe des CronJobs zu unterbinden.',
+    'D3_CFG_MOD_d3points_CRONJOB_NEWPOINTS_HELP' => '<b>Punktevergabe:</b><br>De/Aktivieren Sie die automatische Vergabe von Punkten. Damit werden die Punkte dem Kunden per Cronjob zugewiesen (Die Einstellungskritereien finden Sie unter "Berechnung der Bonuspunkte".).',
+    'D3_CFG_MOD_d3points_CRONJOBS_LINK_HELP' => '<b>Link:</b><br>Der Link erm&ouml;glicht die manuelle Ausf&uuml;hrung des Cronjobs. Kopieren Sie dazu den Link und f&uuml;hren diesen in der Adresszeile Ihres Browsers aus.<br>Dieser Link kann ebenfalls f&uuml;r den regul&auml;ren Server-Cronjob genutzt werden.',
+    'D3_CFG_MOD_d3points_VOUCHER_HELP' => '<b>Generierung Gutscheine:</b><br>
+                            Stellen Sie die Berechnungen und andere Einstellungen f&uuml;r die Gutscheine der Gutscheinserie d3points ein.<br>
+                            Wenn die Gutscheinserie "d3points" nicht vorhanden ist, wird die Serie vom Modul automatisch mit Standardeinstellungen neu erstellt.<br> Wird die Gutscheinserie vom Modul neu erstellt schreibt das Modul einen Eintrag in die Tabelle d3log, mit dem Betreff "Create new Voucherserie".',
+    'D3_CFG_MOD_d3points_VOUCHER_4_MAX_POINTS_HELP' => '<b>Automatische Gutscheinvergabe:</b><br>De/Aktivieren Sie die Erstellung der Gutscheine der Gutscheinserie d3points.<br>
+                            <ul>
+                                <li>Die Einstellungen finden Sie hier im Bereich "Generierung Gutscheine".</li>
+                                <li>Per E-Mail wird der Kunde &uuml;ber den Gutschein informiert.</li>
+                                <li>Die Vergabe der Punkte und die Generierung der E-Mail wird im CronJob durchgef&uuml;hrt.</li>
+                                <li>Der Kunde kann den Empfang dieser separaten E-Mail, in seinem Kundenkonto de/aktivieren.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SEND_FIRST_MAIL_HELP' => '<b>E-Mail mit Bonuspunkte:</b><br>De/Aktiviert die Kundenbenachrichtigung f&uuml;r den Erhalt von Bonuspunkten (bspw. durch Bestellungen oder Artikelbewertungen).<br>
+                            <ul>
+                                <li>Die Generierung der E-Mail wird im CronJob durchgef&uuml;hrt.</li>
+                                <li>Der Kunde kann den Empfang dieser separaten E-Mail, in seinem Kundenkonto de/aktivieren.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SEND_REMINDER_MAIL_HELP' => '<b>Erinnerungs-E-Mails:</b><br>De/Aktiviert den Versand von Erinnerungs-E-Mails an den Kunden.<br>
+                            <ul>
+                                <li>Die Generierung der E-Mail wird im CronJob durchgef&uuml;hrt.</li>
+                                <li>Sie k&ouml;nnen die Zeitabst&auml;nde in dem Bereich "Konfiguration E-Mails" einstellen.</li>
+                                <li>Der Kunde kann den Empfang dieser separaten E-Mail, in seinem Kundenkonto de/aktivieren.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_CALCULATION_HELP' => '<b>Berechnung der Bonuspunkte:</b><br>Die Grundlage f&uuml;r die Berechnung der Bonuspunkte bildet der Gesamtwert der Bestellung ohne die Versandkosten.<br>
+                            <ul>
+                                <li>Der Gesamtwert ergibt sich aus folgenden beiden Feldern: <span class="filename_filepath_or_italic">oxtotalordersum - oxdelcost</span>.</li>
+                                <li>Rabatte und Gutscheine werden bereits durch den Shop './*im Feld <span class="filename_filepath_or_italic">oxtotalordersum</span> */'ber&uuml;cksichtig.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_SCALE_HELP' => '<b>Punktesysteme - Staffelsystem (scalar) :</b><br>Mit dieser Option werden die Punkte nach einem Staffelsystem (skalar) vergeben.<br>
+                            <ul>
+                                <li>Es k&ouml;nnen beliebig viele Preisstaffeln (Anzahl => von__@@bis) definiert werden.</li>
+                                <li>Befindet sich der Gesamtwert der Bestellung (ohne Versandkosten, inkl. Rabatten und Gutscheinen) innerhalb einer Staffelung, wird die zugewiesene Anzahl an Bonuspunkten vergeben.</li>
+                                <li>Wenn sich der Gesamtwert der Bestellung unter- oder oberhalb der Staffelung befindet, werden keine Punkte berechnet.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_LINEAR_HELP' => '<b>Punktesysteme - lineare Punktevergabe (linear):</b><br>Mit dieser Option werden die Punkte nach einer festen Formel (linear) vergeben.<br>
+                            Die Berechnung erfolgt &uuml;ber die Formel:<br> Multiplikator * Gesamtwert (ohne Versandkosten, inkl. Rabatten und Gutscheinen)',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_SCALAR_SET_HELP' => '<b>Punkteverteilung f&uuml;r das Staffelsystem:</b><br>Beispiel:<br>5 =&gt; 0__@@49.99<br>10 =&gt; 50__@@99.99<br>20 =&gt; 100__@@149.99<br>30 =&gt; 150__@@999999 <br><br>Sollte keine Staffel vorgegeben sein, kann die hier gezeigte Standardstaffel genutzt werden.',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_LINEAR_SET_HELP' => '<b>Punkte f&uuml;r die lineare Punktevergabe:</b><br>Mit diesem Divisor werden die Punkte berechnet.<br>
+                            Voraussetzung ist die aktive lineare Punktevergabe.<br>
+                            G&uuml;ltige Wertebereiche:<br>
+                            <ul>
+                                <li>ganze Zahlen: 1 2 3 ... 9</li>
+                                <li>Dezimalbr&uuml;che: 0,5 1,25 ... 0.5 1.25 ... </li>
+                            </ul><br>
+                            Die berechneten Bonuspunkte werden immer auf ganze Zahlen abgerundet. <br>
+                            Berechnungsformel/Beispiel:<ul><li> Warenwert / Divisor = Punkte</li><li>100 / 10 = 10 Punkte</li></ul>',
+    /*    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_HELP' => 'Es k&ouml;nnen unterschiedliche Punkte f&uuml;r Stern- und Textbewertungen vergeben werden.
+                                Somit wird der Kunde animiert, einen Text zu schreiben, statt nur Sterne zu vergeben.<br>
+                                z.B. kann f&uuml;r eine Sternbewertung 2, und einen Text 4 Punkte vergeben werden<br>
+                                Bewertet der Kunde nur per Sterne, erh&auml;lt er demzufolge 2 Punkte.
+                                Tr&auml;gt er zus&auml;tzlich einen Bewertungstext ein, bekommt er bereits 6 Punkte.',//*/
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_RATING_SET_HELP' => '<b>Punkte f&uuml;r Sternbewertung:</b><br>Der Kunde kann Bonuspunkte f&uuml;r vergebene Sternbewertungen bei Artikeln erhalten.<br>
+                            <ul>
+                                <li>Die Punkte werden pro Bewertung vergeben (nicht nach der Anzahl der Sterne).</li>
+                                <li>G&uuml;ltig sind nur ganze Zahlen (1 2 3 ... 9).</li>
+                                <li>Der Kunde kann den Empfang dieser separaten E-Mail, in seinem Kundenkonto de/aktivieren.</li>
+                            </ul>'/*
+                            <br>
+                            Sie k&ouml;nnen auch f&uuml;r eingetragene Produktbewertungen Punkte vergeben.<br>
+                            Diese Option wird aktiviert, wenn in mindestens eine der beiden folgenden Variablen ein Wert &gt; 0 eingestellt wird<br>
+                            Es k&ouml;nnen unterschiedliche Punkte f&uuml;r Stern- und Textbewertungen vergeben werden.
+                            Somit wird der Kunde animiert, einen Text zu schreiben, statt nur Sterne zu vergeben.
+                            z.B. kann f&uuml;r eine Sternbewertung 2, und einen Text 4 Punkte vergeben werden.<br>
+                            Bewertet der Kunde nur per Sterne, erh&auml;lt er demzufolge 2 Punkte.
+                            Tr&auml;gt er zus&auml;tzlich einen Bewertungstext ein, bekommt er bereits 6 Punkte.*/,
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_TEXT_SET_HELP' => '<b>Punkte f&uuml;r Textbewertung:</b><br>Der Kunde kann Bonuspunkte f&uuml;r vergebene Textbewertungen bei Artikeln erhalten. <br>'.
+//Mit einer h&ouml;heren Punktezahl als bei der Sternbewertung, animieren Sie den Kunden eine Textbewertung abzugeben.<br> Beachten Sie, das die Punkte f&uuml;r Stern und Text addiert werden. Z.B. kann f&uuml;r eine Sternbewertung 2 und einen Text 4 Punkte vergeben werden. Bewertet der Kunde nur per Sterne, erh&auml;lt er demzufolge 2 Punkte. Tr&auml;gt er zus&auml;tzlich einen Bewertungstext ein, bekommt er bereits 6 Punkte.
+        '<ul>
+                                <li>G&uuml;ltig sind nur ganze Zahlen (1 2 3 ... 9).</li>
+                                <li>Der Kunde erh&auml;lt dazu eine Best&auml;tigungs-E-Mail</li>
+                                <li>Der Kunde kann den Empfang dieser separaten E-Mail, in seinem Kundenkonto de/aktivieren.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_HELP'                        => 'Sie können auch für eingetragene Produktbewertungen Punkte vergeben	
+<br>Diese Option wird aktiv, wenn in mindestens eine der beiden folgenden Variablen ein Wert > 0 eingestellt wird.
+<br>Es können unterschiedliche Punkte für Stern- und Textbewertungen vergeben werden. Somit wird der Kunde animiert, einen Text zu schreiben, statt nur Sterne zu vergeben.
+<br>Z.B. kann für eine Sternbewertung 2, und einen Test 4 Punkte vergeben werd.<br>Bewertet der Kunde nur per Sterne, erhält er demzufolge 2 Punkte. Trägt er zusä;tzlich einen Bewertungstext ein, bekommt er bereits 6 Punkte.',
+
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_TEXT_MULTIPLE_REVIEWS_HELP' => '<b>Mehrfach-Textbewertungen f&uuml;r Artikel:</b><br>Der Shop erlaubt es den Kunden, beliebig oft einen Artikel mit einem Text zu bewerten.<br>Mit dieser Option k&ouml;nnen Sie die mehrfache Vergabe von Bonuspunkten f&uuml;r Textbewertungen an einem Artikel regeln.<br>Aktivieren Sie die Checkbox damit Ihre Kunden mehrere Textbewertungen verg&uuml;tet bekommen sollen.',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_EE_MALL_ACCOUNT_HELP' => '<b>Shop&uuml;bergreifendes Punktekonto (nur EE) :</b><br>Diese Option gilt nur f&uuml;r den Einsatz in einer oxid eShop Enterprise-Version.
+                            <ul>
+                                <li>De/aktivieren Sie die Shop&uuml;bergreifende Verwaltung der Bonuspunkte. Im Kundenkonto werden mit der Aktivierung die Punkte aus den (Sub-)Shops zusammen aufgelistet.</li>
+                                <li>Die Gutscheine werden aus der Gesamtsumme der Bonuspunkte pro Konto erstellt.</li>
+                                <li>Voraussetzung ist die aktive Shopeinstellung "Benutzer k&ouml;nnen sich in allen Shops einloggen" ([Stammdaten]->[Grundeinstellungen]->Auswahl Supershop->[Mall]).</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECT_ORDERS_HELP' => '<b>Auswahlkriterien f&uuml;r die Punktevergabe an Bestellungen:</b><br>
+                            Diese Einstellungen beeinflussen die Vorauswahl der Bestellungen.<br>
+                            Erfüllt eine Bestellung alle Bedingungen, dann werden dem Kunden für diese Bestellung Punkte gut geschrieben. Die Konfiguration dazu finden Sie in dem Bereich "Berechnung der Bonuspunkte".',
+    'D3_CFG_MOD_d3points_SELECTION_DATE_LIMIT_HELP' => '<b>Zeitlimit f&uuml;r zur&uuml;ckliegende Bestellungen:</b><br>
+                            Bestellungen mit einem Bestelldatum &auml;lter als n Monate werden f&uuml;r die Punktevergabe ausgeschlossen.<br>
+                            Bei Shops mit sehr vielen Altbestellungen (bspw. seit 2007) kann es bei der Ausf&uuml;hrung des Cronjobs zu einem Abbruch kommen.
+                			<ul>
+                                <li>Die Eingabe erfolgt in Monaten (G&uuml;ltig sind nur ganze Zahlen 1 2 3 4 ... 9).</li>
+                                <li>Es wird das Bestelldatum (Feld <span class="filename_filepath_or_italic">oxorderdate</span>) selektiert.</li>
+                                <li>Bei Angaben kleiner gleich 0 werden alle Bestellungen ohne ein Zeitlimit gepr&uuml;ft.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_DATE_RANGE_HELP' => '<b>Zeitspanne zwischen Bestellzeit und Punktevergabe:</b><br>
+                            Die Vergabe der Punkte wird mit einem Versatz von n Tage/n durchgef&uuml;hrt.
+							<ul>
+                                <li>Eingabe erfolgt in Tagen (G&uuml;ltig sind nur ganze Zahlen 1 2 3 4 ... 9).</li>
+                                <li>Es wird das Bestelldatum (Feld <span class="filename_filepath_or_italic">oxorderdate</span>) gepr&uuml;ft.</li>
+                                <li>Bei Angaben kleiner 0 wird keine Bestellung ausgeschlossen.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_PRICE_LIMIT_HELP' => '<b>Minimalwert f&uuml;r den Warenbruttowert:</b><br>
+                            Bestellungen, welche den Minimalwert nicht erf&uuml;llen werden ausgeschlossen.
+                            <ul>
+                                <li>Der Minimalwert wird mit den Warenwert (<span class="filename_filepath_or_italic">oxtotalordersum - oxdelcost</span>) verglichen.</li>
+                                <li>Der Vergleich wird in der Basisw&auml;hrung durchgef&uuml;hrt.</li>
+                                <li>Bei Angaben kleiner 0 wird keine Bestellung ausgeschlossen.</li>
+                                <li>Sollten Sie das Staffelpunktesystem verwenden, beachten Sie bitte die Angaben unter [Berechnung der Bonuspunkte]->Punkteverteilung f&uuml;r das Staffelsystem].</li>
+                                <li>M&ouml;gliche Formate (mit Pipezeichen | getrennt): 19,99 | 19.99 | 20</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_DO_POINTS_FOR_USER_WITHOUT_ACCOUNT_HELP' => '<b>Kunden ohne Kundenkonto erhalten Bonuspunkte:</b><br>
+                            Vergeben Sie an Kunden ohne Kundenkonto (Einkauf ohne Registrierung) Bonuspunkte.<br>
+                            Bitte beachten Sie:<br>
+                            <ul>
+                                <li>Bei aktiver Checkbox wird die Bestellung des unregistrierten Kunden, wie eine Bestellung eines registrierten Kunden behandelt.</li>
+                                <li>Tipp: Der Kunde kann sich erst in das Konto einloggen, wenn ein Passwort an den Kunden vergeben wurde.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_GROUPS_4_POINTS_HELP' => '<b>Kundengruppen freigeben:</b><br>
+                            Schr&auml;nken Sie die Auswahl der Bestellungen auf bestimmte Kundengruppen ein.
+                            <ul>
+                                <li>Die Kunden m&uuml;ssen in einer der gew&auml;hlten Gruppen zugeordnet sein (die Gruppen werden mit "ODER" gepr&uuml;ft).</li>
+                                <li>Die Auswahl der Kundengruppen ist optional.</li>
+                                <li>Ist keine Gruppe ausgew&auml;hlt wird dieses Kriterium &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium nicht erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_GROUPS_4_NO_POINTS_HELP' => '<b>Kundengruppen ausschlie&szlig;en:</b><br>
+                            Schlie&szlig;en Sie einzelne Kundengruppen aus.
+                            <ul>
+                                <li>Die Kunden m&uuml;ssen in einer der gew&auml;hlten Gruppen zugeordnet sein (die Gruppen werden mit "ODER" gepr&uuml;ft).</li>
+                                <li>Die Auswahl der Kundengruppen ist optional.</li>
+                                <li>Ist keine Gruppe ausgew&auml;hlt wird dieses Kriterium &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium nicht erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_PAYMENT_DATE_PAYED_POINTS_HELP' => '<b>Bezahldatum bei folgenden Bezahlarten pr&uuml;fen:</b><br>
+                            W&auml;hlen Sie die Bezahlarten, welche auf das "bezahlt am"-Datum gepr&uuml;ft werden sollen.<br>
+                            <ul>
+                                <li>Die Pr&uuml;fung erfolgt auf das Feld <span class="filename_filepath_or_italic">oxpaid</span>.</li>
+                                <li>Bestellungen, welche dieses Kriterium nicht erf&uuml;llen werden tempor&auml;r ausgeschlossen und mit dem n&auml;chsten Cronjob-Aufruf erneut gepr&uuml;ft.</li>
+                                <li>Beispiel: Wenn per Vorrauskasse bezahlt wird, wollen Sie erst nach Erhalt des Betrages Bonuspunkte vergeben.</li>
+                                <li>Mit dieser Pr&uuml;fung k&ouml;nnen Sie unberechtige Punktevergabe, durch unbezahlte Mehrfachbestellungen vorbeugen.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_PAYMENT_4_NO_POINTS_HELP' => '<b>Keine Punkte bei folgenden Zahlarten:</b><br>
+                            W&auml;hlen Sie die Bezahlarten aus, welche f&uuml;r die Berechnungen ausgeschlossen werden sollen.<br>
+                            Bestellungen, welche dieses Kriterium erf&uuml;llen werden dauerhaft ausgeschlossen.',
+    'D3_CFG_MOD_d3points_SELECTION_DELIVERYDATE_4_NO_POINTS_HELP' => '<b>Versanddatum bei folgenden Bezahlarten pr&uuml;fen:</b><br>
+                            W&auml;hlen Sie die Bezahlarten, welche auf das "versandt am"-Datum gepr&uuml;ft werden sollen.<br>
+                            <ul>
+                                <li>Die Pr&uuml;fung erfolgt auf das Feld <span class="filename_filepath_or_italic">oxsenddate</span>.</li>
+                                <li>Beispiel: Wenn per Kreditkarte bezahlt wird, wollen Sie erst nach Versand des Produktes / der Bestellung die Bonuspunkte vergeben.</li>
+                                <li>Bestellungen, welche dieses Kriterium nicht erf&uuml;llen werden tempor&auml;r ausgeschlossen und mit dem n&auml;chsten Cronjob-Aufruf erneut gepr&uuml;ft.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_OXFOLDER_4_POINTS_HELP' => '<b>Ordner freigeben:</b><br>
+                            W&auml;hlen Sie die Ordner f&uuml;r die Bestellungen freigeben werden.<br>
+                            <ul>
+                                <li>Die Bestellungen m&uuml;ssen in einer der gew&auml;hlten Ordner zugeordnet sein (die Ordner werden mit "ODER" gepr&uuml;ft).</li>
+                                <li>Die Auswahl der Bestellordner ist optional.</li>
+                                <li>Ist kein Bestellordner ausgew&auml;hlt wird dieses Kriterium &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium nicht erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+
+    'D3_CFG_MOD_d3points_SELECTION_OXFOLDER_4_NO_POINTS_HELP' => '<b>Ordner ausschlie&szlig;en</b><br>
+                            W&auml;hlen Sie die Ordner f&uuml;r die Bestellungen ausgeschlossen werden.<br>
+                            <ul>
+                                <li>Die Bestellungen m&uuml;ssen in einer der gew&auml;hlten Ordner zugeordnet sein (die Ordner werden mit "ODER" gepr&uuml;ft).</li>
+                                <li>Die Auswahl der Bestellordner ist optional.</li>
+                                <li>Ist kein Bestellordner ausgew&auml;hlt wird dieses Kriterium &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+
+
+    'D3_CFG_MOD_d3points_OPT_SETTINGS_HELP' => '<b>Optionale Auswahlkriterien:</b><br>
+                            Hier k&ouml;nnen Sie weitere Felder und zus&auml;tzliche Pr&uuml;fungen angeben.<br>
+                            Diese werden bspw. von diversen Modulen (Bezahlmodulen, Schnittstellen zu Verkaufsportalen, ...) bef&uuml;llt.<br>
+                            Weitere Information bekommen Sie bei dem jeweiligen Modulhersteller der Schnittstellen/Module.<br>
+                            Sie k&ouml;nnen m&ouml;gliche Werte aus der Datenbank, in der entsprechenden Tabelle auslesen.',
+    'D3_CFG_MOD_d3points_SELECTION_OXIP_INCL_HELP' => '<b>Notwendige Werte im Feld oxip:</b><br>
+                            In der Tabelle <span class="filename_filepath_or_italic">oxorder</span> im Feld <span class="filename_filepath_or_italic">oxip</span> speichern einige Module eine Art Kennung von Portalen (bspw. amazon, ebay, ...) ab.<br>
+                            Hier k&ouml;nnen Sie die Kennungen eintragen, welche zwingend erforderlich sind.
+                            <ul>
+                                <li>Das Datenfeld darf nur exakt diese Zeichenkette enthalten.</li>
+                                <li>Gro&szlig;- Kleinschreibung wird ignoriert.</li>
+                                <li>Bei mehreren Kennungen muss jeder Wert auf einer separaten Zeile stehen.</li>
+                                <li>Bleibt das Feld leer, wird diese Pr&uuml;fung &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium nicht erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_OXIP_EXCL_HELP' => '<b>Verbotene Werte im Feld oxip:</b><br>
+                            In der Tabelle <span class="filename_filepath_or_italic">oxorder</span> im Feld <span class="filename_filepath_or_italic">oxip</span> speichern einige Module eine Art Kennung von Portalen (bspw. amazon, ebay, ...) ab.<br>
+                            Hier k&ouml;nnen Sie die Kennungen eintragen, welche ausgeschlossen werden sollen.
+                            <ul>
+                                <li>Das Datenfeld darf nur exakt diese Zeichenkette enthalten</li>
+                                <li>Gro&szlig;- Kleinschreibung wird ignoriert</li>
+                                <li>Bei mehreren Kennungen muss jeder Wert auf einer separaten Zeile stehen.</li>
+                                <li>Bleibt das Feld leer, wird diese Pr&uuml;fung &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_OXTRANSSTATUS_INCL_HELP' => '<b>Notwendige Werte im Feld oxtransstatus:</b><br>
+                            In der Tabelle <span class="filename_filepath_or_italic">oxorder</span> im Feld <span class="filename_filepath_or_italic">oxtransstatus</span> speichern einige Module die Status von Transaktionen (bspw. ERROR, OK, ...) ab.<br>
+                            Hier k&ouml;nnen Sie die Transaktionstatus eintragen, welche zwingend erforderlich sind.
+                            <ul>
+                                <li>Das Datenfeld darf nur exakt diese Zeichenkette enthalten.</li>
+                                <li>Gro&szlig;- Kleinschreibung wird ignoriert.</li>
+                                <li>Bei mehreren Kennungen muss jeder Wert auf einer separaten Zeile stehen.</li>
+                                <li>Bleibt das Feld leer, wird diese Pr&uuml;fung &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium nicht erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_OXTRANSSTATUS_EXCL_HELP' => '<b>Verbotene Werte im Feld oxtransstatus:</b><br>
+                            In der Tabelle <span class="filename_filepath_or_italic">oxorder</span> im Feld <span class="filename_filepath_or_italic">oxtransstatus</span> speichern einige Module die Status von Transaktionen (bspw. ERROR, OK, ...) ab.<br>
+                            Hier k&ouml;nnen Sie die Transaktionstatus eintragen, welche ausgeschlossen werden sollen.
+                            <ul>
+                                <li>Das Datenfeld darf nur exakt diese Zeichenkette enthalten.</li>
+                                <li>Gro&szlig;- Kleinschreibung wird ignoriert.</li>
+                                <li>Bei mehreren Kennungen muss jeder Wert auf einer separaten Zeile stehen.</li>
+                                <li>Bleibt das Feld leer, wird diese Pr&uuml;fung &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_OXBILLEMAIL_INCL_HELP' => '<b>Erlaubte E-Mailadresse/n:</b><br>
+                            Schr&auml;nken Sie die Auswahl der Bestellungen auf bestimmte E-Mailadressen oder Teile von E-Mailadressen ein.
+                            <ul>
+                                <li>Begrenzung auf komplette oder Teile von E-Mailadressen.</li>
+                                <li>Beispiele (mit Pipezeichen | getrennt):<br> user@domain.de | domain.de | domain | user@ </li>
+                                <li>Gro&szlig;- Kleinschreibung wird ignoriert.</li>
+                                <li>Bei mehreren Kennungen muss jeder Wert auf einer separaten Zeile stehen.</li>
+                                <li>Bleibt das Feld leer, wird diese Pr&uuml;fung &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium nicht erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_SELECTION_OXBILLEMAIL_EXCL_HELP' => '<b>Verbotene E-Mailadresse/n:</b><br>
+                            W&auml;hlen Sie E-Mailadressen oder Teile von E-Mailadressen aus, welche f&uuml;r die Berechnungen ausgeschlossen werden sollen.<br>
+                            <ul>
+                                <li>Begrenzung auf komplette oder Teile von E-Mailadressen.</li>
+                                <li>Beispiele (mit Pipezeichen | getrennt):<br> user@domain.de | domain.de | domain | user@ </li>
+                                <li>Gro&szlig;- Kleinschreibung wird ignoriert.</li>
+                                <li>Bei mehreren Kennungen muss jeder Wert auf einer separaten Zeile stehen.</li>
+                                <li>Bleibt das Feld leer, wird diese Pr&uuml;fung &uuml;bersprungen.</li>
+                                <li>Bestellungen, welche dieses Kriterium erf&uuml;llen werden dauerhaft ausgeschlossen.</li>
+                            </ul>',
+    //Konfiguration ->Generierung Gutscheine
+    'D3_CFG_MOD_d3points_VOUCHER_RATE_4_VOUCHER_HELP' => '<b>Bonuspunkte-Umrechnungskurs:</b><br>
+                            Hier wird der Umrechnungkurs von den Punkten zu der Shop-Basisw&auml;hrung eingestellt.<br>
+                        	<ul>
+                                <li>
+                                    Die W&auml;hrung ist nicht auf die Shop-Basisw&auml;hrung festgelegt.<br>
+                                    Der Wert des Gutscheines wird in der vom Kunden gew&auml;hlten W&auml;hrung angezeigt.
+                                </li>
+                                <li>
+                                    <b>Beispiel 1:</b><br>
+                                    Ist "0.01" hinterlegt, bekommt der Kunde einen Gutschein in H&ouml;he von 1 Cent je 1 Bonuspunkt.<br>
+                                    Punktekonto betr&auml;gt 250 Punkte. Umrechnung: 250 * 0.01 = 2.50<br>Der Kunde erh&auml;lt somit einen Gutschein &uuml;ber 2,50 Shop-Basisw&auml;hrung.
+                                </li>
+                                <li>
+                                    <b>Beispiel 2:</b><br>
+                                    Ist "0.05" hinterlegt, bekommt der Kunde einen Gutschein in H&ouml;he von 5 Cent je 1 Bonuspunkt.<br>
+                                    Punktekonto betr&auml;gt 250 Punkte. Umrechnung: 250 * 0.05 = 12.50<br>Der Kunde erh&auml;lt somit einen Gutschein &uuml;ber 12,50 Shop-Basisw&auml;hrung.
+                                </li>
+                                <li>M&ouml;gliche Angaben (mit Pipezeichen | getrennt):<br> 1 | 1,5 | 1.5 | 0.05 | 0,05</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_POINTS_VOUCHER_OUT_PAYMENT_HELP' => '<b>Minimallimit f&uuml;r die Punkteumwandlung:</b><br>
+                            Stellen Sie die Mindestpunktezahl ein, ab der ein Kunde manuell aus seinen Bonuspunkten einen Gutschein erstellen kann.<br>
+                            <ul>
+                                <li>Beispiel: Bei einem Wert von 100, darf der Kunde erst ab einem Kontostand von 100 Punkten einen Gutschein erstellen.</li>
+                                <li>G&uuml;ltig sind nur ganze Zahlen (100 200 300 ... 900).</li>
+                                <li>0 - kein Limit gesetzt.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_POINTS_VOUCHER_AUTOMATIC_PAYOUT_HELP' => '<b>Automatische Gutscheinerstellung:</b><br>
+                            Geben Sie die H&ouml;he an, ab wann die Bonuspunkte automatisch in einen Gutschein umgewandelt werden sollen.
+                            <ul>
+                                <li>G&uuml;ltig sind nur ganze Zahlen (100 200 300 ... 900).</li>
+                                <li>Das Kundenkonto wird bei der Generierung um die Punktezahl (siehe Bonuspunkte-Umrechnungskurs) reduziert.</li>
+                                <li>Der Kunde erh&auml;lt automatisch eine E-Mail mit dem Gutscheincode.</li>
+                                <li>Der Kunde kann den Empfang dieser separaten E-Mail, in seinem Kundenkonto de/aktivieren.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_POINTS_VOUCHER_NUMBER_OF_CHARAKTER_HELP' => '<b>Anzahl der Stellen des Gutscheincodes:</b><br>
+                            Anzahl der Stellen, die ein Gutscheincode bei der Erstellung bekommen soll. Die Generierung erfolgt per Zufall mit n Stellen.',
+    //Konfiguration -->Email
+
+    'D3_CFG_MOD_d3points_EMAILS_HELP' => '<b>Konfiguration E-Mails:</b><br>Hier k&ouml;nnen Sie noch weitere Einstellungen zum Thema E-Mails setzen.',
+    'D3_CFG_MOD_d3points_EMAILS_TEST_HELP' => '<b>Test-E-Mailadresse angeben:</b><br>Wenn der Test-Modus aktiv ist, werden alle Bonuspunkte E-Mails an die eingetragene E-Mailadresse versendet.',
+    'D3_CFG_MOD_d3points_EMAILS_BCC_HELP' => '<b>Blindkopie-E-Mailadresse angeben:</b><br>Alle ausgehenden E-Mails werden zus&auml;tzlich als BCC (Blindkopie) an die eingetragene E-Mailadresse versendet.',
+    'D3_CFG_MOD_d3points_SEND_FIRST_EMAIL_HELP' => '<b>Zeitversatz zwischen Vergabe der Punkte und Benachrichtgung per E-Mail:</b><br>
+                            Der Kunde erh&auml;lt die Informations-E-Mail zur Punktevergabe erst nach n Tagen.
+                            <ul>
+                                <li>G&uuml;ltig sind nur ganze Zahlen (1 2 3 ... 9).</li>
+                                <li>Bei Angaben kleiner 0 wird die Informations-E-Mail bei der Punktevergabe versendet.</li>
+                            </ul>',
+    //'D3_CFG_MOD_d3points_REMINDER'  				=> 'Einstellung Erinnerungsemails',
+    'D3_CFG_MOD_d3points_REMINDER_DAYS_WAIT_4_FIRST_MAIL_HELP' => '<b>:</b><br>Punktestand ab dem der Kunde erinnert werden soll.
+                            <ul>
+                            <li>Angabe erfolgt in Tagen.</li>
+                            <li>Der Wert gibt die Anzahl der Tage an, die zwischen der ersten Informationsmail (das er Punkte erhalten hat) und einer weiteren Erinnerungs-E-mail liegen sollen</li>
+                            <li>Bleibt das Feld leer bzw. wird auf "0" gesetzt werden keine Erinnerungs-E-Mails versendet.</li>
+                            <li>Der Kunde kann den Empfang dieser E-Mail abw&auml;hlen. Die notwendige Einstellm&ouml;glichkeit befindet sich im Kundenkonto.</li></ul>',
+    'D3_CFG_MOD_d3points_REMINDER_DAYS_WAIT_4_NEXT_MAILS_HELP' => '<b>Intervall der Erinnerungs-E-Mail:</b><br>
+                            Der Kunde erh&auml;lt nach n Tagen die Einnerungs-E-Mail.<br>
+                            <ul>
+                                <li>In der Erinnerungs-E-Mail wird der Kunde an sein Punktekonto erinnert.</li>
+                                <li>Der Intervall wird nach jeder Punktevergabe neu gestartet.</li>
+                                <li>G&uuml;ltig sind nur ganze Zahlen (1 2 3 ... 9).</li>
+                                <li>Bei Angaben kleiner 0 wird die Informations-E-Mail bei der Punktevergabe versendet.</li>
+                                <li>Der Kunde kann den Empfang dieser separaten E-Mail, in seinem Kundenkonto de/aktivieren.</li>
+                            </ul>',
+    'D3_CFG_MOD_d3points_REMINDER_AMOUNT_POINTS_HELP' => '<b>Mindestpunktestand Erinnerungs-E-Mail:</b><br>
+                            Der Kunde wird erst ab einem Kontostand n erinnert.
+                            <ul>
+                                <li>Abfrage pr&uuml;ft auf: Einstellung >= Punktestand Kundenkonto </li>
+                                <li>Der Kunde erh&auml;lt dazu eine E-Mail mit der Summe seiner Punkte.</li>
+                                <li>Der Kunde kann den Empfang dieser separaten E-Mail, in seinem Kundenkonto de/aktivieren.</li>
+                                <li>G&uuml;ltig sind nur ganze Zahlen (100 200 300 ... 900).</li>
+                            </ul>',
+
+    //Testmodus
+    'D3_CFG_MOD_d3points_TESTMODUS_FOR_REVIEWS_HELP' => '',
+    'D3_CFG_MOD_d3points_TESTMODUS_DISPLAY_ACCOUNT_HELP' => '',
+    'D3_CFG_MOD_d3points_TESTMODUS_FOR_GROUPS_HELP' => '',
+
+    'D3_CFG_MOD_d3points_TESTMODUS_CREATE_VOUCHERS_HELP' => '',
+
+    //Spielwiese
+    //Wartung
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_HELP' => '<b>Alle Bestellungen zur&uuml;cksetzen:</b><br>
+                            Mit dieser Wartungsoption k&ouml;nnen Sie den Status f&uuml;r ALLE Bestellungen innerhalb eines Shops setzen.<br>
+                            Damit k&ouml;nnen alle Bestellungen f&uuml;r eine erneute Punktevergabe freigeschalten/gesperrt werden.<br>
+                            Achtung! Bereits vergebenene Punkte werden nicht gel&ouml;scht!<br><br>
+                            Tipp: Nach der Installation bzw. Liveschaltung des Moduls k&ouml;nnen Sie alle Bestellungen als bearbeitet markieren. Damit wird das Bonuspunkteprogramm erst mit neuen Bestellungen gestartet. ',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TXT_HELP' => '<b>:</b><br>Alle Bestellungen auf bearbeitet setzten. Mit einem Haken werden alle Bestellungen auf "bearbeitet" gesetzt. Ohne Haken wird der Status "unbearbeitet" gesetzt und die Bestellungen werden vom Cronjob bearbeitet.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDER_TXT_HELP' => '<b>Bonuspunkte einer einzelnen Bestellung l&ouml;schen:</b><br>F&uuml;r eine einzelne Bestellung k&ouml;nnen die vergebenen Punkte gel&ouml;scht oder storniert werden.<br>Der Kunde wird &uuml;ber diesen Vorgang per E-Mail benachrichtigt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_UNSET_HELP' => '<b>als unbearteitet markieren:</b><br>An alle Bestellungen im Shop werden nach Ausf&uuml;hrung dieser Aktion neue Bonuspunkte vergeben.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_SET_HELP' => '<b>als bearbeitet markieren:</b><br>An alle bisher im Shop get&auml;tigten Bestellungen k&ouml;nnen keine Bonuspunkte mehr vergeben werden.<br>Bonuspunkte werden an zuk&uuml;nftigen Bestellungen berechnet.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_HELP' => '<b>Vorgang wirklich ausf&uuml;hren?:</b><br>Aus Sicherheitsgr&uuml;nden muss dieses Feld best&auml;tigt werden.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDER_CONFIRM_HELP' => '<b>Vorgang wirklich ausf&uuml;hren?:</b><br>Aus Sicherheitsgr&uuml;nden muss dieses Feld best&auml;tigt werden.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP_DELETE_HELP' => '<b>l&ouml;schen:</b><br>Bereits vergebene Punkte und Gutscheine dieser Bestellung werden gel&ouml;scht.<br>Die Bestellung ist damit f&uuml;r eine erneute <b>Punktevergabe freigeschalten</b>.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP_STORNO_HELP' => '<b>stornieren:</b><br>Dem Bonuspunktekonto werden die Punkte aus der Bestellung negativ berechnet.<br>Im Falle eines negativen Punktestand wird versucht vorhandene Bonuspunkte-Gutscheine aufzul&ouml;sen. Kann kein Gutschein aufgel&ouml;st werden, bleibt ein negativer Punktestand.<br><b>Dieser Vorgang ist im Kundenkonto nachvollziehbar</b> und kann dem Kunden &uuml;ber das Feld "Bemerkung" erl&auml;utert werden.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_COMMET_HELP' => '<b>Bemerkung:</b><br>Hier kann ein Kommentar f&uuml;r den Kunden hinterlassen werden. Diese Meldung ist im Kundenkonto sichtbar und wird in der E-Mail angezeigt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_SEND_MAIL_HELP' => '<b>E-Mail versenden:</b><br>Der Kunde wird dar&uuml;ber per E-Mail unterrichtet.',
+    //Bestellungen ->Stamm
+    //Benutzer D3 Bonuspunkte
+    'D3_USER_POINTS_SETPOINTS_HELP' => '<b>Punkte:</b><br>
+                            Geben Sie an ob Sie negative/positive Punkte vergeben woll.
+                            <ul>
+                                <li>Der Kunde erh&auml;lt keine E-Mail Benachrichtigung.</li>
+                                <li>Die Vergabe der Punkte kann der Kunde in seinem Kundenkonto einsehen.</li>
+                                <li>G&uuml;ltig sind nur ganze Zahlen (-100 100 -200 200 ... 900).</li>
+                            </ul>
+        ',
+    'D3_USER_POINTS_SETPOINTS_SEND_EMAIL_HELP'  =>'',
+
+    'D3_CFG_MOD_d3points_FNC_CRONJOB_PRINT_STATUS_HELP'                    => 'Die Ausführung der CronJobs beeinhaltet die Ausgabe umfangreicher Informationen zur Abarbeitung und zu den Kundendaten.
+<br>Für Tests, der Inbetriebnahme oder dem regulären Betrieb können diese Informationen wichtig sein um die Funktion nachzuvollziehen.
+ <br> Ist diese Option nicht gesetzt, dann werden auch keine Daten ausgegeben.',
+
+    'D3_CFG_MOD_d3points_FNC_CRONJOB_SEND_STATUS_TO_HELP'       => 'Mit dieser Option werden die Ausgaben zusätzlich an die hier hinterlegte Emailadresse gesendet.<br>Ist das Feld leer, so erfolgt keine Ausgabe per Mail.<br><br>
+Diese Einstellung ist unabhängig von der Option: 
+'
+);

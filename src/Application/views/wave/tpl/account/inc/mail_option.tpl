@@ -13,9 +13,10 @@
                 </div>
                 <div class="card-body">
                     [{*<h3 class="d3points">[{oxmultilang ident="D3_ACCOUNT_POINTS_OPTIONS"}]</h3>*}]
-                    <div class="card-header">
-                        [{oxmultilang ident="D3_ACCOUNT_OPTIONS_MAIL_TXT"}]
+                    <div class="form-group">
+                            [{oxmultilang ident="D3_ACCOUNT_OPTIONS_MAIL_TXT"}]
                     </div>
+                    <hr>
 
                     <div class="form-group row">
                         <label class="control-label col-8" for="d3PointsMailStatus[0]">[{oxmultilang ident="D3_ACCOUNT_OPTIONS_MAIL_FIRST_MAIL"}]</label>

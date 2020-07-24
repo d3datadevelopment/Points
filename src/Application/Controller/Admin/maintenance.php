@@ -1,84 +1,139 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.2.1 PHP71 (17.03.2020) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2020, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-feT3AnsPHz+copd9JqhO6B0QrkIOQpApY4H1GW==
+<?php
+
+/**
+ * This Software is the property of D³ Data Development
+ * and is protected by copyright law - it is NOT Freeware.
+ *
+ * Any unauthorized use of this software without a valid license
+ * key is a violation of the license agreement and will be
+ * prosecuted by civil and criminal law.
+ *
+ * D3 Data Development
+ * Inhaber: Thomas Dartsch
+ * Alle Rechte vorbehalten
+ *
+ * @package "Bonuspunkte"
+ * @author Thomas Dartsch <thomas.dartsch@shopmodule.com> / Markus Gärtner <markus.gaertner@shopmodule.com>
+ * @copyright (C) 2011, D3 Data Development
+ * @see http://www.shopmodule.com
+ */
+
+namespace D3\Points\Application\Controller\Admin;
+use D3\ModCfg\Application\Controller\Admin\d3_cfg_mod_main;
+use OxidEsales\Eshop\Application\Model\Order;
+use OxidEsales\Eshop\Core\Registry;
+use OxidEsales\Eshop\Core\Request;
+use D3\Points\Application\Model\d3points;
+
+/**
+ * Class d3_d3points_maintenance
+ *
+ * @package d3\points\Application\Controller\Admin
+ */
+class maintenance extends d3_cfg_mod_main
+{
+    protected $_sThisTemplate = 'd3points_maintenance.tpl';
+    /**
+     * @var string
+     */
+    protected $_sModId = 'd3points';
+    protected $_hasLicence = false;
+    protected $_hasNewsletterForm = false;
+    protected $_modUseCurl = false;
+    protected $_sMenuItemTitle = 'd3mxd3points';
+    protected $_sMenuSubItemTitle = 'd3mxd3points_MAINTENANCE';
+    protected $_sHelpLinkMLAdd = 'D3_CFG_MOD_d3points_HELPLINK_MAINTAINCE';
+
+    /**
+     *
+     */
+    /*
+    public function __construct()
+    {
+        parent::__construct();
+
+        $this->_oSet = d3_cfg_mod::get($this->_sModId);
+    }
+    */
+
+    /**
+     * Set Status on Order
+     * set field d3issetpoints
+     * can set to 0 or 1
+     * 0 = order is not processed by cronjob
+     * 1 = order is processed by cronjob
+     *
+     * @return void
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function d3SetOxorderd3IssetPoints()
+    {
+        $iStatus    = Registry::get(Request::class)->getRequestEscapedParameter('d3PointsOrderStatus');
+        $blStatus   = Registry::get(Request::class)->getRequestEscapedParameter('d3PointsOrderConfirm');
+
+        $myUtilsView = Registry::getUtilsView();
+        $oLang = Registry::getLang();
+
+        if ($blStatus == true) {
+            if ($iStatus == '-')
+                $myUtilsView->addErrorToDisplay(
+                $oLang->translateString('D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_NOT_STATUS')
+                );
+            else {
+                /** @var $oOrder d3_oxorder_d3points **/
+                $oOrder = oxNew(Order::class);
+                if ($oOrder->d3ResetOrders($iStatus, $blStatus))
+                    $myUtilsView->addErrorToDisplay(
+                        sprintf($oLang->translateString('D3_CFG_MOD_d3points_MAINTAINCE_RESET_SUCCESS'),
+                            $oOrder->iD3UpdatedOrders)
+                    );
+            }
+        } else {
+            $myUtilsView->addErrorToDisplay(
+                $oLang->translateString('D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_NOT'
+                )
+            );
+        }
+    }
+
+    /**
+     * Delete/Storno Points from Order
+     * call d3DeleteOrder()
+     *
+     * @return void
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     */
+    public function d3DeleteOrderPoints()
+    {
+        $sOrderNr           = Registry::get(Request::class)->getRequestEscapedParameter('d3PointsOrderNr');
+        $blOrderConfirm     = Registry::get(Request::class)->getRequestEscapedParameter('d3PointsOrderConfirm');
+        $sOrderType         = Registry::get(Request::class)->getRequestEscapedParameter('d3PointsOrderType');
+        $sOrderComment      = Registry::get(Request::class)->getRequestEscapedParameter('d3PointsOrderComment');
+        $blSendMail         = Registry::get(Request::class)->getRequestEscapedParameter('d3SendMail');
+
+        $myUtilsView = Registry::getUtilsView();
+        $oLang = Registry::getLang();
+        $ret = '';
+
+        if ($sOrderType) {
+            if ($blOrderConfirm == true) {
+                /** @var $od3Points d3points **/
+                $od3Points = oxNew(d3points::class);
+                $ret = $od3Points->d3DeleteOrderPoints($sOrderNr, $blOrderConfirm, $sOrderType, $sOrderComment, $blSendMail);
+                if ($ret) {
+                    $sReturnMessage = sprintf($oLang->translateString($ret), $sOrderNr);
+                    $myUtilsView->addErrorToDisplay($sReturnMessage);
+                }
+            } else
+                $myUtilsView->addErrorToDisplay($oLang->translateString('D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_NOT'));
+        } else {
+            $myUtilsView->addErrorToDisplay($oLang->translateString('D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP_ERROR'));
+        }
+    }
+
+}

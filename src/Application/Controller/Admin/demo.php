@@ -1,72 +1,162 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.2.1 PHP71 (17.03.2020) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2020, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+
+/**
+ * This Software is the property of D³ Data Development
+ * and is protected by copyright law - it is NOT Freeware.
+ *
+ * Any unauthorized use of this software without a valid license
+ * key is a violation of the license agreement and will be
+ * prosecuted by civil and criminal law.
+ *
+ * D3 Data Development
+ * Inhaber: Thomas Dartsch
+ * Alle Rechte vorbehalten
+ *
+ * @package "Bonuspunkte"
+ * @author Thomas Dartsch <thomas.dartsch@shopmodule.com> / Markus Gärtner <markus.gaertner@shopmodule.com>
+ * @copyright (C) 2011, D3 Data Development
+ * @see http://www.shopmodule.com
+ */
+
+namespace D3\Points\Application\Controller\Admin;
+
+use D3\ModCfg\Application\Controller\Admin\d3_cfg_mod_main;
+use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use OxidEsales\Eshop\Application\Model\Order;
+use OxidEsales\Eshop\Core\Registry;
+use OxidEsales\Eshop\Core\Request;
+use D3\Points\Application\Model\d3points;
+
+/**
+ * Class demo
+ *
+ * @package D3\Points\Application\Controller\Admin
+ */
+class demo extends d3_cfg_mod_main
+{
+    protected $_sThisTemplate = 'd3points_demo.tpl';
+    protected $_sModId = 'd3points';
+    protected $_hasLicence = false;
+    protected $_hasNewsletterForm = false;
+    protected $_modUseCurl = false;
+    protected $_sMenuItemTitle = 'd3mxd3points';
+    protected $_sMenuSubItemTitle = 'd3mxd3points_DEMO';
+    protected $_sHelpLinkMLAdd = 'D3_CFG_MOD_d3points_HELPLINK_DEMO';
+
+    /**
+     * @return string
+     * @throws \D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\StandardException
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     * @throws d3_cfg_mod_exception
+     */
+    public function render()
+    {
+        $ret = parent::render();
+        #echo __LINE__;
+        #dumpvar($this->oSet->oValue);
+
+        $this->addTplParam("sRate4Points",$this->d3GetRate4Points());
+        $this->addTplParam("aRate4Points", $this->d3GetRateArray4Points());
+        $this->addTplParam("sRate4Voucher", $this->d3GetRate4Voucher());
+
+        return $ret;
+    }
+
+    /**
+     * Return Rate to calculate points by price
+     *
+     * @return integer
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function d3GetRate4Points()
+    {
+        /* @var $od3points d3points */
+        $od3points = oxnew(d3points::class);
+        return $od3points->d3GetRateLinear2CalculatePoints();
+    }
+
+    /**
+     * @return array
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function d3GetRateArray4Points()
+    {
+        /* @var $od3points d3points */
+        $od3points = oxnew(d3points::class);
+        return $od3points->d3GetRateScalar2CalculatePoints();
+        #return $od3points->d3GetRateScalar2CalculatePoints();
+    }
+
+    /**
+     * Calculate Points and asign value to smarty
+     *
+     * assign results ti templates
+     * -CALCULATEDPOINTS
+     * -PRICE2POINTS
+     *
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function calculatePoints()
+    {
+        $aPoints = Registry::get(Request::class)->getRequestEscapedParameter('DEMOSYSTEM');
+        $dPoints = $aPoints['PRICE2POINTS'];
+
+        /* @var d3points d3points */
+        $od3points = oxnew(d3points::class);
+
+        /** @var d3_oxorder_d3points $oOrder */
+        $oOrder = oxNew(Order::class);
+
+        $this->addTplParam("CALCULATEDPOINTS",$od3points->d3CalculatePoints($oOrder,$dPoints, false));
+        $this->addTplParam("PRICE2POINTS", $dPoints);
+    }
+
+    /**
+     * Rerurn Rate for Voucher
+     * to calculate points to voucher
+     *
+     * @return double
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function d3GetRate4Voucher()
+    {
+        /* @var $od3points d3points */
+        $od3points = oxnew(d3points::class);
+        return $od3points->d3GetRate4Voucher();
+    }
+
+    /**
+     * Calculate Voucher
+     * assign resdults to template
+     * -CALCULATEDVOUCHER
+     * -POINTS2VOUCHER
+     *
+     * @return void
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
+     */
+    public function calculateVoucher()
+    {
+        $aPoints = Registry::get(Request::class)->getRequestEscapedParameter('DEMOSYSTEM');
+        $dPoints = $aPoints['POINTS2VOUCHER'];
+
+        /* @var $od3points d3points */
+        $od3points = oxnew(d3points::class);
+
+        $this->addTplParam("CALCULATEDVOUCHER", $od3points->d3CalculateVoucherAmount($dPoints));
+        $this->addTplParam("POINTS2VOUCHER", $dPoints);
+    }
+
+}
