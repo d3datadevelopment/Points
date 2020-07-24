@@ -1,122 +1,270 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.2.1 PHP56 (17.03.2020) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2020, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
+<?php
+/**
+ * This Software is the property of D³ Data Development
+ * and is protected by copyright law - it is NOT Freeware.
+ *
+ * Any unauthorized use of this software without a valid license
+ * key is a violation of the license agreement and will be
+ * prosecuted by civil and criminal law.
+ *
+ * D3 Data Development
+ * Inhaber: Thomas Dartsch
+ * Alle Rechte vorbehalten
+ *
+ * @package "Bonuspunkte"
+ * @author Thomas Dartsch <thomas.dartsch@shopmodule.com> / Markus Gärtner <markus.gaertner@shopmodule.com>
+ * @copyright (C) 2011, D3 Data Development
+ * @see http://www.shopmodule.com
+ *
+ */
+
+namespace D3\Points\Application\Controller\Admin;
+use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use OxidEsales\Eshop\Application\Controller\Admin\AdminDetailsController;
+use OxidEsales\Eshop\Application\Model\User;
+use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
+use OxidEsales\Eshop\Core\Exception\SystemComponentException;
+use OxidEsales\Eshop\Core\Module\Module;
+use OxidEsales\Eshop\Core\Registry;
+use OxidEsales\Eshop\Core\Request;
+use D3\Points\Application\Model\d3points;
+
+/**
+ * Class userpoints
+ *
+ * @package D3\Points\Application\Controller\Admin
+ */
+class userpoints extends AdminDetailsController
+{
+    /**
+     * Current class default template name.
+     *
+     * @var string
+     */
+    protected $_sThisTemplate = 'd3points_userpoints.tpl';
+    #private $_sModId = 'd3points';
+    #private $_oSet = null;
+    private $_sSaveError = null;
+
+    /**
+     * Executes parent method parent::render(), creates oxlist object,
+     * passes it's data to Smarty engine and retutns name of template
+     * file "d3_user_points.tpl".
+     *
+     * @return string
+     * @throws SystemComponentException
+     */
+    public function render()
+    {
+        parent::render();
+        $soxId = $this->getEditObjectId();
+
+        /*
+        if ($this->_sSaveError) {
+            $this->_aViewData["sSaveError"] = $this->_sSaveError;
+        }*/
+
+        if ($soxId != "-1" && isset($soxId)) { // load object
+            /* @var $oUser User */
+            $oUser = oxNew(User::class);
+            $oUser->Load($soxId);
+            $this->_aViewData["edit"] = $oUser;
+        }
+
+        return $this->_sThisTemplate;
+    }
+
+    /**
+     * Create new points for user
+     *
+     * write errors to $this->_sSaveError
+     *
+     * @throws DatabaseConnectionException
+     * @throws SystemComponentException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     * @throws d3_cfg_mod_exception
+     */
+    public function CreateNewPoints()
+    {
+        $soxId      = Registry::get(Request::class)->getRequestEscapedParameter('oxid');
+        $iNewPoints = (int)Registry::get(Request::class)->getRequestEscapedParameter("dNewPoints");
+        $sText      = Registry::get(Request::class)->getRequestEscapedParameter("sText");
+
+        if ($soxId != "-1" && isset($soxId)) { // load object
+            /* @var $oUser User */
+            $oUser = oxNew(User::class);
+            $oUser->Load($soxId);
+
+            /* @var $oD3UserPoints d3points */
+            $oD3UserPoints = oxNew(d3points::class);
+            $oD3UserPoints->d3CreateManualNewPoints($oUser, $iNewPoints, $sText);
+            $this->_sSaveError = $oD3UserPoints->d3GetReturnMessage();
+        }
+    }
+
+    /**
+     * Return total points as Sum for User
+     *
+     * @param String $soxId
+     *
+     * @return String
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function getPointsTotalSum($soxId)
+    {
+        /* @var $oD3UserPoints d3points */
+        $oD3UserPoints = oxNew(d3points::class);
+        return $oD3UserPoints->d3GetTotalSumPoints($soxId);
+    }
+
+    /**
+     * Return all points from user
+     *
+     * @param String $soxId
+     *
+     * @return object
+     * @throws DatabaseConnectionException
+     * @throws SystemComponentException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function d3GetAllPoints($soxId)
+    {
+        /* @var $oD3UserPoints d3points */
+        $oD3UserPoints = oxNew(d3points::class);
+        #return $oD3UserPoints->d3GetAllPoints($soxId);
+        $oTmpPoints =  $oD3UserPoints->d3GetAllPoints($soxId);
+        $oTmpPointsList = $oTmpPoints->aList;
+
+        $aFiles = $this->getAdminTemplatesForList();
+        $oPointsList = array();
+        #while($oTmpPointsList->EOF)
+        foreach($oTmpPointsList as $sKey => $oPoints)
+        {
+            $sTmpType = "d3points_userpoints_".$oPoints->d3points__oxtype->rawValue.".tpl";
+            $sTmpTypeOther = "d3points_userpoints_other.tpl";
+
+            $sField = $sTmpTypeOther;
+
+            if(array_key_exists($sTmpType,$aFiles))
+            {
+                $sField = $sTmpType;
+            }
+
+            $oPoints->assign(
+                array('d3template' => $sField)
+            );
+
+            $oPointsList[$sKey] = $oPoints;
+        }
+        #dumpvar($oTmpPointsList);
+        #echo "<hr>";
+        #dumpvar($oPointsList);
+        return $oTmpPointsList;
+    }
+
+    /**
+     * Get value for given Position for rights management
+     * Ckeck some Options
+     * $iBit = 0, 1,2,3 , ..
+     *
+     * @param integer $iBit
+     *
+     * @return bool
+     * @throws DatabaseConnectionException
+     */
+    public function d3GetSelectedOption($iBit)
+    {
+        $soxId = $this->getEditObjectId();
+
+        /* @var $oUser User */
+        $oUser = oxNew(User::class);
+        $oUser->load($soxId);
+
+        if ($oUser) {
+            /* @var $od3Points d3points */
+            $od3Points = oxnew(d3points::class);
+            return $od3Points->d3GetSelectedOption($oUser->getId(), $iBit);
+        }
+        return false;
+    }
+
+    /**
+     * @param string $sDate
+     *
+     * @return string
+     * @throws DatabaseConnectionException
+     * @throws \Doctrine\DBAL\DBALException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function d3GetNextReminderDate($sDate)
+    {
+        /* @var $od3Points d3points */
+        $od3Points = oxnew(d3points::class);
+        $sD3PointsRemindDays = $od3Points->d3GetDelayForReminderMail();
+
+        return date("Y-m-d H:i:s", strtotime($sDate) + (60 * 60 * 24 * $sD3PointsRemindDays));
+    }
+
+
+    /**
+     * Write Options for reciving mails for users
+     * save Option in oxuser in field d3pointsmailoption as decimal
+     * convert values from bin to decimal
+     *
+     * 0 = Bonuspunkte für Bestellungen
+     * 1 = Bonuspunkte für Artikelbewertungen
+     * 2 = Erinnerungsmail für vorhandene Bonuspunkte
+     *
+     * @throws DatabaseConnectionException
+     * @throws SystemComponentException
+     */
+    public function d3SetMailOptions()
+    {
+        $soxId = $this->getEditObjectId();
+
+        /* @var $oUser User */
+        $oUser = oxNew(User::class);
+        $oUser->load($soxId);
+
+        if($oUser) {
+            /** @var d3points $od3Points */
+            $od3Points = oxnew(d3points::class);
+            $od3Points->setMailOptions($oUser->getId(), Registry::get(Request::class)->getRequestEscapedParameter( "d3PointsMailStatus"));
+        }
+    }
+
+    /**
+     * @return array
+     * @throws SystemComponentException
+     */
+    public function getAdminTemplatesForList()
+    {
+        /** @var  $oModul Module*/
+        //$oModule = oxNew('oxModule');
+        $oModule = oxNew(Module::class);
+        $oModule->load('d3points');
+        $aTmpTemplates = $oModule->getInfo('templates');
+        $aTemplates = array();
+
+        foreach ($aTmpTemplates as $sTemplate => $sPathToFile)
+        {
+            if(substr_count($sTemplate,'d3points_userpoints_'))
+            {
+                $aTemplates[$sTemplate] = $sPathToFile;
+            }
+        }
+        return $aTemplates;
+    }
+
+    /**
+     * @return null
+     */
+    public function d3SaveError()
+    {
+        return $this->_sSaveError;
+    }
+}

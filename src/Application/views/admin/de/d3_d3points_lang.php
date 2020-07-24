@@ -1,346 +1,176 @@
-<?php //006ec
-// This Software is the property of D³ Data Development and is protected by copyright law - it is NOT Freeware.  Any unauthorized use of this software without a valid license key is a violation of the license agreement and will be prosecuted by civil and criminal law.  Inhaber: Thomas Dartsch Alle Rechte vorbehalten  @package Bonuspunkte @version 5.0.2.1 PHP56 (17.03.2020) @author  Markus Gärtner support@shopmodule.com @copyright (C) 2020, D3 Data Development @see http://www.shopmodule.com
-if(!extension_loaded('ionCube Loader')){$__oc=strtolower(substr(php_uname(),0,3));$__ln='ioncube_loader_'.$__oc.'_'.substr(phpversion(),0,3).(($__oc=='win')?'.dll':'.so');if(function_exists('dl')){@dl($__ln);}if(function_exists('_il_exec')){return _il_exec();}$__ln='/ioncube/'.$__ln;$__oid=$__id=realpath(ini_get('extension_dir'));$__here=dirname(__FILE__);if(strlen($__id)>1&&$__id[1]==':'){$__id=str_replace('\\','/',substr($__id,2));$__here=str_replace('\\','/',substr($__here,2));}$__rd=str_repeat('/..',substr_count($__id,'/')).$__here.'/';$__i=strlen($__rd);while($__i--){if($__rd[$__i]=='/'){$__lp=substr($__rd,0,$__i).$__ln;if(file_exists($__oid.$__lp)){$__ln=$__lp;break;}}}if(function_exists('dl')){@dl($__ln);}}else{die('The file '.__FILE__." is corrupted.\n");}if(function_exists('_il_exec')){return _il_exec();}echo("Site error: the ".(php_sapi_name()=='cli'?'ionCube':'<a href="http://www.ioncube.com">ionCube</a>')." PHP Loader needs to be installed. This is a widely used PHP extension for running ionCube protected PHP code, website security and malware blocking.\n\nPlease visit ".(php_sapi_name()=='cli'?'get-loader.ioncube.com':'<a href="http://get-loader.ioncube.com">get-loader.ioncube.com</a>')." for install assistance.\n\n");exit(199);
-?>
-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
-jA4vjx4=
+<?php
+
+$sLangName = "Deutsch";
+$aLang     = array(
+
+    //Navigation
+    'charset'                                                              => 'UTF-8',
+    'd3points_TRANSL'                                                      => 'Bonuspunkte',
+    'd3points_HELPLINK'                                                    => 'Bonuspunkte/',
+    //ModCfg
+    'd3mxd3points'                                                         => '<i class="fab fa-d3 d3fa-color-blue"></i> Bonuspunkte',
+    'd3cfgd3points'                                                        => 'Konfiguration',
+    'd3tbcld3points_settings_main'                                         => 'Konfiguration',
+    'd3mxd3points_SETTINGS'                                                => 'Konfiguration',
+    'd3mxd3points_SUPPORT'                                                 => 'Support',
+    'D3_CFG_MOD_d3points_MODULEACTIVE'                                     => 'Modul aktiv',
+    'D3_CFG_d3points_GENERAL_DEBUGACTIVE'                                  => 'Debug-Modus',
+    'D3_CFG_d3points_TEST_MODUS'                                           => 'Test-Modus',
+    'D3_CFG_MOD_d3points_ACTIVE'                                           => 'aktiv',
+    'D3_CFG_MOD_d3points_INACTIVE'                                         => 'inaktiv',
+    'D3_CFG_MOD_d3points_CRONJOBS_OWERVIEW'                                => 'CronJob / Funktionen',
+    'D3_CFG_MOD_d3points_CRONJOBS_ACTIVE'                                  => 'Aktiv',
+    'D3_CFG_MOD_d3points_LAST_STARTS_CRONJOBS'                             => 'letzte Ausführung:',
+    'D3_CFG_MOD_d3points_CRONJOBS_LINK'                                    => 'Link',
+    'D3_CFG_MOD_d3points_ACCESSKEY'                                        => 'Zugriffsschutz für den CronJob',
+    'D3_CFG_MOD_d3points_CRONJOB_GENERALL'                                 => 'Cronjob',
+    'D3_CFG_MOD_d3points_CRONJOB_NEWPOINTS'                                => 'Punktevergabe',
+    'D3_CFG_MOD_d3points_VOUCHER_4_MAX_POINTS'                             => 'Automatische Gutscheinvergabe',
+    'D3_CFG_MOD_d3points_SEND_FIRST_MAIL'                                  => 'E-Mail mit Bonuspunkte',
+    'D3_CFG_MOD_d3points_SEND_REMINDER_MAIL'                               => 'Erinnerungs-E-Mails',
+    'D3_CFG_MOD_d3points_CALCULATION'                                      => 'Berechnung der Bonuspunkte',
+    'D3_CFG_MOD_d3points_FNC_CRONJOB_PRINT_STATUS'                         => 'CronJob: Ausgabe der Statusinformationen',
+    'D3_CFG_MOD_d3points_FNC_CRONJOB_SEND_STATUS_TO'                       => 'CronJob: Ausgabe versenden an:',
+
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM'                                    => 'Punktesysteme',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_SCALE'                              => 'Staffelsystem (scalar)',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_LINEAR'                             => 'lineare Punktevergabe (linear)',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_SCALAR_SET'                         => 'Punkteverteilung für das Staffelsystem',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_LINEAR_SET'                         => 'Punkte für die lineare Punktevergabe',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_RATING_SET'                  => 'Punkte für Sternbewertung',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_TEXT_SET'                    => 'Punkte für Textbewertung',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_REVIEW_TEXT_MULTIPLE_REVIEWS'       => 'Mehrfach-Textbewertungen für Artikel',
+    'D3_CFG_MOD_d3points_POINTS_SYSTEM_EE_MALL_ACCOUNT'                    => 'Shopübergreifendes Punktekonto (nur EE)',
+    'D3_CFG_MOD_d3points_SELECT_ORDERS'                                    => 'Auswahlkriterien für die Punktevergabe an Bestellungen',
+    'D3_CFG_MOD_d3points_SELECTION_DATE_LIMIT'                             => 'Zeitlimit für zurückliegende Bestellungen',
+    'D3_CFG_MOD_d3points_SELECTION_DATE_RANGE'                             => 'Zeitspanne zwischen Bestellzeit und Punktevergabe',
+    'D3_CFG_MOD_d3points_SELECTION_PRICE_LIMIT'                            => 'Minimalwert für den Warenbruttowert',
+    'D3_CFG_MOD_d3points_DO_POINTS_FOR_USER_WITHOUT_ACCOUNT'               => 'Kunden ohne Kundenkonto erhalten Bonuspunkte',
+    'D3_CFG_MOD_d3points_SELECTION_GROUPS_4_POINTS'                        => 'Kundengruppen freigeben',
+    'D3_CFG_MOD_d3points_SELECTION_GROUPS_4_NO_POINTS'                     => 'Kundengruppen ausschlie&szlig;en',
+    'D3_CFG_MOD_d3points_SELECTION_PAYMENT_DATE_PAYED_POINTS'              => 'Bezahldatum bei folgenden Bezahlarten prüfen',
+    'D3_CFG_MOD_d3points_SELECTION_PAYMENT_4_NO_POINTS'                    => 'Keine Punkte bei folgenden Zahlarten',
+    'D3_CFG_MOD_d3points_SELECTION_DELIVERYDATE_4_NO_POINTS'               => 'Versanddatum bei folgenden Bezahlarten prüfen',
+    'D3_CFG_MOD_d3points_SELECTION_OXFOLDER_4_POINTS'                      => 'Bestellordner freigeben',
+    'D3_CFG_MOD_d3points_SELECTION_OXFOLDER_4_NO_POINTS'                   => 'Bestellordner ausschlie&szlig;en',
+    'D3_CFG_MOD_d3points_SELECTION_OXIP_INCL'                              => 'Notwendige Werte im Feld oxip',
+    'D3_CFG_MOD_d3points_SELECTION_OXIP_EXCL'                              => 'Verbotene Werte im Feld oxip',
+    'D3_CFG_MOD_d3points_SELECTION_OXTRANSSTATUS_INCL'                     => 'Notwendige Werte im Feld oxtransstatus',
+    'D3_CFG_MOD_d3points_SELECTION_OXTRANSSTATUS_EXCL'                     => 'Verbotene Werte im Feld oxtransstatus',
+    'D3_CFG_MOD_d3points_SELECTION_OXBILLEMAIL_INCL'                       => 'Erlaubte E-Mailadresse',
+    'D3_CFG_MOD_d3points_SELECTION_OXBILLEMAIL_EXCL'                       => 'Verbotene E-Mailadresse',
+    //Konfiguration ->Generierung Gutscheine
+    'D3_CFG_MOD_d3points_VOUCHER'                                          => 'Generierung Gutscheine',
+    'D3_CFG_MOD_d3points_VOUCHER_RATE_4_VOUCHER'                           => 'Bonuspunkte-Umrechnungskurs',
+    'D3_CFG_MOD_d3points_POINTS_VOUCHER_OUT_PAYMENT'                       => 'Minimallimit für die Punkteumwandlung',
+    'D3_CFG_MOD_d3points_POINTS_VOUCHER_AUTOMATIC_PAYOUT'                  => 'Automatische Gutscheinerstellung',
+    'D3_CFG_MOD_d3points_POINTS_VOUCHER_NUMBER_OF_CHARAKTER'               => 'Anzahl der Stellen des Gutscheincodes',
+    //Konfiguration -->Email
+    'D3_CFG_MOD_d3points_EMAILS'                                           => 'Konfiguration E-Mails',
+    'D3_CFG_MOD_d3points_EMAILS_BCC'                                       => 'Blindkopie-E-Mailadresse angeben',
+    'D3_CFG_MOD_d3points_EMAILS_TEST'                                      => 'Test-E-Mailadresse angeben',
+    'D3_CFG_MOD_d3points_SEND_FIRST_EMAIL'                                 => 'Zeitversatz zwischen Vergabe der Punkte und Benachrichtgung per E-Mail',
+    //'D3_CFG_MOD_d3points_REMINDER'  				=> 'Einstellung Erinnerungsemails',
+    'D3_CFG_MOD_d3points_REMINDER_DAYS_WAIT_4_FIRST_MAIL'                  => 'Zeitpunkt für versand der ersten E-Mail',
+    'D3_CFG_MOD_d3points_REMINDER_DAYS_WAIT_4_NEXT_MAILS'                  => 'Intervall der Erinnerungs-E-Mail',
+    'D3_CFG_MOD_d3points_REMINDER_AMOUNT_POINTS'                           => 'Mindestpunktestand Erinnerungs-E-Mail',
+    'D3_CFG_MOD_d3points_MAIN_SAVE'                                        => 'Speichern',
+    //Bezeichner
+    'D3_CFG_MOD_d3points_LABEL_POINTS'                                     => 'Punkte',
+    'D3_CFG_MOD_d3points_LABEL_DAYS'                                       => 'Tage',
+    'D3_CFG_MOD_d3points_LABEL_MONTHS'                                     => 'Monate',
+    'D3_CFG_MOD_d3points_LABEL_NO'                                         => 'Keine Angabe',
+    'D3_CFG_MOD_d3points_LABEL_LETTER'                                     => 'Zeichen',
+    //Spielwiese
+    'd3tbcld3points_settings_demo'                                         => 'Beispielrechnung',
+    'd3mxd3points_DEMO'                                                    => 'Beispielrechnung',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS'                            => 'Punkteberechnung',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_PRICE_AMOUNT'               => 'Warenwert',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_RATE'                       => 'Umrechnungsfaktor',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SCALAR'                     => 'Staffel',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SCALAR_POINTS'              => 'Punkte',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SCALAR_MIN'                 => 'von',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SCALAR_MAX'                 => 'bis',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_METHODE'                           => 'Rechenweg',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SUM'                        => 'Bonuspunkte',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_VOUCHER'                           => 'Gutscheinberechnung',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_VOUCHER_POINTS_SUM'                => 'Bonuspunkte',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_VOUCHER_AMOUNT'                    => 'Gutscheinwert',
+    'D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT'                            => 'berechnen',
+    //Wartung
+    'd3tbcld3points_settings_maintenance'                                  => 'Wartung',
+    'd3mxd3points_MAINTENANCE'                                             => 'Wartung',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS'                          => 'Alle Bestellungen zurücksetzen',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TXT'                      => 'Status neu setzten',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_UNSET'            => 'Bestellungen als unbearbeitet markieren',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_SET'              => 'Bestellungen als bearbeitet markieren',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM'                  => 'Vorgang wirklich ausführen?',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_CONFIRM_NOT'              => 'Fehlender Haken bei Bestätigung. Es wurde keine Aktion ausgeführt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_SUCCESS'                         => 'Status wurde an %s Bestellungen gespeichert.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_NOT_STATUS'               => 'Kein Status ausgewählt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_DELETE_ORDER'                          => 'Bonuspunkte einer einzelnen Bestellung löschen',
+    'D3_CFG_MOD_d3points_MAINTAINCE_DELETE_ORDER_ORDERNR'                  => 'BestellNr',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP'                      => 'Aktion',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP_ERROR'                => 'Keine Aktion gewählt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP_DELETE'               => 'l&ouml;schen',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_TYP_STORNO'               => 'stornieren',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_COMMET'                   => 'Bemerkung',
+    'D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_SEND_MAIL'                => 'E-Mail versenden',
+    'D3_CFG_MOD_d3points_MAINTAINCE_STORNO_POINTS_FROM_ORDER'              => 'Punkte von Bestellung %s storniert.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_DELETE_POINTS_FROM_ORDER'              => 'Punkte von Bestellung %s gelöscht.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_ORDER_DOES_NOT_EXIST'                  => 'Bestellung %s existiert nicht.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_STORNO_POINTS_FROM_ORDER_STILL_STONRO' => 'Bestellung %s wurde schon storniert.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_NO_POINTS_GIVEN'                       => 'Für Bestellung %s wurden noch keine Bonuspunkte vergeben.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_NO_OPTIONS_SELECTED'                   => 'Keine Option angegeben.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_NO_CHECKBOX_SET'                       => 'Aktion über die Checkbox nicht bestätigt.',
+    'D3_CFG_MOD_d3points_MAINTAINCE_SAVE'                                  => 'speichern',
+    //Bestellungen ->Stamm
+    'ORDER_MAIN_D3POINTS_4_ORDER'                                          => '<b>Bonuspunkte</b> (D3)',
+    'ORDER_MAIN_D3POINTS_4_ORDER_NOT_SET'                                  => 'keine Punkte vergeben',
+    'ORDER_MAIN_D3POINTS_4_ORDER_STORNO'                                   => 'Stornierung',
+    //Tab User
+    'd3tbcluser_points'                                                    => '<img title="D³ Data Development" alt="D³" src="../modules/d3/modcfg/public/d3logo.php"> Bonuspunkte',
+    'GENERAL_ADMIN_POINTS_USER'                                            => '<img title="D³ Data Development" alt="D³" src="../modules/d3/modcfg/public/d3logo.php"> Bonuspunkte',
+    'D3_USER_POINTS_OVERVIEW'                                              => 'Bonuspunkte',
+    'D3_USER_POINTS_HEAD_TYPE'                                             => 'Typ',
+    'D3_USER_POINTS_HEAD_POINTS'                                           => 'Bonuspunkte',
+    'D3_USER_POINTS_HEAD_DATE'                                             => 'Datum',
+    'D3_USER_POINTS_HEAD_COMMENT'                                          => 'Kommentar',
+    'D3_USER_POINTS_ORDERTYPE'                                             => 'Bestellung Nr.',
+    'D3_USER_POINTS_POINTS_STORNO'                                         => '(storniert)',
+    'D3_USER_POINTS_POINTS_STORNO2'                                        => 'storniert',
+    'D3_USER_POINTS_VOUCHERTYPE'                                           => 'Gutschein Nr.',
+    'D3_USER_POINTS_VOUCHER_REBOOK'                                        => 'Rückbuchung Gutschein',
+    'D3_USER_POINTS_OTHERTYPE'                                             => 'manuell',
+    'D3_USER_POINTS_TOTALSUM'                                              => 'Gesamtanzahl',
+    'D3_USER_POINTS_NEWPOINTS'                                             => 'Neue Bonuspunkte manuell vergeben:',
+    'D3_USER_POINTS_SETPOINTS'                                             => 'Punkte',
+    'D3_USER_POINTS_DESCTEXT'                                              => 'Erklärungstext<br><small>Die Vergabe der Punkte kann der Kunde<br> in seinem Kundenkonto einsehen.</small>',
+    'D3_USER_POINTS_REVIEWTYPE'                                            => 'Bewertung',
+    'D3_USER_MSG_CREATED_NEW_POINTS'                                       => 'Punkte wurden gespeichert.',
+    'D3_USER_MSG_POINTS_NOT_A_NUMBER'                                      => 'Kein gültiger Wert!<br>Keine Punkte vergeben.',
+    'D3_USER_POINTS_SETPOINTS_SEND_EMAIL'                                  => 'E-Mail versenden',
+    'D3_ACCOUNT_OPTIONS_MAIL_TXT_ADMIN'                                    => 'Der Kunde erhält folgende E-Mails:',
+    'D3_ACCOUNT_OPTIONS_MAIL_FIRST_MAIL'                                   => 'Für eine Bestellung erhaltene Bonuspunkte',
+    'D3_ACCOUNT_OPTIONS_MAIL_RATING_REVIEW'                                => 'Bonuspunkte für eine Artikelbewertung',
+    'D3_ACCOUNT_OPTIONS_MAIL_REMINDER'                                     => 'Erinnerungs-E-Mail für vorhandene Bonuspunkte',
+    'D3_ACCOUNT_OPTIONS_MAIL_VOUCHER'                                      => 'Erstellung eines Gutscheines',
+    'D3_ACCOUNT_REMINDER_MAIL'                                             => 'Versand Erinnerungs-E-Mail',
+    'D3_ACCOUNT_REMINDER_MAIL_LAST'                                        => 'letzte E-Mail',
+    'D3_ACCOUNT_REMINDER_MAIL_NEXT'                                        => 'nächsten E-Mail (eventuell)',
+    'D3_ACCOUNT_POINTS_VOUCHER_VALUE'                                      => 'Wert',
+    'D3_ACCOUNT_POINTS_VOUCHER_RESERVED'                                   => 'Reserviert:',
+    'D3_ACCOUNT_POINTS_VOUCHER_USED'                                       => 'Eingel&ouml;st am:',
+
+    // Testmodus
+    'D3_CFG_MOD_d3points_TESTMODUS_SETTING'         => 'Testmodus Einstellung',
+    'D3_CFG_MOD_d3points_TESTMODUS_FOR_REVIEWS'     => 'Testmodus für Artikelbewertung',
+    'D3_CFG_MOD_d3points_TESTMODUS_DISPLAY_ACCOUNT' => 'Kundenkonto im Testmodus anzeigen',
+    'D3_CFG_MOD_d3points_TESTMODUS_FOR_GROUPS'      => 'Benutzergruppen für Testmodus',
+    'D3_CFG_MOD_d3points_TESTMODUS_CREATE_VOUCHERS' => 'Erstellung von Gutscheinen im Testmodus',
+
+    'D3_CFG_MOD_d3points_SETTINGS'                                         => 'Einstellungen',
+    'D3_CFG_MOD_d3points_OPT_SETTINGS'                                     => 'Optionale Auswahlkriterien',
+    'D3_CFG_MOD_d3points_LABEL_EUR_POINTS'                                 => '&euro;/Punkte',
+    'D3POINTS_HELPLINK_CONFIG'                                             => 'Fragen-zu-speziellen-Modulen/Bonuspunkte/'
+);

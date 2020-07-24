@@ -20,7 +20,7 @@
 
 [{block name="d3accountpoints_created_voucher"}]
     <form action="[{$oViewConf->getSelfActionLink()}]" name="d3points" method="post">
-        <div class="account d3points create voucher">
+        <div class="account d3points create voucher card">
             <div class="hidden">
                 [{$oViewConf->getHiddenSid()}]
                 [{$oViewConf->getNavFormParams()}]
@@ -28,29 +28,23 @@
                 <input type="hidden" name="cl" value="[{$oViewConf->getActiveClassName()}]">
             </div>
 
-            <div class="panel panel-default">
-                <div class="panel-heading">
+                <div class="card-header">
                     [{oxmultilang ident="D3_ACCOUNT_POINTS_CREATE_VOUCHER"}] & [{oxmultilang ident="D3_ACCOUNT_POINTS_TOTALSUM"}]
                 </div>
-                <div class="panel-body">
-
+                <div class="card-body">
                     [{assign var="dTotalSum" value=$oView->d3GetPointsTotalSum()}]
                     <div class="form-group">
-                        <div class="col-lg-9 col-12">
-                            [{oxmultilang ident="D3_ACCOUNT_POINTS_TOTALSUM_TEXT" suffix="COLON"}] <b>[{if $dTotalSum > 0}]+[{/if}][{$dTotalSum}]</b> [{oxmultilang ident="D3_ACCOUNT_POINTS_AMOUNT"}].
-                        </div>
+                        [{oxmultilang ident="D3_ACCOUNT_POINTS_TOTALSUM_TEXT" suffix="COLON"}] <b>[{if $dTotalSum > 0}]+[{/if}][{$dTotalSum}]</b> [{oxmultilang ident="D3_ACCOUNT_POINTS_AMOUNT"}].
                     </div>
                     <hr>
 
                     [{if $oView->d3getAllowCreateVoucher()}]
                         <div class="form-group">
-                            <div class="col-lg-9 col-12">
-                                [{oxmultilang ident="D3_ACCOUNT_POINTS_CHANGETEXT1"}] [{$oView->d3getVoucherAmount()}]
-                                [{$currency->sign}] [{oxmultilang ident="D3_ACCOUNT_POINTS_CHANGETEXT2"}]
-                            </div>
-                            <div class="col-lg-3 col-12">
-                                <button id="d3GenerateVoucher" type="submit" name="save" class="btn btn-primary">[{oxmultilang ident="D3_ACCOUNT_POINTS_CREATE"}]</button>
-                            </div>
+                            [{oxmultilang ident="D3_ACCOUNT_POINTS_CHANGETEXT1"}] [{$oView->d3getVoucherAmount()}]
+                            [{$currency->sign}] [{oxmultilang ident="D3_ACCOUNT_POINTS_CHANGETEXT2"}]
+                        </div>
+                        <div class="form-group">
+                            <button id="d3GenerateVoucher" type="submit" name="save" class="btn btn-primary">[{oxmultilang ident="D3_ACCOUNT_POINTS_CREATE"}]</button>
                         </div>
                     [{else}]
                         <div class="form-group">
@@ -61,7 +55,6 @@
                         </div>
                     [{/if}]
                 </div>
-            </div>
         </div>
     </form>
 [{/block}]
