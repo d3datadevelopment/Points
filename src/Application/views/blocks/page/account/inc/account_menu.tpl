@@ -10,6 +10,12 @@
                 [{if $oViewConf->d3getPointsTotalSum() > 0}] <span class="badge">[{$oViewConf->d3getPointsTotalSum()}]</span>[{/if}]
             </a>
         </li>
+    [{elseif $oModCfg_d3points->isThemeIdMappedTo('wave')}]
+        <li class="list-group-item[{if $active_link == "d3pointsaccount"}] active[{/if}]">
+            <a class="list-group-link" href="[{oxgetseourl ident=$oViewConf->getSelfLink()|cat:"cl=d3_d3points_accountpoints"}]" title="[{oxmultilang ident="INC_ACCOUNT_HEADER_D3MYPOINTS"}]">[{oxmultilang ident="INC_ACCOUNT_HEADER_D3MYPOINTS"}]
+                [{if $oViewConf->d3getPointsTotalSum() > 0}] <span class="badge">[{$oViewConf->d3getPointsTotalSum()}]</span>[{/if}]
+            </a>
+        </li>
     [{else}]
 
     [{/if}]

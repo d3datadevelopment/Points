@@ -376,11 +376,10 @@
                         <dd>
                             <input type="text" name="value[d3_cfg_mod__d3points_SELECTION_DATE_LIMIT]" value="[{$edit->getValue('d3points_SELECTION_DATE_LIMIT')|default:"6"}]" size="3" maxlength="10">
                             <select name="value[d3_cfg_mod__d3points_SELECTION_DATE_LIMIT_RANGE]">
-                                <option value="months"[{if $edit->getValue('d3points_SELECTION_DATE_LIMIT_RANGE') == 'months'}] selected
-                                    [{elseif $edit->getValue('d3points_SELECTION_DATE_LIMIT_RANGE') == ''}] selected
-                                    [{/if}]>
+                                <option value="months"[{if $edit->getValue('d3points_SELECTION_DATE_LIMIT_RANGE') == 'months'}] selected[{elseif $edit->getValue('d3points_SELECTION_DATE_LIMIT_RANGE') == ''}] selected[{/if}]>
                                     [{oxmultilang ident="D3_CFG_MOD_d3points_LABEL_MONTHS"}]</option>
                                 <option value="days"[{if $edit->getValue('d3points_SELECTION_DATE_LIMIT_RANGE') == 'days'}] selected[{/if}]>[{oxmultilang ident="D3_CFG_MOD_d3points_LABEL_DAYS"}]</option>
+                                <option value="days"[{if $edit->getValue('d3points_SELECTION_DATE_LIMIT_RANGE') == '--'}] selected[{/if}]>[{oxmultilang ident="D3_CFG_MOD_d3points_LABEL_NO"}]</option>
                             </select>
 
                             [{*oxmultilang ident="D3_CFG_MOD_d3points_LABEL_DAYS"*}]&nbsp;

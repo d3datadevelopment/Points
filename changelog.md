@@ -1,14 +1,21 @@
+Version 5.0.2.1
+- Templates für das Theme Wave angepasst, Version 1.0.1
+
+
 Version 5.0.2.0
 - Punkte für Bewertungen konnten nicht vergeben werden
 - kleine Refactoring Arbeiten
 - Ausgabe des CronJobs kann als Email versendet werden
 
+
 Version 5.0.1.0
 - Kleine Layoutänderung im Kundenkonto(nur Flow Theme). Die Angaben zu den Gutscheinen werden jetzt übersichtlicher dargestellt
 - Die .sh-Datei für den CronJob kann nun im Admin des Moduls erstellt werden.
 
+
 Version 5.0.0.2
 - Test auf OXID 6.0.3 / 6.1.0
+
 
 Version 5.0.0.1
 - Dateien verschoben

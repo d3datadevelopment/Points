@@ -24,7 +24,7 @@ $aModule = array(
     ),
     'lang'        => 'de',
     'thumbnail'   => 'picture.png',
-    'version'     => '5.0.2.0',
+    'version'     => '5.0.2.1',
     'author'      => 'D&sup3; Data Development',
     'url'         => 'http://www.shopmodule.com',
     'email'       => 'support@shopmodule.com',
@@ -105,6 +105,7 @@ $aModule = array(
         //azure
         'd3points_mail_option_azure.tpl'                       => 'd3/points/Application/views/azure/tpl/account/inc/mail_option.tpl',
         'd3points_list_type_azure_other.tpl'                   => 'd3/points/Application/views/azure/tpl/account/inc/other.tpl',
+        'd3_account_points_azure.tpl'                          => 'd3/points/Application/views/azure/tpl/account/account_points.tpl',
         'd3points_list_type_azure_oxorder.tpl'                 => 'd3/points/Application/views/azure/tpl/account/inc/oxorder.tpl',
         'd3points_list_type_azure_oxorder_storno.tpl'          => 'd3/points/Application/views/azure/tpl/account/inc/oxorder_storno.tpl',
         'd3points_list_type_azure_oxrating.tpl'                => 'd3/points/Application/views/azure/tpl/account/inc/oxrating.tpl',
@@ -116,6 +117,7 @@ $aModule = array(
         //flow
         'd3points_mail_option_flow.tpl'                       => 'd3/points/Application/views/flow/tpl/account/inc/mail_option.tpl',
         'd3points_list_type_flow_other.tpl'                   => 'd3/points/Application/views/flow/tpl/account/inc/other.tpl',
+        'd3_account_points_flow.tpl'                          => 'd3/points/Application/views/flow/tpl/account/account_points.tpl',
         'd3points_list_type_flow_oxorder.tpl'                 => 'd3/points/Application/views/flow/tpl/account/inc/oxorder.tpl',
         'd3points_list_type_flow_oxorder_storno.tpl'          => 'd3/points/Application/views/flow/tpl/account/inc/oxorder_storno.tpl',
         'd3points_list_type_flow_oxrating.tpl'                => 'd3/points/Application/views/flow/tpl/account/inc/oxrating.tpl',
@@ -123,6 +125,18 @@ $aModule = array(
         'd3points_list_type_flow_oxvoucher.tpl'               => 'd3/points/Application/views/flow/tpl/account/inc/oxvoucher.tpl',
         'd3points_list_type_flow_oxvoucher_storno.tpl'        => 'd3/points/Application/views/flow/tpl/account/inc/oxvoucher_storno.tpl',
         'd3points_list_type_flow_oxvoucher_storno_rebook.tpl' => 'd3/points/Application/views/flow/tpl/account/inc/oxvoucher_storno_rebook.tpl',
+
+        //wave
+        'd3points_mail_option_wave.tpl'                       => 'd3/points/Application/views/wave/tpl/account/inc/mail_option.tpl',
+        'd3_account_points_wave.tpl'                          => 'd3/points/Application/views/wave/tpl/account/account_points.tpl',
+        'd3points_list_type_wave_other.tpl'                   => 'd3/points/Application/views/wave/tpl/account/inc/other.tpl',
+        'd3points_list_type_wave_oxorder.tpl'                 => 'd3/points/Application/views/wave/tpl/account/inc/oxorder.tpl',
+        'd3points_list_type_wave_oxorder_storno.tpl'          => 'd3/points/Application/views/wave/tpl/account/inc/oxorder_storno.tpl',
+        'd3points_list_type_wave_oxrating.tpl'                => 'd3/points/Application/views/wave/tpl/account/inc/oxrating.tpl',
+        'd3points_list_type_wave_oxreview.tpl'                => 'd3/points/Application/views/wave/tpl/account/inc/oxreview.tpl',
+        'd3points_list_type_wave_oxvoucher.tpl'               => 'd3/points/Application/views/wave/tpl/account/inc/oxvoucher.tpl',
+        'd3points_list_type_wave_oxvoucher_storno.tpl'        => 'd3/points/Application/views/wave/tpl/account/inc/oxvoucher_storno.tpl',
+        'd3points_list_type_wave_oxvoucher_storno_rebook.tpl' => 'd3/points/Application/views/wave/tpl/account/inc/oxvoucher_storno_rebook.tpl',
     ),
 
     'events'      => array(
@@ -147,6 +161,13 @@ $aModule = array(
             'template' => 'widget/header/servicebox.tpl',
             'block'    => 'widget_header_servicebox_items',
             'file'     => 'Application/views/blocks/widget/header/servicebox.tpl',
+            'position'  => 1,
+        ),
+
+        array(
+            'template' => 'widget/header/servicemenu.tpl',
+            'block'    => 'dd_layout_page_header_icon_menu_account_button',
+            'file'     => 'Application/views/blocks/widget/header/dd_layout_page_header_icon_menu_account_button.tpl',
             'position'  => 1,
         ),
 
