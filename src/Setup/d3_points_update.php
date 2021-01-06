@@ -31,14 +31,14 @@ class d3_points_update extends d3install_updatebase
 {
     public $sModKey = 'd3points';
     public $sModName = 'Bonuspunkte';
-    public $sModVersion = '5.0.2.2';
-    public $sModRevision = '5022';
-    public $sBaseConf = 'u7Av2==SG9JY3M4U3hDa0dDRUFISjZWODlpN2hwZFVaTVVaNURQdXVmcnFWTEF4Nm9CNEJwbHNabHZaV
-lYyMFhXZUVmSjZIbkZieFFjbWtEeUpkU0xrN2RNSzM4L2JtcWxyTXRyTHRNOEdndlMyUlZKSDF2L25ub
-VJwL1dSSno5U05GeHR6eG1nOWZ2akttYVVUK3RzaXNTZWROa0Zlays5T0t5clpTZFdjRUtrUldXZ05KS
-UhrZHRkYitlaHFQYVJYYlhqVHRYSUFoVWdrUUl6MVhDWk5qVkZOVVFKTy90MlFNZTlWS2dmZmtOZDZ2O
-VZOV1BNeng3eWNKaFR0bXc1enB0SVcwL0JlRzRGc1M1MlRBTWxoaWZaWUpQOHd5VjBIRU9Zcm1xWGxVa
-XYvaTlmclBGNlBlRm8vOWU1bWMrQ0tKQTI=';
+    public $sModVersion = '5.0.2.3';
+    public $sModRevision = '5023';
+    public $sBaseConf = 'F30v2==SDQ0SjVVMEk3dFdISlBFM2R3WVNCSnl0TEpBaUZUNWpZcDR0RDkxdFlMUnl6ZHU3TEpYVHJHV
+XFOVlQyNlc5L1pVWjdpcW9RUjl1OFpvNnNYb2ZnUy8zTjh3UkZQZVVCaFd2cmVhYXREZnZ2N2FNSlRES
+El3OEkzWHB2aU56SlJCSmZWZTNyNFlYTU00TmlsU2dhN3JpZVNWamNIak5kN0hTcmlJMUc4OEY5UUFvN
+3lGMkRTWFNnNmtxY2p5SVNUSXRBZmFMYnpKYkFVSllVQm0vczdCYlpRdUFsVXRwV2tmcG5rTUZpMnI1Y
+TRTQ0hQV2Z0MFlHUDI2LzZFSjFEaWFjdHJaWlRQNGFOYngvMGJ2cXF3Qy8rMTVZWHZONGd3TkFwQzFLQ
+3l2Nm5OaUJhTS9WdXVnalIrK04xRGE5cFI=';
 
     public $sRequirements = '';
     public $sBaseValue = '';
@@ -79,6 +79,11 @@ XYvaTlmclBGNlBlRm8vOWU1bWMrQ0tKQTI=';
         array(
             'check' => 'checkIndizes',
             'do'    => 'fixIndizes'
+        ),
+        //oxbaseshop ersetzen
+        array(
+            'check' => 'CheckForOxBaseShopIdPointsTable',
+            'do' => 'ReplaceOxBaseShopIdPointsTable'
         ),
         array(
             'check' => 'checkOxSeoItemsList',
@@ -455,355 +460,6 @@ XYvaTlmclBGNlBlRm8vOWU1bWMrQ0tKQTI=';
         return $blRet;
     }
 
-
-    /*******************************************************************************************/
-    /***** Test- und Updatemethoden * Update to 220 / 300 **************************************/
-    /*******************************************************************************************/
-
-    /**
-     * @return bool TRUE, if table exist and update is needed
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     */
-    public function checkForUpdate220()
-    {
-        $blRet = FALSE;
-        $blOldEntry = FALSE;
-        $blNoEntry = FALSE;
-
-        $sRevisionNumber = '380'; // 380 ist die Revisionsnummer beim Update auf 300
-        $blModCfgTableExist = !($this->_checkTableNotExist('d3_cfg_mod'));
-        $blTablePointsExist = !($this->_checkTableNotExist('d3points'));
-
-        // es existiert die Tabelle d3_cfg_mod
-        if($blModCfgTableExist){
-
-            $oDb = $this->getDb();
-            foreach (Registry::getConfig()->getShopIds() as $sShopId) {
-                // Prüfen ob kein eintrag vorhanden ist
-                $sSql = 'SELECT count(OXID) FROM `d3_cfg_mod` '
-                    .' WHERE `oxmodid` = '.$oDb->quote($this->sModKey)
-                    .' AND oxshopid ='.$oDb->quote($sShopId);
-
-                if ($oDb->getOne($sSql) == 0) {
-                    $blNoEntry = TRUE;
-                }
-
-                // Prüfen ob ein alteintrag vorhanden ist
-                $sSql = 'SELECT count(OXID) FROM `d3_cfg_mod` '
-                    .' WHERE `oxmodid` = '.$oDb->quote($this->sModKey)
-                    .' AND oxshopid ='.$oDb->quote($sShopId)
-                    .' AND oxrevision < '.$oDb->quote($sRevisionNumber);
-
-                if ($oDb->getOne($sSql) == 1) {
-                    $blOldEntry = TRUE;
-                }
-            }
-        }
-
-        if(($blNoEntry || $blOldEntry) && $blTablePointsExist){
-
-            $blSkipUpdate = \OxidEsales\Eshop\Core\Registry::get(\OxidEsales\Eshop\Core\Session::class)->getVariable('d3_points_skip_update220');
-            if($blSkipUpdate != 1){
-                $blRet = TRUE;
-            }
-        }
-
-        return $blRet;
-    }
-
-    /**
-     * @return bool
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     */
-    public function executeUpdate220()
-    {
-        $blReturn = FALSE;
-
-        if($this->checkForUpdate220()){
-            $aSql = array();
-
-            $aSql[] = "ALTER TABLE `d3points` CHANGE `OXORDERID` `OXOBJECTID` CHAR( 32 ) NOT NULL;";
-            $aSql[] = "ALTER TABLE `d3points` ADD `OXTYPE` CHAR( 32 ) NOT NULL AFTER `OXOBJECTID`;";
-            $aSql[] = "ALTER TABLE `d3points` ADD `OXTEXT` TEXT NOT NULL;";
-            $aSql[] = "ALTER TABLE `d3points` CHANGE `OXID` `OXID` CHAR( 32 ) NOT NULL;";
-            $aSql[] = "ALTER TABLE `d3points` CHANGE `OXUSERID` `OXUSERID` CHAR( 32 ) NOT NULL;";
-            $aSql[] = "UPDATE `d3points` SET `OXTYPE` = 'manual' WHERE `OXOBJECTID` = '' AND `OXVOUCHERID` = '';";
-            $aSql[] = "UPDATE `d3points` SET `OXTYPE` = 'oxorder' WHERE `OXOBJECTID` != '';";
-            $aSql[] = "UPDATE `d3points` SET `OXTYPE` = 'oxvoucher' WHERE `OXVOUCHERID` != '';";
-            $aSql[] = "UPDATE `d3points` SET `OXOBJECTID` = `OXVOUCHERID` WHERE `OXTYPE` = 'oxvoucher';";
-            $aSql[] = "ALTER TABLE `d3points` DROP `OXVOUCHERID`;";
-            //$aSql[] = "";
-
-            $blReturn = $this->_executeMultipleQueries($aSql);
-            // update wurde durchgeführt -> session variable setzen
-            \OxidEsales\Eshop\Core\Registry::get(\OxidEsales\Eshop\Core\Session::class)->setVariable('d3_points_skip_update220', 1);
-        }
-
-        return $blReturn;
-    }
-
-    /**
-     * @return bool TRUE, if update needed
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     */
-    public function checkForUpdate300()
-    {
-        $blRet = FALSE;
-        $blOldEntry = FALSE;
-        $blNoEntry = FALSE;
-
-        $sRevisionNumber = '380'; // 380 ist die Revisionsnummer beim Update auf 300
-        $blModCfgTableExist = !($this->_checkTableNotExist('d3_cfg_mod'));
-        $blTablePointsExist = !($this->_checkTableNotExist('d3points'));
-
-        // es existiert die Tabelle d3_cfg_mod
-        if($blModCfgTableExist){
-
-            $oDb = DatabaseProvider::getDb(DatabaseProvider::FETCH_MODE_ASSOC);
-            $blEntryIsAlreadyVersion300 = FALSE;
-
-            foreach (Registry::getConfig()->getShopIds() as $sShopId) {
-
-                $sSql = 'SELECT count(OXID) FROM `d3_cfg_mod` '
-                    .' WHERE `oxmodid` = '.$oDb->quote($this->sModKey)
-                    .' AND oxshopid ='.$oDb->quote($sShopId)
-                    .' AND oxrevision = '.$oDb->quote($sRevisionNumber);
-
-                if ($oDb->getOne($sSql) == 1) {
-                    $blEntryIsAlreadyVersion300 = TRUE;
-                }
-
-                if(false == $blEntryIsAlreadyVersion300){
-                    // Prüfen ob kein eintrag vorhanden ist
-                    $sSql = 'SELECT count(OXID) FROM `d3_cfg_mod` '
-                        .' WHERE `oxmodid` = '.$oDb->quote($this->sModKey)
-                        .' AND oxshopid ='.$oDb->quote($sShopId);
-
-                    if ($oDb->getOne($sSql) == 0) {
-                        $blNoEntry = TRUE;
-                    }
-
-                    // Prüfen ob ein alteintrag vorhanden ist
-                    $sSql = 'SELECT count(OXID) FROM `d3_cfg_mod` '
-                        .' WHERE `oxmodid` = '.$oDb->quote($this->sModKey)
-                        .' AND oxshopid ='.$oDb->quote($sShopId)
-                        .' AND oxrevision < '.$oDb->quote($sRevisionNumber);
-
-                    if ($oDb->getOne($sSql) == 1) {
-                        $blOldEntry = TRUE;
-                    }
-                }
-            }
-        }
-
-        if(($blNoEntry || $blOldEntry) && $blTablePointsExist){
-            $blSkipUpdate220 = \OxidEsales\Eshop\Core\Registry::get(\OxidEsales\Eshop\Core\Session::class)->getVariable('d3_points_skip_update220');
-            $blSkipUpdate300 = \OxidEsales\Eshop\Core\Registry::get(\OxidEsales\Eshop\Core\Session::class)->getVariable('d3_points_skip_update300');
-
-            if(($blSkipUpdate220 == 1) && ($blSkipUpdate300 != 1)){
-                // update auf 300 wurde noch nicht durchgeführt
-                // und update auf 220 wurde durchgeführt
-                $blRet = TRUE;
-            }
-        }
-
-        return $blRet;
-    }
-
-    /**
-     * @return bool
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\ConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     */
-    public function executeUpdate300()
-    {
-        $blReturn = FALSE;
-
-        if($this->checkForUpdate300()){
-            $aSql = array();
-
-            $aSql[] = "ALTER TABLE `d3points` CHANGE `OXTYPE` `OXTYPE` CHAR( 32 ) NOT NULL COMMENT 'oxorder, oxreview, oxrating, oxvoucher, manuell,oxvoucher_storno,oxorder_storno';";
-            $aSql[] = "ALTER TABLE `d3points` CHANGE `OXTIMESTAMP` `OXTIMESTAMP` DATETIME NOT NULL COMMENT 'Zeitpunkt der Erstellung der Punkte';";
-            $aSql[] = "ALTER TABLE `d3points` ADD `d3issend` TINYINT( 1 ) NOT NULL COMMENT 'Mail schon versendet';";
-            $aSql[] = "ALTER TABLE `d3points` ADD INDEX ( `OXUSERID` );";
-            $aSql[] = "ALTER TABLE `d3points` ADD `OXSHOPID` VARCHAR( 32 ) NOT NULL AFTER `OXID`;";
-            // Tabellenstruktur für Tabelle `oxorder`
-            $aSql[] = "ALTER TABLE `oxorder` CHANGE `d3issetpoints` `d3issetpoints` TINYINT( 1 ) NOT NULL DEFAULT '0' COMMENT 'Mail schon versendet';";
-            $aSql[] = "UPDATE `oxorder` set d3issetpoints = (d3issetpoints-1);";
-            // Daten für Tabelle `oxuser`
-            $aSql[] = "ALTER TABLE `oxuser` ADD `d3pointsmailoption` INT( 8 ) NOT NULL COMMENT 'Optionen, dezimal';";
-            $aSql[] = "ALTER TABLE `oxuser` ADD `d3pointssendreminder` DATETIME NOT NULL COMMENT 'letzter Versand der Reminder-e-mail';";
-            // Datum für Reminder E-Mails zurück setzten
-            $aSql[] = "Update `oxuser` set `d3pointssendreminder` = now();";
-
-            foreach (Registry::getConfig()->getShopIds() as $sShopId) {
-                // Daten für Tabelle oxseo
-                $aSql[] = "REPLACE INTO `oxseo` (`OXOBJECTID`, `OXIDENT`, `OXSHOPID`, `OXLANG`, `OXSTDURL`, `OXSEOURL`, `OXTYPE`, `OXFIXED`, `OXEXPIRED`, `OXPARAMS`) VALUES('59b5b21859b5ca849e5fe760cff43091', 'bf34747dee451a87e0fdc173da6543e2', '" . $sShopId . "', 1, 'index.php?cl=d3_d3points_accountpoints', 0x656e2f626f6e75732d706f696e74732f, 'static', 0, 0, '');";
-                $aSql[] = "REPLACE INTO `oxseo` (`OXOBJECTID`, `OXIDENT`, `OXSHOPID`, `OXLANG`, `OXSTDURL`, `OXSEOURL`, `OXTYPE`, `OXFIXED`, `OXEXPIRED`, `OXPARAMS`) VALUES('59b5b21859b5ca849e5fe760cff43091', 'ebe7e7e711bd53ace1d6056ec2b028e9', '" . $sShopId . "', 0, 'index.php?cl=d3_d3points_accountpoints', 0x426f6e757370756e6b74652f, 'static', 0, 0, '');";
-
-                if($sShopId == 'oxbaseshop'){
-                    // Daten für Tabelle `oxvoucherseries`
-                    $aSql[] = "REPLACE INTO `oxvoucherseries` (`OXID`, `OXSHOPID`, `OXSERIENR`, `OXSERIEDESCRIPTION`, `OXDISCOUNT`, `OXDISCOUNTTYPE`, `OXSTARTDATE`, `OXRELEASEDATE`, `OXBEGINDATE`, `OXENDDATE`, `OXALLOWSAMESERIES`, `OXALLOWOTHERSERIES`, `OXALLOWUSEANOTHER`, `OXMINIMUMVALUE`, `OXCALCULATEONCE`) VALUES('d3pointsvoucherserie', '" . $sShopId . "', 'Bonuspunkte', 'Bonuspunkte (D3)', 0.00, 'absolute', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '2037-12-31 00:00:00', 1, 1, 1, 0.00, 0);";
-                    // Daten points
-                    $aSql[] = "UPDATE d3points SET d3issend = '1';";
-                    $aSql[] = "UPDATE d3points SET oxshopid = '" . $sShopId . "' WHERE 1;";
-
-                }else{
-                    // Daten für Tabelle `oxvoucherseries`
-                    $aSql[] = "REPLACE INTO `oxvoucherseries` (`OXID`, `OXSHOPID`, `OXSHOPINCL`, `OXSHOPEXCL`, `OXSERIENR`, `OXSERIEDESCRIPTION`, `OXDISCOUNT`, `OXDISCOUNTTYPE`, `OXSTARTDATE`, `OXRELEASEDATE`, `OXBEGINDATE`, `OXENDDATE`, `OXALLOWSAMESERIES`, `OXALLOWOTHERSERIES`, `OXALLOWUSEANOTHER`, `OXMINIMUMVALUE`, `OXCALCULATEONCE`) VALUES('d3pointsvoucherserie', '" . $sShopId . "', 18446744073709551615, 0, 'Bonuspunkte (D3)', 'Bonuspunkte', 0.00, 'absolute', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '0000-00-00 00:00:00', '2037-12-31 00:00:00', 1, 1, 1, 0.00, 0);";
-                    // Daten points
-                    $aSql[] = "UPDATE d3points d3p left join oxorder oox on d3p.OXOBJECTID = oox.oxid  SET d3p.oxshopid = '" . $sShopId . "' WHERE oox.oxshopid = '" . $sShopId . "' AND d3p.oxtype like 'oxorder%';";
-                    $aSql[] = "UPDATE d3points d3p left join oxorder oox on d3p.OXUSERID = oox.OXUSERID  SET d3p.oxshopid = '" . $sShopId . "' WHERE oox.oxshopid = '" . $sShopId . "' AND d3p.oxtype like 'oxvoucher%';";
-                }
-            }
-
-            $this->insertModCfgEntryFor300();
-            $blReturn = $this->_executeMultipleQueries($aSql);
-            // update wurde durchgeführt -> session variable setzen
-            \OxidEsales\Eshop\Core\Registry::get(\OxidEsales\Eshop\Core\Session::class)->setVariable('d3_points_skip_update300', 1);
-        }
-
-        return $blReturn;
-    }
-
-    /**
-     * @return bool
-     * @throws \Doctrine\DBAL\DBALException
-     * @throws \OxidEsales\Eshop\Core\Exception\ConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
-     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
-     */
-    public function insertModCfgEntryFor300(){
-        //REPLACE INTO `d3_cfg_mod` (`OXID`, `OXSHOPID`, `OXMODID`, `OXNAME`, `OXACTIVE`, `OXSERIAL`, `OXINSTALLDATE`, `OXVERSION`, `OXSHOPVERSION`, `OXISMODULELOG`, `OXREQUIREMENTS`, `OXVALUE`, `OXVALUE_1`, `OXVALUE_2`, `OXREVISION`, `OXNEWREVISION`) VALUES(md5('d3points oxbaseshop de'), 'oxbaseshop', 'd3points', 'Bonuspunkte', 1, '', NOW(), '3.0.0', 'PE4', 1, '<jobs>    <registerModule desc="Module registrieren" langid="D3_INSTALL_SETUPSTEPS_MODREG">        <module class="details" modulepath="d3points/views/d3_details_points" />        <module class="oxemail" modulepath="d3points/core/d3_oxemail_points" />        <module class="oxorder" modulepath="d3points/core/d3_oxorder_d3points" />        <module class="oxvoucher" modulepath="d3points/core/d3_oxvoucher_points" />        <module class="review" modulepath="d3points/views/d3_review_points" />	        <module class="oxviewconfig" modulepath="d3points/views/d3_oxviewconfig_points" />	        <module class="account" modulepath="d3points/views/d3_account_points" />	        <module class="oxuser" modulepath="d3points/core/d3_oxuser_points" />	    </registerModule>    <database>        <table name="oxorder">            <col name="d3issetpoints" type="tinyint" length="1" />        </table>        <table name="oxuser">            <col name="d3pointsmailoption" type="int" length="8" />		<col name="d3pointssendreminder" type="datetime" />        </table>       	        <table name="d3points" >		    <col name="OXID" type="char" length="32" />		    <col name="OXSHOPID" type="varchar" length="32" />		    <col name="OXUSERID" type="char" length="32" />		    <col name="OXOBJECTID" type="char" length="32" />		    <col name="OXTYPE" type="char" length="32" />		    <col name="d3points" type="int" length="5" />		   <col name="oxsort" type="int" length="10" />		    <col name="oxtimestamp" type="datetime"/>		    <col name="oxtext" type="text"/>		    <col name="d3issend" type="tinyint" length="1" />					</table>    </database>    <config_inc>    </config_inc></jobs>', '', '', '', 380, 380);
-
-        $blRet = FALSE;
-        $blModCfgTableExist = !($this->_checkTableNotExist('d3_cfg_mod'));
-
-        if ($blModCfgTableExist) {
-            foreach (Registry::getConfig()->getShopIds() as $sShopId) {
-                $aWhere = array(
-                    'oxmodid'       => $this->sModKey,
-                    'oxshopid'      => $sShopId,
-                    'oxnewrevision' => '380',
-                );
-
-                if($this->_checkTableItemNotExist('d3_cfg_mod',$aWhere))
-                {
-                    $aInsertFields = array(
-                        'OXID' => array(
-                            'fieldname' => 'OXID',
-                            'content' => "md5('" . $this->sModKey . " " . $sShopId . " de')",
-                            'force_update' => FALSE,
-                            'use_quote' => FALSE,
-                            'use_multilang' => FALSE,
-                        ),
-                        'OXSHOPID' => array(
-                            'fieldname' => 'OXSHOPID',
-                            'content' => $sShopId,
-                            'force_update' => FALSE,
-                            'use_quote' => TRUE,
-                        ),
-                        'OXMODID' => array(
-                            'fieldname' => 'OXMODID',
-                            'content' => $this->sModKey,
-                            'force_update' => FALSE,
-                            'use_quote' => TRUE,
-                        ),
-                        'OXNAME' => array(
-                            'fieldname' => 'OXNAME',
-                            'content' => $this->sModName,
-                            'force_update' => FALSE,
-                            'use_quote' => TRUE,
-                        ),
-                        'OXACTIVE' => array(
-                            'fieldname' => 'OXACTIVE',
-                            'content' => '0',
-                            'force_update' => FALSE,
-                            'use_quote' => FALSE,
-                        ),
-                        'OXBASECONFIG' => array(
-                            'fieldname' => 'OXBASECONFIG',
-                            'content' => $this->sBaseConf,
-                            'force_update' => TRUE,
-                            'use_quote' => TRUE,
-                        ),
-                        'OXSERIAL' => array(
-                            'fieldname' => 'OXSERIAL',
-                            'content' => "",
-                            'force_update' => FALSE,
-                            'use_quote' => TRUE,
-                        ),
-                        'OXINSTALLDATE' => array(
-                            'fieldname' => 'OXINSTALLDATE',
-                            'content' => "NOW()",
-                            'force_update' => FALSE,
-                            'use_quote' => FALSE,
-                        ),
-                        'OXVERSION' => array(
-                            'fieldname' => 'OXVERSION',
-                            'content' => '3.0.0',
-                            'force_update' => TRUE,
-                            'use_quote' => FALSE,
-                        ),
-                        'OXSHOPVERSION' => array(
-                            'fieldname' => 'OXSHOPVERSION',
-                            'content' => \OxidEsales\Eshop\Core\Registry::get(\OxidEsales\Eshop\Core\Request::class)->getEdition(),
-                            'force_update' => TRUE,
-                            'use_quote' => TRUE,
-                        ),
-                        'OXREQUIREMENTS' => array(
-                            'fieldname' => 'OXREQUIREMENTS',
-                            'content' => $this->sRequirements,
-                            'force_update' => TRUE,
-                            'use_quote' => TRUE,
-                        ),
-                        'OXVALUE'        => array(
-                            'content'       => $this->sBaseValue,
-                            'force_update'  => FALSE,
-                            'use_quote'     => TRUE,
-                        ),
-                        'OXREVISION' => array(
-                            'fieldname' => 'OXREVISION',
-                            'content' => '380',
-                            'force_update' => TRUE,
-                            'use_quote' => FALSE,
-                        ),
-                        'OXNEWREVISION' => array(
-                            'fieldname' => 'OXNEWREVISION',
-                            'content' => '380',
-                            'force_update' => TRUE,
-                            'use_quote' => FALSE,
-                        )
-                    );
-
-                    if (method_exists($this, '_updateTableItem2'))
-                    {
-                        $this->setInitialExecMethod(__METHOD__);
-                        $blRet  = $this->_updateTableItem2('d3_cfg_mod', $aInsertFields, $aWhere);
-                    } else {  // bc
-                        $aRet  = $this->_updateTableItem2('d3_cfg_mod', $aInsertFields, $aWhere);
-                        $this->setActionLog('SQL', $aRet['sql'], __METHOD__);
-                        $blRet = $aRet['blRet'];
-                        $this->setUpdateBreak(false);
-                    }
-                }
-            }
-        }
-        return $blRet;
-    }
-
-    /*******************************************************************************************/
-    /***** eigene Test- und Updatemethoden (ggf. Überladung vorhandener Methoden) **************/
-    /*******************************************************************************************/
-
     /**
      * @return bool TRUE, if table is missing
      * @throws \Doctrine\DBAL\DBALException
@@ -890,6 +546,7 @@ XYvaTlmclBGNlBlRm8vOWU1bWMrQ0tKQTI=';
 
     /**
      * @return bool
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
      */
     public function checkForReminderDate()
     {
@@ -3241,5 +2898,33 @@ Ihr [{\$shop->oxshops__oxname->value}] Team
         }
 
         return $blRet;
+    }
+
+    /**
+     * @return bool
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     */
+    public function CheckForOxBaseShopIdPointsTable()
+    {
+        $blRet = FALSE;
+        $sSql = "SELECT COUNT(*) FROM d3points where oxshopid = 'oxbaseshop'";
+
+        if ($this->getDb()->getOne($sSql) > 0 ) {
+            $blRet = TRUE;
+        }
+        return $blRet;
+    }
+
+    /**
+     * @return int
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseConnectionException
+     * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
+     */
+    public function ReplaceOxBaseShopIdPointsTable()
+    {
+        $sUpdate[] = "UPDATE d3points SET oxshopid ='1' WHERE 1";
+        return $this->_executeMultipleQueries($sUpdate);
+
+
     }
 }

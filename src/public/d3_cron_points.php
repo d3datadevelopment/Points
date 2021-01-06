@@ -23,11 +23,8 @@
 //ini_set('display_errors', 1);
 //ini_set('error_reporting', 1);
 
-namespace D3\Points\publica;
-
 use D3\ModCfg\Application\Model\Configuration\d3_cfg_mod;
 use D3\ModCfg\Application\Model\Log\d3log;
-use \Exception;
 use OxidEsales\Eshop\Core\Registry;
 use OxidEsales\Eshop\Core\Request;
 use OxidEsales\Eshop\Core\Session;
