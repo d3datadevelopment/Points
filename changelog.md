@@ -1,5 +1,8 @@
+Version 5.0.2.3
+- Bug: unvollständige Updateprozedur auf Version 6 des Shops
+
 Version 5.0.2.2
-- BUG: Controller wurden verschlüsselt ausgeliefert
+- Bug: Controller wurden verschlüsselt ausgeliefert
 - Bug: Fehler bei der Ermittlung der Sprache für die Erinnerungs-E-Mails
 
 
