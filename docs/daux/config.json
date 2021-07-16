@@ -1,10 +1,10 @@
 {
     "title": "<i class='fab fa-d3 d3fa-color-blue'></i> Bonuspunkte",
-    "moduleversion": "5.0.2.2",
+    "moduleversion": "5.0.3.0",
     "titledesc": "für den Oxid eShop",
     "author": "D³ Data Development",
-    "moduledate": "24.07.2020",
-    "editors": "MG/KH/TD/SK",
+    "moduledate": "16.07.2021",
+    "editors": "",
     "tagline": "",
     "image": "",
     "ignore": {
@@ -26,13 +26,7 @@
         "auto_landing": true,
 
         "links": {
-            "Shop": "http://www.oxidmodule.com",
-            "Blog": "http://blog.oxidmodule.com",
-            "Dokumentationen": "https://docs.oxidmodule.com/",
-            "FAQ": "http://faq.oxidmodule.com",
-            "D³ Support-Center": "https://support.shopmodule.com/",
-            "Kontakt": "https://www.oxidmodule.com/kontakt",
-            "Impressum": "https://www.oxidmodule.com/impressum"
+            "Shop": "https://www.oxidmodule.com"
         },
 
         "powered_by": ""

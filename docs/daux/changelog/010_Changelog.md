@@ -2,7 +2,13 @@
 title: Changelog
 ---
 
-## Version 5.0.2.3 - 2020-
+## Version 5.0.3.0 - 2021-07-16
+### Fixed
+- Support für OXID 6.2 & 6.3
+
+---
+
+## Version 5.0.2.3 - 2020-07-24
 ### Fixed
 - unvollständige Updateprozedur auf Version 6 des Shops
 
