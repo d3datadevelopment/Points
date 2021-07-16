@@ -21,8 +21,8 @@
 
 namespace D3\Points\Modules\Core;
 
-use OxidEsales\Eshop\Core\Theme;
 use D3\Points\Application\Model\d3points;
+use D3\ModCfg\Application\Model\d3thememapping;
 
 /**
  * Class d3_oxviewconfig_points
@@ -58,9 +58,9 @@ class d3_oxviewconfig_points extends d3_oxviewconfig_points_parent
      */
     public function d3GetParentThemeId()
     {
-        /** @var d3_oxtheme_modcfg $oTheme */
-        $oTheme = oxNew(Theme::class);
-        return $oTheme->d3GetParentThemeId();
+        /** @var d3thememapping $oThemeMapping */
+        $oThemeMapping = oxNew(d3thememapping::class);
+        return $oThemeMapping->d3GetParentThemeId();
     }
 
 }
