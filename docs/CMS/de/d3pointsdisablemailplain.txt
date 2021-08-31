@@ -1,0 +1,12 @@
+Ident:
+d3pointsdisablemailplain
+
+
+Titel:
+Bonuspunkte-Empfang-E-Mail abwählen Plain-Text
+
+
+Content:
+
+Möchten Sie diese Email nicht mehr erhalten, können Sie den Empfang im Kundenkonto unter Bonuspunkte abwählen.
+Link: [{ oxgetseourl ident=$oViewConf->getSelfLink()|cat:"cl=d3_d3points_accountpoints" }]

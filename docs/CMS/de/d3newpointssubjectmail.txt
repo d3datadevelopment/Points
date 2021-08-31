@@ -1,0 +1,10 @@
+Ident:
+d3newpointssubjectmail
+
+
+Titel:
+Bonuspunkte-EMail Betreff-Text
+
+
+Content:
+Ihre Bonuspunkte!
