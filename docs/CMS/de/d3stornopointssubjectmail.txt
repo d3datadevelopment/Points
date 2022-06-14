@@ -1,0 +1,10 @@
+Ident:
+d3stornopointssubjectmail
+
+
+Titel:
+Bonuspunkte-Storno-E-Mail Betreff-Text
+
+
+Content:
+Bonuspunkte wurden storniert / gelöscht

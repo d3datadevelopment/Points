@@ -1,0 +1,22 @@
+Ident:
+d3stornopointsmail
+
+
+Titel:
+Bonuspunkte-E-Mail-Storno Text
+
+
+Content:
+Guten Tag [{ $user->oxuser__oxsal->value|oxmultilangsal  }] [{ $user->oxuser__oxfname->value }] [{ $user->oxuser__oxlname->value }],<br />
+<br /><br>
+[{if $points->iOrderPoints > 0}]Die Punkte ([{$points->iOrderPoints}]) für Ihrer Bestellung [{$order->oxorder__oxordernr->value}] wurden storniert.[{else}]Die Punkte für Ihrer Bestellung [{$order->oxorder__oxordernr->value}] wurden gelöscht.[{/if}]
+[{if $points->sOrderComment}]
+<br>
+Kommentar: 
+	<span style="font-style:italic;">[{$points->sOrderComment}]</span>
+[{/if}]
+<br>
+<br />Sie haben damit aktuell einen <strong>Punktestand von [{$points->iUserPointSum}] Punkten.</strong>.<br />
+<br>Eventuell hat dieser Vorgang weitere Auswirkungen auf Ihr Bonuspunktekonto. 
+Ihren Punktestand können Sie jederzeit unter "Mein Konto" im Shop einsehen.<br />
+<br />Ihr  [{ $shop->oxshops__oxname->value }] Team

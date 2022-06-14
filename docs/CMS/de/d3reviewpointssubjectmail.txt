@@ -1,0 +1,10 @@
+Ident:
+d3reviewpointssubjectmail
+
+
+Titel:
+Bonuspunkte-Bewertung-EMail Betreff-Text
+
+
+Content:
+Ihre Bonuspunkte!

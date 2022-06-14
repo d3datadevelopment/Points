@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<OX>
+    <OXMENU id="d3mxd3modules">
+        <MAINMENU id="d3mxd3points">
+            <SUBMENU id="d3cfgd3points" cl="d3_d3points_main" list="d3_d3points_list" rights="malladmin">
+                <TAB id="d3tbcld3points_settings_main" cl="d3_d3points_settings" />
+                <TAB id="d3tbcld3points_settings_demo" cl="d3_d3points_demo" />
+                <TAB id="d3tbcld3points_settings_maintenance" cl="d3_d3points_maintenance" />
+                <TAB id="d3tbcl_licence" cl="d3_d3points_licence" />
+            </SUBMENU>
+            <SUBMENU id ="d3mxlog" cl="d3_d3points_log" list="d3_d3points_loglist">
+                <TAB id="d3tbcllog_main" cl="d3_cfg_log_main" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+
+    <OXMENU id="NAVIGATION_ESHOPADMIN">
+        <MAINMENU id="mxuadmin">
+            <SUBMENU id="mxusers" cl="admin_user" list="user_list">
+                <TAB id="d3tbcluser_points" cl="d3_d3points_userpoints" />
+            </SUBMENU>
+        </MAINMENU>
+    </OXMENU>
+</OX>
