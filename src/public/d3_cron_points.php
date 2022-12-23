@@ -65,9 +65,12 @@ class d3_Cron_Points extends BaseController
     {
         //Shopid setzten
         $sShopId = utils_points::d3_d3pointsUtils_CheckShopId();
-        Registry::get(Config::class)->setShopId($sShopId);
+        Registry::getConfig()->setShopId($sShopId);
 
-        //Modul aktiv
+        /**
+         * Wenn ModCfg nicht aktiv, dann wird log-Eintrag
+         * beendet Skript!
+         */
         if (!$this->getModCfg()->isActive())
         {
             $this->getD3Log()->Log(d3log::INFO, __CLASS__, __FUNCTION__, __LINE__, "Modul Bonuspunkte nicht aktiv", "nicht aktiv");
@@ -95,7 +98,7 @@ class d3_Cron_Points extends BaseController
         }
 
         //CronJob aktiv
-        if ($this->getModCfg()->getValue('bld3points_CRONJOB_ACTIVE') == false)
+        if (0 === $this->getModCfg()->getValue('bld3points_CRONJOB_ACTIVE'))
         {
             $this->getD3Log()->Log(d3log::INFO, __CLASS__, __FUNCTION__, __LINE__, "CronJob nicht aktiv", "nicht aktiv");
             //todo Uebesetzung
@@ -104,16 +107,24 @@ class d3_Cron_Points extends BaseController
             exit();
         }
 
-        //Go to d3points an perform some actions
-        /** @var d3points $od3points */
-        $od3points = oxnew(d3points::class);
+        /**
+         * Grab d3Points class
+         * start cronjob + cronjob-actions
+         *      checking if status shall be printed
+         *      check if status shall be sent to remote address
+         */
+        /** @var d3points $d3PointsObject */
+        $d3PointsObject = oxnew(d3points::class);
         $ret = 'Start CronJob';
-        $sStatus       = $od3points->d3StartCronJobActions();
-        if($this->getModCfg()->getValue('bld3points_FNC_CRONJOB_PRINT_STATUS') == true)
+        $sStatus       = $d3PointsObject->d3StartCronJobActions();
+
+        // checking if status shall be printed
+        if($this->getModCfg()->getValue('bld3points_FNC_CRONJOB_PRINT_STATUS'))
         {
             $ret.= $sStatus;
         }
 
+        // check if status shall be sent to remote address
         if(trim($this->getModCfg()->getValue('sd3points_FNC_CRONJOB_SEND_STATUS_TO')) != '') {
             $oMail    = oxNew(Email::class);
             $sTextAdd = 'CronJob Bonuspunkte - ' . date('H:i:s d.m.Y') . PHP_EOL;

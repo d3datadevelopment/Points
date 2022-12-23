@@ -37,7 +37,6 @@ class demo extends d3_cfg_mod_main
     protected $_sThisTemplate = 'd3points_demo.tpl';
     protected $_sModId = 'd3points';
     protected $_hasLicence = false;
-    protected $_hasNewsletterForm = false;
     protected $_modUseCurl = false;
     protected $_sMenuItemTitle = 'd3mxd3points';
     protected $_sMenuSubItemTitle = 'd3mxd3points_DEMO';

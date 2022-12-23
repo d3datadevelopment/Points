@@ -38,7 +38,6 @@ class maintenance extends d3_cfg_mod_main
      */
     protected $_sModId = 'd3points';
     protected $_hasLicence = false;
-    protected $_hasNewsletterForm = false;
     protected $_modUseCurl = false;
     protected $_sMenuItemTitle = 'd3mxd3points';
     protected $_sMenuSubItemTitle = 'd3mxd3points_MAINTENANCE';
@@ -74,7 +73,7 @@ class maintenance extends d3_cfg_mod_main
         $myUtilsView = Registry::getUtilsView();
         $oLang = Registry::getLang();
 
-        if ($blStatus == true) {
+        if ($blStatus) {
             if ($iStatus == '-')
                 $myUtilsView->addErrorToDisplay(
                 $oLang->translateString('D3_CFG_MOD_d3points_MAINTAINCE_RESET_ORDERS_NOT_STATUS')
@@ -121,7 +120,7 @@ class maintenance extends d3_cfg_mod_main
         $ret = '';
 
         if ($sOrderType) {
-            if ($blOrderConfirm == true) {
+            if ($blOrderConfirm) {
                 /** @var $od3Points d3points **/
                 $od3Points = oxNew(d3points::class);
                 $ret = $od3Points->d3DeleteOrderPoints($sOrderNr, $blOrderConfirm, $sOrderType, $sOrderComment, $blSendMail);

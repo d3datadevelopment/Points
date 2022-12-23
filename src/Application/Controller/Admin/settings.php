@@ -93,6 +93,9 @@ class settings extends d3_cfg_mod_main
             {
                 #echo $key;
                 #dumpvar($aGroup);
+                if ($aGroup === '0'){
+                    continue;
+                }
                 $this->d3GetSet()->setValue('d3points_' . $key, array());
                 $this->d3GetSet()->setValue('d3points_' . $key, serialize($aGroup));
 
@@ -170,8 +173,7 @@ class settings extends d3_cfg_mod_main
      */
     protected function d3_GetGroups()
     {
-        $oGroups = utils_points::d3_d3pointsUtils_LoadGroups();
-        return $oGroups;
+        return utils_points::d3_d3pointsUtils_LoadGroups();
     }
 
     /**

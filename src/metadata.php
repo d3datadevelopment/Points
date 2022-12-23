@@ -23,9 +23,9 @@ $aModule = [
     ],
     'lang'        => 'de',
     'thumbnail'   => 'picture.png',
-    'version'     => '5.0.3.1',
+    'version'     => '5.0.3.2',
     'author'      => 'D&sup3; Data Development',
-    'url'         => 'http://www.shopmodule.com',
+    'url'         => 'https://www.shopmodule.com',
     'email'       => 'support@shopmodule.com',
     'extend'      => [
         OxidController\AccountController::class        => \D3\Points\Modules\Application\Controller\d3_account_points::class,

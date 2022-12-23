@@ -2,14 +2,18 @@
 title: Changelog
 ---
 
-## Version 5.0.3.1 - 2021-08-03
+## Version 5.0.3.2 - 2021-08-03
 ### Fixed
 
-- Die E-Mais wurden nicht generiert. Bugfix für Verwendung in der 6.2 & 6.3
+- Support für Oxid 6.4 & 6.5
 
 ---
 
-title: Changelog
+## Version 5.0.3.1 - 2022-10-30
+### Fixed
+
+- Die E-Mails wurden nicht generiert. Bugfix für Verwendung in der 6.2 & 6.3
+
 ---
 
 ## Version 5.0.3.0 - 2021-07-16
@@ -38,7 +42,7 @@ title: Changelog
 
 ## Version 5.0.2.0
 - Punkte für Bewertungen konnten nicht vergeben werden
-- kleine Refactoring  Arbeiten
+- kleine Refactoring Arbeiten
 - Ausgabe des CronJobs kann als E-Mail versendet werden
 
 ---

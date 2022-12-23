@@ -200,7 +200,7 @@ class userpoints extends AdminDetailsController
      * @throws \Doctrine\DBAL\DBALException
      * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
      */
-    public function d3GetNextReminderDate($sDate)
+    public function d3GetNextReminderDate(string $sDate)
     {
         /* @var $od3Points d3points */
         $od3Points = oxnew(d3points::class);

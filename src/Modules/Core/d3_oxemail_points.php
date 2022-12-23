@@ -573,7 +573,7 @@ class d3_oxemail_points extends d3_oxemail_points_parent
      * $oPoint->iOrderPoints
      * $oPoint->iUserPointSum
      *
-     * @param d3_oxorder_d3points $oOrder
+     * @param  $oOrder
      * @param d3points            $oPoint
      * @param integer             $iLang
      *
@@ -587,7 +587,7 @@ class d3_oxemail_points extends d3_oxemail_points_parent
      * @throws Exception
      * @throws d3_cfg_mod_exception
      */
-    public function d3SendStornoMail(d3_oxorder_d3points $oOrder, d3points $oPoint, int $iLang = 0)
+    public function d3SendStornoMail($oOrder, d3points $oPoint, int $iLang = 0)
     {
         //sets language of shop
         $iCurrLang = $iLang;

@@ -289,16 +289,14 @@ class accountpoints extends AccountController
         if (!$oUser) {
             //return false;
             $sMessage = 'No User given';
-            $oException = oxNew(StandardException::class, $sMessage);
-            throw $oException;
+            throw oxNew(StandardException::class, $sMessage);
         }
 
         //Jetzt nochmal prüfen, ob wir wirklich einen Gutschein erstellen dürfen
         if (!$this->d3getAllowCreateVoucher()) {
             //return false;
             $sMessage = 'Not allowed to create a Voucher';
-            $oException = oxNew(StandardException::class, $sMessage);
-            throw $oException;
+            throw oxNew(StandardException::class, $sMessage);
         }
         return true;
     }
@@ -319,7 +317,7 @@ class accountpoints extends AccountController
     public function d3CreateVoucherFromPoints()
     {
         $oUser = $this->getUser();
-        if($this->d3CanCreateVoucherFromPoints($oUser) == true)
+        if($this->d3CanCreateVoucherFromPoints($oUser))
         {
             /* @var $od3Points d3points */
             $od3Points              = oxnew(d3points::class);
@@ -359,7 +357,7 @@ class accountpoints extends AccountController
      * @return bool
      * @throws DatabaseConnectionException
      */
-    public function d3GetSelectedOption($iBit)
+    public function d3GetSelectedOption(int $iBit)
     {
         $oUser = $this->getUser();
         if ($oUser->isLoaded()) {

@@ -6,4 +6,4 @@
 
 [{oxcontent ident="d3pointsdisablemailplain"}]
 
-[{oxcontent ident="oxemailfooter"}]
+[{oxcontent ident="oxemailfooterplain"}]

@@ -1,8 +1,12 @@
+Version 5.0.3.2
+- Support für Oxid 6.4 & 6.5
+
+
 Version 5.0.3.1
 - Die E-Mails wurden nicht generiert. Bugfix für Verwendung in der 6.2 & 6.3
 
 Version 5.0.3.0
-Support für OXID 6.2 & 6.3
+- Support für OXID 6.2 & 6.3
 
 
 Version 5.0.2.3
