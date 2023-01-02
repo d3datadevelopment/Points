@@ -2,14 +2,18 @@
 title: Changelog
 ---
 
-## Version 5.0.3.1 - 2021-08-03
+## Version 5.0.3.2 - 2021-08-03
+### Fixed
+
+- Support für Oxid 6.4 & 6.5
+
+---
+
+## Version 5.0.3.1 - 2022-10-30
 ### Fixed
 
 - Die E-Mails wurden nicht generiert. Bugfix für Verwendung in der 6.2 & 6.3
 
----
-
-title: Changelog
 ---
 
 ## Version 5.0.3.0 - 2021-07-16

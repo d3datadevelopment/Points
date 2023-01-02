@@ -10,7 +10,6 @@
     <br>
     [{oxcontent ident="d3pointsdisablemail"}]
     <br>
-    <br>    
-    [{oxcontent ident="oxemailfooterplain"}]
+    <br>
     
 [{include file="email/html/footer.tpl"}]

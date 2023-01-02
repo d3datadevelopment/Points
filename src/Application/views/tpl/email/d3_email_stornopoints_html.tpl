@@ -7,6 +7,5 @@
     [{oxcontent ident="d3stornopointsmail"}]
     <br>
     <br>    
-    [{oxcontent ident="oxemailfooterplain"}]
-  </body>
-</html>
+
+[{include file="email/html/footer.tpl"}]

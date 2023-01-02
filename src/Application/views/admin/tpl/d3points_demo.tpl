@@ -90,8 +90,8 @@
             <table width="100%">
                 [{block name="d3points_demo_calculate_points_table_items"}]
                 <tr>
-                    <td>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_PRICE_AMOUNT"}]</td>
-                    <td><input type="text" name="DEMOSYSTEM[PRICE2POINTS]" value="[{$PRICE2POINTS|default:"0"}]" size="6" maxlength="10"> [{ $oActCur->sign }]</td>
+                    <td><label for="DEMOSYSTEM[PRICE2POINTS]">[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_PRICE_AMOUNT"}]</label></td>
+                    <td><input type="text" name="DEMOSYSTEM[PRICE2POINTS]" id="DEMOSYSTEM[PRICE2POINTS]" value="[{$PRICE2POINTS|default:"0"}]" size="6" maxlength="10"> [{ $oActCur->sign }]</td>
                 </tr>
 
                 [{if $sRate4Points !=''}]
@@ -125,27 +125,25 @@
                                     </tr>
                                 [{/foreach}]
                             </table>
-
                         </td>
                     </tr>
                 [{/if}]
-                    [{*assign var="CALCULATEDPOINTS" value=$oView->d3GetRate4Voucher()*}]
                 <tr>
                     <td>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_SUM"}]</td>
                     <td><span>[{$CALCULATEDPOINTS|default:"0"}]</span> [{oxmultilang ident="D3_CFG_MOD_d3points_LABEL_POINTS"}]</td>
                 </tr>
                 [{/block}]
                 [{block name="d3points_demo_calculate_points_table_submit"}]
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>
-                        <span class="d3modcfg_btn icon d3color-green">
-                            <button type="submit" name="save">
-                                <i class="fa fa-check-circle fa-inverse"></i>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT"}]
-                            </button>
-                        </span>
-                    </td>
-                </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>
+                            <span class="d3modcfg_btn icon d3color-green">
+                                <button type="submit" name="save">
+                                    <i class="fa fa-check-circle fa-inverse"></i>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT"}]
+                                </button>
+                            </span>
+                        </td>
+                    </tr>
                 [{/block}]
             </table>
             [{/block}]
@@ -168,8 +166,13 @@
             <table width="100%">
                 [{block name="d3points_demo_calculate_voucher_table_items"}]
                 <tr>
-                    <td>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_VOUCHER_POINTS_SUM"}]</td>
-                    <td><input type="text" name="DEMOSYSTEM[POINTS2VOUCHER]" value="[{$POINTS2VOUCHER}]" size="6" maxlength="10"> [{oxmultilang ident="D3_CFG_MOD_d3points_LABEL_POINTS"}]</td>
+                    <td>
+                        <label for="DEMOSYSTEM[POINTS2VOUCHER]">[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_VOUCHER_POINTS_SUM"}]</label>
+                    </td>
+                    <td>
+                        <input type="text" name="DEMOSYSTEM[POINTS2VOUCHER]" ID="DEMOSYSTEM[POINTS2VOUCHER]" value="[{$POINTS2VOUCHER|default:"0"}]" size="6" maxlength="10">
+                        [{oxmultilang ident="D3_CFG_MOD_d3points_LABEL_POINTS"}]
+                    </td>
                 </tr>
                 <tr>
                     <td>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_POINTS_RATE"}]</td>
@@ -186,16 +189,16 @@
                 [{/block}]
 
                 [{block name="d3points_demo_calculate_voucher_table_submit"}]
-                <tr>
-                    <td>&nbsp;</td>
-                    <td>
-                        <span class="d3modcfg_btn icon d3color-green">
-                            <button type="submit" name="save">
-                                <i class="fa fa-check-circle fa-inverse"></i>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT"}]
-                            </button>
-                        </span>
-                    </td>
-                </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>
+                            <span class="d3modcfg_btn icon d3color-green">
+                                <button type="submit" name="save">
+                                    <i class="fa fa-check-circle fa-inverse"></i>[{oxmultilang ident="D3_CFG_MOD_d3points_DEMO_CALCULATE_SUBMIT"}]
+                                </button>
+                            </span>
+                        </td>
+                    </tr>
                 [{/block}]
             </table>
             [{/block}]

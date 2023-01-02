@@ -56,7 +56,7 @@ class d3_oxorder_d3points extends d3_oxorder_d3points_parent
      *
      * @return bool
      */
-    public function d3UpdateOrderFieldD3isSetPoints($sOrderId, $iSetPoints)
+    public function d3UpdateOrderFieldD3isSetPoints(string $sOrderId, int $iSetPoints)
     {
         if ($this->load($sOrderId))
         {
@@ -83,9 +83,9 @@ class d3_oxorder_d3points extends d3_oxorder_d3points_parent
      * @throws StandardException
      * @throws d3_cfg_mod_exception
      */
-    public function d3ResetOrders($iStatus, $blStatus)
+    public function d3ResetOrders(int $iStatus, bool $blStatus)
     {
-        if ($blStatus == true) {
+        if ($blStatus) {
             if (!$iStatus) {
                 $iStatus = 0;
             }

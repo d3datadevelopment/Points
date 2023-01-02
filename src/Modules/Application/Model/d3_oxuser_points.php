@@ -61,19 +61,19 @@ class d3_oxuser_points extends d3_oxuser_points_parent
     public function d3CheckUserWithAccount($blIsMallMode)
     {
         $blReturn = $this->_d3blUserHasAccount();
-        if($blReturn == FALSE)
+        if(!$blReturn)
         {
             return $blReturn;
         }
 
         $blReturn = $this->_d3blUserIsActive();
-        if($blReturn == FALSE)
+        if(!$blReturn)
         {
             return $blReturn;
         }
 
         $blReturn = $this->_d3blUserHasShopId($blIsMallMode);
-        if($blReturn == FALSE)
+        if(!$blReturn)
         {
             return $blReturn;
         }
@@ -96,12 +96,12 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      */
     protected function _d3blUserHasAccount()
     {
-        if((bool)$this->getModCfg()->getValue('d3points_DO_POINTS_FOR_USER_WITHOUT_ACCOUNT') == TRUE)
+        if((bool)$this->getModCfg()->getValue('d3points_DO_POINTS_FOR_USER_WITHOUT_ACCOUNT'))
         {
             return TRUE;
         }
 
-        if ($this->hasAccount() == false) {
+        if (!$this->hasAccount()) {
             d3_cfg_mod::get($this->_sModId)->d3getLog()->Log(d3log::DEBUG, __CLASS__, __FUNCTION__, __LINE__,
                                                              "User:Check for account", "User has no account, oxpassword='' ");
             return FALSE;
@@ -124,7 +124,7 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      */
     protected function _d3blUserIsActive()
     {
-        if((bool)$this->oxuser__oxactive->value == FALSE)
+        if(!(bool)$this->oxuser__oxactive->value)
         {
             d3_cfg_mod::get($this->_sModId)->d3getLog()->Log(d3log::DEBUG, __CLASS__, __FUNCTION__, __LINE__,
                                                              "User:Check for active", "User is not active");
@@ -151,7 +151,7 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      */
     protected function _d3blUserHasShopId($blIsMallMode)
     {
-        if($blIsMallMode == true)
+        if($blIsMallMode)
         {
             return TRUE;
         }
@@ -198,7 +198,7 @@ class d3_oxuser_points extends d3_oxuser_points_parent
     public function setCreditPointsForRegistrant_( $sUserId,$sRecEmail )
     {
         $ret = parent::setCreditPointsForRegistrant($sUserId, $sRecEmail );
-        if($ret == true)
+        if($ret)
         {
             /** @var $d3Points d3points */
             $d3Points = oxnew(d3points::class);
@@ -217,7 +217,7 @@ class d3_oxuser_points extends d3_oxuser_points_parent
     public function setCreditPointsForInvite_()
     {
         $ret = parent::setCreditPointsForInviter();
-        if($ret == true)
+        if($ret)
         {
             $sUserId = $this->getId();
             /** @var $d3Points d3points */
@@ -237,7 +237,7 @@ class d3_oxuser_points extends d3_oxuser_points_parent
      */
     public function d3GetAllPoints()
     {
-        if($this->isLoaded() == false)
+        if(!$this->isLoaded())
         {
             return NULL;
         }
