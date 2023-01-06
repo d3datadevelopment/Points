@@ -106,7 +106,7 @@ class demo extends d3_cfg_mod_main
     public function calculatePoints()
     {
         $aPoints = Registry::get(Request::class)->getRequestEscapedParameter('DEMOSYSTEM');
-        $dPoints = $aPoints['PRICE2POINTS'];
+        $dPoints = (float)$aPoints['PRICE2POINTS'];
 
         /* @var d3points d3points */
         $od3points = oxnew(d3points::class);
@@ -114,7 +114,7 @@ class demo extends d3_cfg_mod_main
         /** @var d3_oxorder_d3points $oOrder */
         $oOrder = oxNew(Order::class);
 
-        $this->addTplParam("CALCULATEDPOINTS",$od3points->d3CalculatePoints($oOrder,$dPoints, false));
+        $this->addTplParam("CALCULATEDPOINTS", $od3points->d3CalculatePoints($oOrder, $dPoints, false));
         $this->addTplParam("PRICE2POINTS", $dPoints);
     }
 
