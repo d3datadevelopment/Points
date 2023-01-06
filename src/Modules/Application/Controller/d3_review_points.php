@@ -39,7 +39,7 @@ use OxidEsales\Eshop\Core\Request;
  */
 class d3_review_points extends d3_review_points_parent
 {
-    private $_sModId = 'd3points';
+    private string $_sModId = 'd3points';
 
     /**
      * Extends save-methode

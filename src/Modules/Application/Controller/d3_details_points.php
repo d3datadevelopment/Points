@@ -43,7 +43,7 @@ use D3\Points\Application\Model\d3rating;
  */
 class d3_details_Points extends d3_details_points_parent
 {
-    private $_sModId = 'd3points';
+    private string $_sModId = 'd3points';
 
     /**
      * Extends save-methode

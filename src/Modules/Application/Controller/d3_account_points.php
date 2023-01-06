@@ -37,7 +37,7 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  */
 class d3_account_points extends d3_account_points_parent
 {
-    private $_sModId = 'd3points';
+    private string $_sModId = 'd3points';
 
     /**
      * @return string

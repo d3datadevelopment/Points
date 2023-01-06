@@ -23,8 +23,12 @@ namespace D3\Points\Application\Controller\Admin;
 
 use D3\ModCfg\Application\Controller\Admin\d3_cfg_mod_main;
 use D3\ModCfg\Application\Model\Exception\d3_cfg_mod_exception;
+use D3\ModCfg\Application\Model\Exception\d3ShopCompatibilityAdapterException;
+use Doctrine\DBAL\DBALException;
 use OxidEsales\Eshop\Core\Config;
 use OxidEsales\Eshop\Core\Exception\DatabaseConnectionException;
+use OxidEsales\Eshop\Core\Exception\DatabaseErrorException;
+use OxidEsales\Eshop\Core\Exception\StandardException;
 use OxidEsales\Eshop\Core\Request;
 use D3\Points\Application\Model\utils_points;
 use OxidEsales\Eshop\Core\Registry;
@@ -379,7 +383,7 @@ class settings extends d3_cfg_mod_main
      * @throws DatabaseConnectionException
      * @throws \Exception
      */
-    public function getCronLink($blUsePw, $iCronJobId = false)
+    public function getCronLink(bool $blUsePw, int $iCronJobId = 0)
     {
         $sBaseUrl = $this->getViewConfig()->getModuleUrl('d3points').'public/d3_cron_points.php';
 
@@ -387,11 +391,11 @@ class settings extends d3_cfg_mod_main
             'shp' => $this->getViewConfig()->getActiveShopId(),
         );
 
-        if ($iCronJobId !== false) {
+        if ($iCronJobId !== 0) {
             $aParameters['cjid'] = $iCronJobId;
         }
 
-        if ($blUsePw == true) {
+        if ($blUsePw) {
             $aParameters['key'] = $this->d3GetSet()->getValue('d3points_ACCESSKEY') ?
                 $this->d3GetSet()->getValue('d3points_ACCESSKEY') :
                 $this->d3GetRandomCode();
@@ -400,9 +404,7 @@ class settings extends d3_cfg_mod_main
         //$sURL   = $this->getD3Str()->generateParameterUrl($sBaseUrl, $aParameters);
 
         $oD3Str = oxNew(d3str::class);
-        $sURL   = $oD3Str->generateParameterUrl($sBaseUrl, $aParameters);
-
-        return $sURL;
+        return $oD3Str->generateParameterUrl($sBaseUrl, $aParameters);
     }
 
     /**
@@ -416,6 +418,14 @@ class settings extends d3_cfg_mod_main
         return $oD3ShGenerator->getContentList();
     }
 
+    /**
+     * @throws DatabaseErrorException
+     * @throws DatabaseConnectionException
+     * @throws DBALException
+     * @throws d3_cfg_mod_exception
+     * @throws d3ShopCompatibilityAdapterException
+     * @throws StandardException
+     */
     public function generateCronShFile()
     {
         $oModule = oxNew(Module::class);

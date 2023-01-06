@@ -42,16 +42,15 @@ use OxidEsales\Eshop\Core\Exception\StandardException;
  */
 class accountpoints extends AccountController
 {
-
     /**
      * Current class template name.
      * @var string
      */
     protected $_sThisTemplate = '';
-    protected $_sTemplatePoints = 'd3_account_points.tpl';
+    protected string $_sTemplatePoints = 'd3_account_points.tpl';
 
-    protected $_sModId = 'd3points';
-    protected $_aOrderList = array();
+    protected string $_sModId = 'd3points';
+    protected array $_aOrderList = array();
     protected $_aArticlesList = NULL;
     protected $_oCreatedVoucher = NULL;
 
@@ -80,7 +79,7 @@ class accountpoints extends AccountController
      * @throws \OxidEsales\Eshop\Core\Exception\DatabaseErrorException
      * @throws \OxidEsales\Eshop\Core\Exception\SystemComponentException
      */
-    public function d3GetAllPoints($sTheme = 'azure')
+    public function d3GetAllPoints(string $sTheme = 'azure')
     {
         $oUser = $this->getUser();
         if (!$oUser) {

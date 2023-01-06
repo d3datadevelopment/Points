@@ -46,8 +46,8 @@ class d3_Cron_Points extends BaseController
      *
      * @var string
      */
-    protected $_sDefaultAccessKey = "H78hbk32Jofjeo";
-    private $_sModId = 'd3points';
+    protected string $_sDefaultAccessKey = "H78hbk32Jofjeo";
+    private string $_sModId = 'd3points';
     protected $_sLogType = d3log::ERROR;
 
     /**

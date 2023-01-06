@@ -596,8 +596,15 @@ class d3_oxemail_points extends d3_oxemail_points_parent
         $oShop = $this->_getShop($iCurrLang);
         //TODO Sprache testen
 
-        #$oUser = $oOrder->getOrderUser();
-        $oUser = $oOrder->d3getOrderUser();
+        $oUser = oxNew(\OxidEsales\Eshop\Application\Model\User::class);
+        if($oUser->exists($oOrder->getFieldData('oxuserid')))
+        {
+            $oUser = $oOrder->d3getOrderUser();
+        }
+        else{
+            $oUser = $oOrder->getOrderUser();
+            $oUser->setId($oOrder->getFieldData('oxuserid'));
+        }
 
         $oShop = $this->_getShop($iCurrLang);
 
