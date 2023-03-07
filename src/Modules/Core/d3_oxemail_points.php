@@ -56,81 +56,81 @@ class d3_oxemail_points extends d3_oxemail_points_parent
      *
      * @var string
      */
-    protected string $_sd3_email_pointsautovoucher_html_tpl = 'd3_email_pointsautovoucher_html.tpl';
+    protected $_sd3_email_pointsautovoucher_html_tpl = 'd3_email_pointsautovoucher_html.tpl';
 
-    protected string $_sd3_email_pointsautovoucher_plain_tpl = 'd3_email_pointsautovoucher_plain.tpl';
+    protected $_sd3_email_pointsautovoucher_plain_tpl = 'd3_email_pointsautovoucher_plain.tpl';
 
-    protected string $_sd3_email_pointsautovoucher_subj_tpl = 'd3_email_pointsautovoucher_subj.tpl';
+    protected $_sd3_email_pointsautovoucher_subj_tpl = 'd3_email_pointsautovoucher_subj.tpl';
 
     /**
      * Email-Templates for mail with points from Order
      *
      * @var string
      */
-    protected string $_sd3_email_d3_email_orderpoints_html_tpl = 'd3_email_orderpoints_html.tpl';
+    protected $_sd3_email_d3_email_orderpoints_html_tpl = 'd3_email_orderpoints_html.tpl';
 
-    protected string $_sd3_email_d3_email_orderpoints_plain_tpl = 'd3_email_orderpoints_plain.tpl';
+    protected $_sd3_email_d3_email_orderpoints_plain_tpl = 'd3_email_orderpoints_plain.tpl';
 
-    protected string $_sd3_email_d3_email_orderpoints_subj_tpl = 'd3_email_orderpoints_subj.tpl';
+    protected $_sd3_email_d3_email_orderpoints_subj_tpl = 'd3_email_orderpoints_subj.tpl';
 
     /**
      * Email-Templates for Reminder
      *
      * @var String
      */
-    protected string $_sd3_email_remindpoints_html_tpl = 'd3_email_remindpoints_html.tpl';
+    protected $_sd3_email_remindpoints_html_tpl = 'd3_email_remindpoints_html.tpl';
 
-    protected string $_sd3_email_remindpoints_plain_tpl = 'd3_email_remindpoints_plain.tpl';
+    protected $_sd3_email_remindpoints_plain_tpl = 'd3_email_remindpoints_plain.tpl';
 
-    protected string $_sd3_email_remindpoints_subj_tpl = 'd3_email_remindpoints_subj.tpl';
+    protected $_sd3_email_remindpoints_subj_tpl = 'd3_email_remindpoints_subj.tpl';
 
     /**
      * Email-Template for new Voucher, if is created
      *
      * @var String
      */
-    protected string $_sd3_email_pointsvoucher_html_tpl = 'd3_email_pointsvoucher_html.tpl';
+    protected $_sd3_email_pointsvoucher_html_tpl = 'd3_email_pointsvoucher_html.tpl';
 
-    protected string $_sd3_email_pointsvoucher_plain_tpl = 'd3_email_pointsvoucher_plain.tpl';
+    protected $_sd3_email_pointsvoucher_plain_tpl = 'd3_email_pointsvoucher_plain.tpl';
 
-    protected string $_sd3_email_pointsvoucher_subj_tpl = 'd3_email_pointsvoucher_subj.tpl';
+    protected $_sd3_email_pointsvoucher_subj_tpl = 'd3_email_pointsvoucher_subj.tpl';
 
     /**
      * Email Templates for new Points at Review or Rating
      *
      * @var String
      */
-    protected string $_sd3_email_reviewpoints_html_tpl = 'd3_email_reviewpoints_html.tpl';
+    protected $_sd3_email_reviewpoints_html_tpl = 'd3_email_reviewpoints_html.tpl';
 
-    protected string $_sd3_email_reviewpoints_plain_tpl = 'd3_email_reviewpoints_plain.tpl';
+    protected $_sd3_email_reviewpoints_plain_tpl = 'd3_email_reviewpoints_plain.tpl';
 
-    protected string $_sd3_email_reviewpoints_subj_tpl = 'd3_email_reviewpoints_subj.tpl';
+    protected $_sd3_email_reviewpoints_subj_tpl = 'd3_email_reviewpoints_subj.tpl';
 
     /**
      * Email Templates for storno points
      *
      * @var String
      */
-    protected string $_sd3_email_stornopoints_html_tpl = 'd3_email_stornopoints_html.tpl';
+    protected $_sd3_email_stornopoints_html_tpl = 'd3_email_stornopoints_html.tpl';
 
-    protected string $_sd3_email_stornopoints_plain_tpl = 'd3_email_stornopoints_plain.tpl';
+    protected $_sd3_email_stornopoints_plain_tpl = 'd3_email_stornopoints_plain.tpl';
 
-    protected string $_sd3_email_stornopoints_subj_tpl = 'd3_email_stornopoints_subj.tpl';
+    protected $_sd3_email_stornopoints_subj_tpl = 'd3_email_stornopoints_subj.tpl';
 
     /**
      * Email Templates for manuel points from admin
      *
      * @var string
      */
-    protected string $_sd3_email_manuelpoints_html_tpl = 'd3_email_manuelpoints_html.tpl';
+    protected $_sd3_email_manuelpoints_html_tpl = 'd3_email_manuelpoints_html.tpl';
 
-    protected string $_sd3_email_manuelpoints_plain_tpl = 'd3_email_manuelpoints_plain.tpl';
+    protected $_sd3_email_manuelpoints_plain_tpl = 'd3_email_manuelpoints_plain.tpl';
 
-    protected string $_sd3_email_manuelpoints_subj_tpl = 'd3_email_manuelpoints_subj.tpl';
+    protected $_sd3_email_manuelpoints_subj_tpl = 'd3_email_manuelpoints_subj.tpl';
 
-    private string $_sModId = 'd3points';
+    private $_sModId = 'd3points';
 
-    private string $_sReturnMessage = '';
+    private $_sReturnMessage = '';
 
     /**
      * Mail with VoucherCode
